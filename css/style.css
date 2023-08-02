@@ -162,7 +162,7 @@ section.whatIDo .container-whatIDo {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 90vh;
+  height: 550px;
 }
 section.whatIDo .container-whatIDo .whatIDo-title {
   margin-top: 70px;
@@ -207,7 +207,7 @@ section.whatIDo .container-whatIDo .container-row .card .circle .icon-img {
 section.whatIDo .container-whatIDo .container-row .card .circle .title-do {
   width: 100%;
   position: relative;
-  top: 55px;
+  top: 25px;
   color: rgb(41, 40, 40);
   font-family: "Lato", sans-serif;
   font-size: 22px;
@@ -218,7 +218,7 @@ section.whatIDo .container-whatIDo .container-row .card .circle .title-do {
 section.whatIDo .container-whatIDo .container-row .card .circle .what-IDo-text {
   width: 22%;
   position: absolute;
-  top: 2010px;
+  top: 2800px;
   margin: 0 5px 0 5px;
   font-size: 15px;
   font-weight: 300;
