@@ -216,10 +216,8 @@ section.whatIDo .container-whatIDo .container-row .card .circle .title-do {
   text-align: center;
 }
 section.whatIDo .container-whatIDo .container-row .card .circle .what-IDo-text {
-  width: 22%;
-  position: absolute;
-  top: 2100px;
-  margin: 0 5px 0 5px;
+  width: 250px;
+  margin: 38px 5px -135px 5px;
   font-size: 15px;
   font-weight: 300;
   color: #292727;
