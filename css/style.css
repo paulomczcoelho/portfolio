@@ -612,9 +612,8 @@ footer .container-social-media .social-media .fa .svg-icon {
     top: 70px;
   }
   section.whatIDo .container-whatIDo .container-row .card .circle .what-IDo-text {
-    position: relative;
     width: 240px;
-    top: 70px;
+    margin: 80px 5px -82px 5px;
     font-size: 10px;
   }
   section.skills .skills-text {
