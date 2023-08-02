@@ -85,7 +85,7 @@ section.bg-paralax .container .welcome-sub-text {
 
 section.about-me {
   width: 100%;
-  height: 135vh;
+  height: 790px;
 }
 section.about-me .container-about-me {
   width: 100%;
@@ -218,7 +218,7 @@ section.whatIDo .container-whatIDo .container-row .card .circle .title-do {
 section.whatIDo .container-whatIDo .container-row .card .circle .what-IDo-text {
   width: 22%;
   position: absolute;
-  top: 2050px;
+  top: 2010px;
   margin: 0 5px 0 5px;
   font-size: 15px;
   font-weight: 300;
