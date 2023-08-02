@@ -653,6 +653,12 @@ footer{
          
           }
         }
+        .card:nth-last-child(1).icon-img{
+          margin: -15px auto;
+        }
+        .card:nth-last-child(1) .what-IDo-text{
+          margin: 80px 5px -70px 5px;
+        }
         
       }
     }
@@ -730,11 +736,6 @@ footer{
       }
     }
   }
-    
-  
-  
-
-
   section.getInTouch{
     p.getInTouch-text{
       width: 280px;

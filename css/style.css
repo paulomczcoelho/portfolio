@@ -616,6 +616,12 @@ footer .container-social-media .social-media .fa .svg-icon {
     margin: 80px 5px -82px 5px;
     font-size: 10px;
   }
+  section.whatIDo .container-whatIDo .container-row .card:nth-last-child(1).icon-img {
+    margin: -15px auto;
+  }
+  section.whatIDo .container-whatIDo .container-row .card:nth-last-child(1) .what-IDo-text {
+    margin: 80px 5px -70px 5px;
+  }
   section.skills .skills-text {
     margin-top: 60px;
     font-size: 1.3rem;
