@@ -332,7 +332,6 @@ section.cv .container-cv button {
   height: 40px;
   margin-top: 15px;
   background-color: rgba(15, 17, 74, 0.631372549);
-  color: white;
   border: 2px solid white;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -340,6 +339,9 @@ section.cv .container-cv button {
 section.cv .container-cv button:hover {
   width: 140px;
   background-color: rgba(15, 17, 74, 0.8431372549);
+}
+section.cv .container-cv button a {
+  color: white;
 }
 
 section.works {

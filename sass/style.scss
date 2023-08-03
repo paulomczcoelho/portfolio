@@ -340,7 +340,6 @@ section.cv{
       height: 40px;
       margin-top: 15px;
       background-color: #0f114aa1;
-      color: white;
       border: 2px solid white;
       cursor: pointer;
       transition: all .3s ease-in-out;
@@ -348,6 +347,10 @@ section.cv{
     button:hover{
       width: 140px;
       background-color: #0f114ad7;
+    }
+    button a{
+      
+      color: white;
     }
   }
 }
