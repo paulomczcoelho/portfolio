@@ -424,7 +424,6 @@ section.works .container-works .sites-works-1 .site-modal {
   transform: translate(-50%, -40%);
   margin: 0 auto;
   width: 60%;
-  height: 650px;
   background-color: #e7e7e7;
   z-index: 1;
 }
