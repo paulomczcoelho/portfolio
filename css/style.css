@@ -382,6 +382,7 @@ section.works .container-works .sites-works-1 {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  background-color: rgba(0, 0, 0, 0.521);
 }
 section.works .container-works .sites-works-1 .site-overlay {
   background: rgba(0, 0, 0, 0.781);
@@ -395,6 +396,7 @@ section.works .container-works .sites-works-1 .site-overlay {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 section.works .container-works .sites-works-1 .site-overlay .overlay-content {
   text-align: center;
@@ -415,6 +417,87 @@ section.works .container-works .sites-works-1 .site-overlay .overlay-content .bg
   position: relative;
   top: 13px;
 }
+section.works .container-works .sites-works-1 .site-modal {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  margin: 0 auto;
+  width: 60%;
+  height: 650px;
+  background-color: #e7e7e7;
+  z-index: 1;
+}
+section.works .container-works .sites-works-1 .site-modal .modal-content picture img {
+  width: 95%;
+  height: 60%;
+  margin: 15px auto;
+}
+section.works .container-works .sites-works-1 .site-modal .modal-content .modal-content-p {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 35px auto;
+  padding: 0px 25px;
+  text-align: center;
+}
+section.works .container-works .sites-works-1 .site-modal .modal-content .modal-header {
+  background-color: #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  border-bottom: 1px solid #a7a3a3;
+  color: #6d6c6c;
+}
+section.works .container-works .sites-works-1 .site-modal .modal-content .modal-header h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+section.works .container-works .sites-works-1 .site-modal .modal-content .modal-header p {
+  margin-top: 5px;
+}
+section.works .container-works .sites-works-1 .site-modal .modal-content .close-btn {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  font-size: 50px;
+  color: #a7a3a3;
+  cursor: pointer;
+}
+section.works .container-works .sites-works-1 .site-modal .modal-content .btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: first baseline;
+  gap: 10px;
+  margin-top: 50px;
+}
+section.works .container-works .sites-works-1 .site-modal .modal-content .btn-container .btn-modal {
+  width: 110px;
+  height: 40px;
+  background-color: rgb(247, 245, 245);
+  border: 2px solid rgba(15, 17, 74, 0.631372549);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+section.works .container-works .sites-works-1 .site-modal .modal-content .modal-footer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+  height: 50px;
+  background-color: #ddd;
+  border-top: 1px solid #a7a3a3;
+}
+section.works .container-works .sites-works-1 .site-modal .modal-content .modal-footer button {
+  width: 80px;
+  height: 40px;
+  margin-right: 25px;
+  border-radius: 0;
+}
 section.works .container-works .sites-works-2 {
   overflow: hidden;
   margin: 30px auto;
@@ -425,8 +508,40 @@ section.works .container-works .sites-works-2 {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  background-color: rgba(0, 0, 0, 0.521);
+}
+section.works .container-works .sites-works-2 .site-modal {
+  display: none;
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  width: 80%;
+  height: 75%;
+  background-color: #00009C;
+  z-index: 999;
+  overflow: auto;
+}
+section.works .container-works .sites-works-2 .site-modal .madal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 5px;
+  position: relative;
+}
+section.works .container-works .sites-works-2 .site-modal .madal-content .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
 }
 section.works .container-works .sites-works-2 .site-overlay {
+  cursor: pointer;
   background: rgba(0, 0, 0, 0.781);
   position: relative;
   width: 340px;
@@ -467,14 +582,14 @@ section.works .container-works .sites-works-3 {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  background-color: rgba(0, 0, 0, 0.521);
 }
 section.works .container-works .sites-works-3 .site-overlay {
   background: rgba(0, 0, 0, 0.781);
   position: relative;
   width: 340px;
-  height: 50px;
+  height: 164px;
   left: -340px;
-  bottom: -112px;
   transition: left 0.7s;
   display: flex;
   justify-content: center;
@@ -483,14 +598,22 @@ section.works .container-works .sites-works-3 .site-overlay {
 }
 section.works .container-works .sites-works-3 .site-overlay .overlay-content {
   text-align: center;
-  color: #8f8989;
+  color: #ddd;
 }
 section.works .container-works .sites-works-3 .site-overlay .overlay-content i {
   font-size: 30px;
-  margin-bottom: 34px;
+  margin-top: 45px;
 }
-section.works .container-works .sites-works-3 .site-overlay .overlay-content .overlay-title {
-  margin-bottom: 63px;
+section.works .container-works .sites-works-3 .site-overlay .overlay-content .bg-h3 {
+  width: 340px;
+  height: 50px;
+  position: relative;
+  bottom: -18px;
+  background-color: rgba(15, 17, 74, 0.631372549);
+}
+section.works .container-works .sites-works-3 .site-overlay .overlay-content .bg-h3 .overlay-title {
+  position: relative;
+  top: 13px;
 }
 section.works .container-works .sites-works-4 {
   overflow: hidden;
@@ -500,8 +623,9 @@ section.works .container-works .sites-works-4 {
   box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.521);
   background: url("../img/greensockskirin.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
+  background-color: rgba(0, 0, 0, 0.521);
 }
 section.works .container-works .sites-works-4 .site-overlay {
   background: rgba(0, 0, 0, 0.781);
@@ -509,7 +633,6 @@ section.works .container-works .sites-works-4 .site-overlay {
   width: 340px;
   height: 164px;
   left: -340px;
-  bottom: -112px;
   transition: left 0.7s;
   display: flex;
   justify-content: center;
@@ -518,14 +641,22 @@ section.works .container-works .sites-works-4 .site-overlay {
 }
 section.works .container-works .sites-works-4 .site-overlay .overlay-content {
   text-align: center;
-  color: #8f8989;
+  color: #ddd;
 }
 section.works .container-works .sites-works-4 .site-overlay .overlay-content i {
   font-size: 30px;
-  margin-bottom: 34px;
+  margin-top: 45px;
 }
-section.works .container-works .sites-works-4 .site-overlay .overlay-content .overlay-title {
-  margin-bottom: 172px;
+section.works .container-works .sites-works-4 .site-overlay .overlay-content .bg-h3 {
+  width: 340px;
+  height: 50px;
+  position: relative;
+  bottom: -20px;
+  background-color: rgba(15, 17, 74, 0.631372549);
+}
+section.works .container-works .sites-works-4 .site-overlay .overlay-content .bg-h3 .overlay-title {
+  position: relative;
+  top: 13px;
 }
 section.works .container-works .sites-works-5 {
   overflow: hidden;
@@ -537,6 +668,7 @@ section.works .container-works .sites-works-5 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-color: rgba(0, 0, 0, 0.521);
 }
 section.works .container-works .sites-works-5 .site-overlay {
   background: rgba(0, 0, 0, 0.781);
@@ -544,7 +676,6 @@ section.works .container-works .sites-works-5 .site-overlay {
   width: 340px;
   height: 164px;
   left: -340px;
-  bottom: -112px;
   transition: left 0.7s;
   display: flex;
   justify-content: center;
@@ -553,14 +684,22 @@ section.works .container-works .sites-works-5 .site-overlay {
 }
 section.works .container-works .sites-works-5 .site-overlay .overlay-content {
   text-align: center;
-  color: #8f8989;
+  color: #ddd;
 }
 section.works .container-works .sites-works-5 .site-overlay .overlay-content i {
   font-size: 30px;
-  margin-bottom: 34px;
+  margin-top: 45px;
 }
-section.works .container-works .sites-works-5 .site-overlay .overlay-content .overlay-title {
-  margin-bottom: 172px;
+section.works .container-works .sites-works-5 .site-overlay .overlay-content .bg-h3 {
+  width: 340px;
+  height: 50px;
+  position: relative;
+  bottom: -20px;
+  background-color: rgba(15, 17, 74, 0.631372549);
+}
+section.works .container-works .sites-works-5 .site-overlay .overlay-content .bg-h3 .overlay-title {
+  position: relative;
+  top: 13px;
 }
 section.works .container-works .sites-works-6 {
   overflow: hidden;
@@ -570,16 +709,16 @@ section.works .container-works .sites-works-6 {
   box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.521);
   background: url("../img/NoteManager.PNG");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
+  background-color: rgba(0, 0, 0, 0.521);
 }
 section.works .container-works .sites-works-6 .site-overlay {
   background: rgba(0, 0, 0, 0.781);
   position: relative;
   width: 340px;
-  height: 50px;
+  height: 164px;
   left: -340px;
-  bottom: -115px;
   transition: left 0.7s;
   display: flex;
   justify-content: center;
@@ -588,14 +727,22 @@ section.works .container-works .sites-works-6 .site-overlay {
 }
 section.works .container-works .sites-works-6 .site-overlay .overlay-content {
   text-align: center;
-  color: #8f8989;
+  color: #ddd;
 }
 section.works .container-works .sites-works-6 .site-overlay .overlay-content i {
   font-size: 30px;
-  margin-bottom: 34px;
+  margin-top: 45px;
 }
-section.works .container-works .sites-works-6 .site-overlay .overlay-content .overlay-title {
-  margin-bottom: 65px;
+section.works .container-works .sites-works-6 .site-overlay .overlay-content .bg-h3 {
+  width: 340px;
+  height: 50px;
+  position: relative;
+  bottom: -21px;
+  background-color: rgba(15, 17, 74, 0.631372549);
+}
+section.works .container-works .sites-works-6 .site-overlay .overlay-content .bg-h3 .overlay-title {
+  position: relative;
+  top: 13px;
 }
 section.works .container-works .sites-works-7 {
   overflow: hidden;
@@ -607,13 +754,13 @@ section.works .container-works .sites-works-7 {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  background-color: rgba(0, 0, 0, 0.521);
 }
 section.works .container-works .sites-works-7 .site-overlay {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.781);
   position: relative;
   width: 340px;
-  height: 50px;
-  bottom: -115px;
+  height: 166px;
   left: -340px;
   transition: left 0.7s;
   display: flex;
@@ -623,14 +770,22 @@ section.works .container-works .sites-works-7 .site-overlay {
 }
 section.works .container-works .sites-works-7 .site-overlay .overlay-content {
   text-align: center;
-  color: #8f8989;
+  color: #ddd;
 }
 section.works .container-works .sites-works-7 .site-overlay .overlay-content i {
   font-size: 30px;
-  margin-bottom: 34px;
+  margin-top: 45px;
 }
-section.works .container-works .sites-works-7 .site-overlay .overlay-content .overlay-title {
-  margin-bottom: 65px;
+section.works .container-works .sites-works-7 .site-overlay .overlay-content .bg-h3 {
+  width: 340px;
+  height: 50px;
+  position: relative;
+  bottom: -21px;
+  background-color: rgba(15, 17, 74, 0.631372549);
+}
+section.works .container-works .sites-works-7 .site-overlay .overlay-content .bg-h3 .overlay-title {
+  position: relative;
+  top: 13px;
 }
 section.works .container-works .sites-works-1:hover .site-overlay, section.works .container-works .sites-works-2:hover .site-overlay,
 section.works .container-works .sites-works-3:hover .site-overlay, section.works .container-works .sites-works-4:hover .site-overlay,
@@ -941,7 +1096,7 @@ footer .container-social-media .social-media .fa .svg-icon {
     font-weight: 300;
   }
   section.works {
-    height: 1950px;
+    height: 2150px;
   }
   section.works .works-text {
     font-size: 1.3rem;

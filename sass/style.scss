@@ -1,7 +1,4 @@
 @import "partials/base";
-
-
-
   
 section.bg-paralax{ 
   background-image: url(../img/background1.png);
@@ -345,6 +342,7 @@ section.works{
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
+      background-color: rgba(0, 0, 0, 0.521);
       .site-overlay{
         background: rgba(0, 0, 0, 0.781);
         position: relative;
@@ -357,6 +355,7 @@ section.works{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
         .overlay-content{
           text-align: center;
           color: #ddd;
@@ -377,6 +376,94 @@ section.works{
           }
         }
       } 
+      .site-modal{
+        display: none;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        margin: 0 auto;
+        width: 60%;
+        height: 650px;
+        background-color: #e7e7e7;
+        z-index: 1;
+        .modal-content{
+          picture{
+            img{
+              width: 95%;
+              height: 60%;
+              margin: 15px auto;
+            }
+          }
+          .modal-content-p{
+            font-size: 15px;
+            font-weight: 300;
+            margin: 35px auto;
+            padding: 0px 25px;
+            text-align: center;
+          }
+          .modal-header{
+            background-color: #ddd;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 75px;
+            border-bottom: 1px solid #a7a3a3;;
+            color: #6d6c6c;;
+            h2{
+              font-size: 20px;
+              font-weight: 300;
+            }
+            p{
+              margin-top: 5px;
+            }
+          }
+          .close-btn{
+            position: absolute;
+            top: 0px;
+            right: 15px;
+            font-size: 50px;
+            color: #a7a3a3;
+            cursor: pointer;
+          } 
+          .btn-container{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: first baseline;
+            gap: 10px;
+            margin-top: 50px;
+            .btn-modal{
+              width: 110px;
+              height: 40px;
+              background-color: rgb(247, 245, 245);
+              border: 2px solid #0f114aa1;
+              cursor: pointer;
+              transition: all .3s ease-in-out;
+            }
+          }
+          .modal-footer{
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            margin-top: 50px;
+            width: 100%;
+            height: 50px;
+            background-color: #ddd;
+            border-top: 1px solid #a7a3a3;
+            button{
+              width: 80px;
+              height: 40px;
+              margin-right: 25px;
+              border-radius: 0;
+            }
+          }
+        }
+        
+        
+          
+      }
      }
     .sites-works-2{
       overflow: hidden;
@@ -388,7 +475,39 @@ section.works{
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
+      background-color: rgba(0, 0, 0, 0.521);
+      .site-modal{
+        display: none;
+        position: fixed;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0 auto;
+        width: 80%;
+        height: 75%;
+        background-color: #00009C;
+        z-index: 999;
+        overflow: auto;
+        .madal-content{
+          background-color: #fefefe;
+          margin: 10% auto;
+          padding: 20px;
+          border: 1px solid #888;
+          width: 80%;
+          max-width: 600px;
+          border-radius: 5px;
+          position: relative;
+          .close-btn{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 24px;
+            cursor: pointer;
+          }
+        }      
+      }
       .site-overlay{
+        cursor: pointer;
         background: rgba(0, 0, 0, 0.781);
         position: relative;
         width: 340px;
@@ -430,13 +549,13 @@ section.works{
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
+      background-color: rgba(0, 0, 0, 0.521);
       .site-overlay{
         background: rgba(0, 0, 0, 0.781);
         position: relative;
         width: 340px;
-        height: 50px;
+        height: 164px;
         left: -340px;
-        bottom: -112px;
         transition: left 0.7s;
         display: flex;
         justify-content: center;
@@ -444,15 +563,22 @@ section.works{
         flex-direction: column;
         .overlay-content{
           text-align: center;
-          color: #8f8989;
+          color: #ddd;
           i{
             font-size: 30px;
-            margin-bottom: 34px;
+            margin-top: 45px;
           }
-          .overlay-title{
-            margin-bottom: 63px;
-          } 
-         
+          .bg-h3{
+            width: 340px;
+            height: 50px;
+            position: relative;
+            bottom: -18px;
+            background-color: #0f114aa1;
+            .overlay-title{
+              position:relative;
+              top: 13px;
+            } 
+          }
         }
       }
     }
@@ -464,15 +590,15 @@ section.works{
       box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.521);
       background: url("../img/greensockskirin.jpg");
       background-repeat: no-repeat;
-      background-size: contain;
+      background-size: cover;
       background-position: center;
+      background-color: rgba(0, 0, 0, 0.521);
       .site-overlay{
         background: rgba(0, 0, 0, 0.781);
         position: relative;
         width: 340px;
         height: 164px;
         left: -340px;
-        bottom: -112px;
         transition: left 0.7s;
         display: flex;
         justify-content: center;
@@ -480,15 +606,22 @@ section.works{
         flex-direction: column;
         .overlay-content{
           text-align: center;
-          color: #8f8989;
+          color: #ddd;
           i{
             font-size: 30px;
-            margin-bottom: 34px;
+            margin-top: 45px;
           }
-          .overlay-title{
-            margin-bottom: 172px;
-          } 
-         
+          .bg-h3{
+            width: 340px;
+            height: 50px;
+            position: relative;
+            bottom: -20px;
+            background-color: #0f114aa1;
+            .overlay-title{
+              position:relative;
+              top: 13px;
+            } 
+          }
         }
       }
     }
@@ -502,13 +635,13 @@ section.works{
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
+      background-color: rgba(0, 0, 0, 0.521);
       .site-overlay{
         background: rgba(0, 0, 0, 0.781);
         position: relative;
         width: 340px;
         height: 164px;
         left: -340px;
-        bottom: -112px;
         transition: left 0.7s;
         display: flex;
         justify-content: center;
@@ -516,14 +649,22 @@ section.works{
         flex-direction: column;
         .overlay-content{
           text-align: center;
-          color: #8f8989;
+          color: #ddd;
           i{
             font-size: 30px;
-            margin-bottom: 34px;
+            margin-top: 45px;
           }
-          .overlay-title{
-            margin-bottom: 172px;
-          } 
+          .bg-h3{
+            width: 340px;
+            height: 50px;
+            position: relative;
+            bottom: -20px;
+            background-color: #0f114aa1;
+            .overlay-title{
+              position:relative;
+              top: 13px;
+            } 
+          }
         }
       }
     }
@@ -535,15 +676,15 @@ section.works{
       box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.521);
       background: url("../img/NoteManager.PNG");
       background-repeat: no-repeat;
-      background-size: contain;
+      background-size: cover;
       background-position: center;
+      background-color: rgba(0, 0, 0, 0.521);
       .site-overlay{
         background: rgba(0, 0, 0, 0.781);
         position: relative;
         width: 340px;
-        height: 50px;
+        height: 164px;
         left: -340px;
-        bottom: -115px;
         transition: left 0.7s;
         display: flex;
         justify-content: center;
@@ -551,14 +692,22 @@ section.works{
         flex-direction: column;
         .overlay-content{
           text-align: center;
-          color: #8f8989;
+          color: #ddd;
           i{
             font-size: 30px;
-            margin-bottom: 34px;
+            margin-top: 45px;
           }
-          .overlay-title{
-            margin-bottom: 65px;
-          } 
+          .bg-h3{
+            width: 340px;
+            height: 50px;
+            position: relative;
+            bottom: -21px;
+            background-color: #0f114aa1;
+            .overlay-title{
+              position:relative;
+              top: 13px;
+            } 
+          }
         }
       }
     }
@@ -572,12 +721,12 @@ section.works{
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
+      background-color: rgba(0, 0, 0, 0.521);
       .site-overlay{
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(0, 0, 0, 0.781);
         position: relative;
         width: 340px;
-        height: 50px;
-        bottom: -115px;
+        height: 166px;
         left: -340px;
         transition: left 0.7s;
         display: flex;
@@ -586,14 +735,22 @@ section.works{
         flex-direction: column;
         .overlay-content{
           text-align: center;
-          color: #8f8989;
+          color: #ddd;
           i{
             font-size: 30px;
-            margin-bottom: 34px;
+            margin-top: 45px;
           }
-          .overlay-title{
-            margin-bottom: 65px;
-          } 
+          .bg-h3{
+            width: 340px;
+            height: 50px;
+            position: relative;
+            bottom: -21px;
+            background-color: #0f114aa1;
+            .overlay-title{
+              position:relative;
+              top: 13px;
+            } 
+          }
         }
       }
     }
@@ -835,9 +992,6 @@ footer{
         }
       }
     }
-
-  
-  
   }
    
   section.whatIDo{
@@ -944,7 +1098,7 @@ footer{
     }
   }
   section.works{
-    height: 1950px;
+    height: 2150px;
     .works-text{
       font-size: 1.3rem;
     }
