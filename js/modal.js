@@ -1,12 +1,25 @@
-// Get all overlay-content elements
+// // Get all overlay-content elements
 const overlayContents = document.querySelectorAll(".overlay-content");
 // Get all modal elements
 const modals = document.querySelectorAll(".site-modal");
 
+// Variable to keep track of the currently open modal
+let openModalIndex = null;
+
+// Function to close the currently open modal
+function closeOpenModal() {
+  if (openModalIndex !== null) {
+    modals[openModalIndex].style.display = "none";
+    openModalIndex = null;
+  }
+}
+
 // Add event listeners to each overlay-content
 overlayContents.forEach((overlay, index) => {
   overlay.addEventListener("click", () => {
+    closeOpenModal();
     modals[index].style.display = "block";
+    openModalIndex = index;
   });
 });
 
@@ -14,8 +27,6 @@ overlayContents.forEach((overlay, index) => {
 const closeButtons = document.querySelectorAll("#close-modal");
 closeButtons.forEach((button) => {
   button.addEventListener("click", () => {
-    modals.forEach((modal) => {
-      modal.style.display = "none";
-    });
+    closeOpenModal();
   });
 });
