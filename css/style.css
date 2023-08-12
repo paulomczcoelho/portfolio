@@ -380,7 +380,7 @@ section.works .container-works .sites-works-1 {
   box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.521);
   background: url("../img/cosinebo.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.521);
 }
@@ -496,61 +496,34 @@ section.works .container-works .sites-works-1 .site-modal .modal-content .modal-
   height: 40px;
   margin-right: 25px;
   border-radius: 0;
+  border: 2px solid rgba(15, 17, 74, 0.631372549);
+  cursor: pointer;
 }
 section.works .container-works .sites-works-2 {
   overflow: hidden;
   margin: 30px auto;
-  width: 339px;
-  height: 164px;
+  width: 340px;
+  height: 165px;
   box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.521);
-  background: url("../img/becomeACat.PNG");
+  background: url("../img/becomeACat.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.521);
 }
-section.works .container-works .sites-works-2 .site-modal {
-  display: none;
-  position: fixed;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0 auto;
-  width: 80%;
-  height: 75%;
-  background-color: #00009C;
-  z-index: 999;
-  overflow: auto;
-}
-section.works .container-works .sites-works-2 .site-modal .madal-content {
-  background-color: #fefefe;
-  margin: 10% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  max-width: 600px;
-  border-radius: 5px;
-  position: relative;
-}
-section.works .container-works .sites-works-2 .site-modal .madal-content .close-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 24px;
-  cursor: pointer;
-}
 section.works .container-works .sites-works-2 .site-overlay {
-  cursor: pointer;
   background: rgba(0, 0, 0, 0.781);
   position: relative;
   width: 340px;
   height: 164px;
   left: -340px;
+  bottom: -1px;
   transition: left 0.7s;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  cursor: pointer;
 }
 section.works .container-works .sites-works-2 .site-overlay .overlay-content {
   text-align: center;
@@ -571,15 +544,97 @@ section.works .container-works .sites-works-2 .site-overlay .overlay-content .bg
   position: relative;
   top: 13px;
 }
+section.works .container-works .sites-works-2 .site-modal {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  margin: 0 auto;
+  width: 60%;
+  background-color: #e7e7e7;
+  z-index: 1;
+}
+section.works .container-works .sites-works-2 .site-modal .modal-content picture img {
+  width: 95%;
+  height: 60%;
+  margin: 15px auto;
+}
+section.works .container-works .sites-works-2 .site-modal .modal-content .modal-content-p {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 35px auto;
+  padding: 0px 25px;
+  text-align: center;
+}
+section.works .container-works .sites-works-2 .site-modal .modal-content .modal-header {
+  background-color: #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  border-bottom: 1px solid #a7a3a3;
+  color: #6d6c6c;
+}
+section.works .container-works .sites-works-2 .site-modal .modal-content .modal-header h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+section.works .container-works .sites-works-2 .site-modal .modal-content .modal-header p {
+  margin-top: 5px;
+}
+section.works .container-works .sites-works-2 .site-modal .modal-content .close-btn {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  font-size: 50px;
+  color: #a7a3a3;
+  cursor: pointer;
+}
+section.works .container-works .sites-works-2 .site-modal .modal-content .btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: first baseline;
+  gap: 10px;
+  margin-top: 50px;
+}
+section.works .container-works .sites-works-2 .site-modal .modal-content .btn-container .btn-modal {
+  width: 110px;
+  height: 40px;
+  background-color: rgb(247, 245, 245);
+  border: 2px solid rgba(15, 17, 74, 0.631372549);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+section.works .container-works .sites-works-2 .site-modal .modal-content .modal-footer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+  height: 50px;
+  background-color: #ddd;
+  border-top: 1px solid #a7a3a3;
+}
+section.works .container-works .sites-works-2 .site-modal .modal-content .modal-footer button {
+  width: 80px;
+  height: 40px;
+  margin-right: 25px;
+  border-radius: 0;
+  border: 2px solid rgba(15, 17, 74, 0.631372549);
+  cursor: pointer;
+}
 section.works .container-works .sites-works-3 {
   overflow: hidden;
   margin: 30px auto;
   width: 340px;
-  height: 162px;
+  height: 165px;
   box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.521);
   background: url("../img/librarySquare.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.521);
 }
@@ -589,11 +644,13 @@ section.works .container-works .sites-works-3 .site-overlay {
   width: 340px;
   height: 164px;
   left: -340px;
+  bottom: -2px;
   transition: left 0.7s;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  cursor: pointer;
 }
 section.works .container-works .sites-works-3 .site-overlay .overlay-content {
   text-align: center;
@@ -607,20 +664,102 @@ section.works .container-works .sites-works-3 .site-overlay .overlay-content .bg
   width: 340px;
   height: 50px;
   position: relative;
-  bottom: -18px;
+  bottom: -20px;
   background-color: rgba(15, 17, 74, 0.631372549);
 }
 section.works .container-works .sites-works-3 .site-overlay .overlay-content .bg-h3 .overlay-title {
   position: relative;
   top: 13px;
 }
+section.works .container-works .sites-works-3 .site-modal {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  margin: 0 auto;
+  width: 60%;
+  background-color: #e7e7e7;
+  z-index: 1;
+}
+section.works .container-works .sites-works-3 .site-modal .modal-content picture img {
+  width: 95%;
+  height: 60%;
+  margin: 15px auto;
+}
+section.works .container-works .sites-works-3 .site-modal .modal-content .modal-content-p {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 35px auto;
+  padding: 0px 25px;
+  text-align: center;
+}
+section.works .container-works .sites-works-3 .site-modal .modal-content .modal-header {
+  background-color: #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  border-bottom: 1px solid #a7a3a3;
+  color: #6d6c6c;
+}
+section.works .container-works .sites-works-3 .site-modal .modal-content .modal-header h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+section.works .container-works .sites-works-3 .site-modal .modal-content .modal-header p {
+  margin-top: 5px;
+}
+section.works .container-works .sites-works-3 .site-modal .modal-content .close-btn {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  font-size: 50px;
+  color: #a7a3a3;
+  cursor: pointer;
+}
+section.works .container-works .sites-works-3 .site-modal .modal-content .btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: first baseline;
+  gap: 10px;
+  margin-top: 50px;
+}
+section.works .container-works .sites-works-3 .site-modal .modal-content .btn-container .btn-modal {
+  width: 110px;
+  height: 40px;
+  background-color: rgb(247, 245, 245);
+  border: 2px solid rgba(15, 17, 74, 0.631372549);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+section.works .container-works .sites-works-3 .site-modal .modal-content .modal-footer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+  height: 50px;
+  background-color: #ddd;
+  border-top: 1px solid #a7a3a3;
+}
+section.works .container-works .sites-works-3 .site-modal .modal-content .modal-footer button {
+  width: 80px;
+  height: 40px;
+  margin-right: 25px;
+  border-radius: 0;
+  border: 2px solid rgba(15, 17, 74, 0.631372549);
+  cursor: pointer;
+}
 section.works .container-works .sites-works-4 {
   overflow: hidden;
   margin: 30px auto;
   width: 340px;
-  height: 164px;
+  height: 165px;
   box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.521);
-  background: url("../img/greensockskirin.jpg");
+  background: url("../img/greensockskirin.JPG");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -630,13 +769,15 @@ section.works .container-works .sites-works-4 .site-overlay {
   background: rgba(0, 0, 0, 0.781);
   position: relative;
   width: 340px;
-  height: 164px;
+  height: 163px;
   left: -340px;
+  bottom: -1px;
   transition: left 0.7s;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  cursor: pointer;
 }
 section.works .container-works .sites-works-4 .site-overlay .overlay-content {
   text-align: center;
@@ -657,6 +798,88 @@ section.works .container-works .sites-works-4 .site-overlay .overlay-content .bg
   position: relative;
   top: 13px;
 }
+section.works .container-works .sites-works-4 .site-modal {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  margin: 0 auto;
+  width: 60%;
+  background-color: #e7e7e7;
+  z-index: 1;
+}
+section.works .container-works .sites-works-4 .site-modal .modal-content picture img {
+  width: 95%;
+  height: 60%;
+  margin: 15px auto;
+}
+section.works .container-works .sites-works-4 .site-modal .modal-content .modal-content-p {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 35px auto;
+  padding: 0px 25px;
+  text-align: center;
+}
+section.works .container-works .sites-works-4 .site-modal .modal-content .modal-header {
+  background-color: #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  border-bottom: 1px solid #a7a3a3;
+  color: #6d6c6c;
+}
+section.works .container-works .sites-works-4 .site-modal .modal-content .modal-header h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+section.works .container-works .sites-works-4 .site-modal .modal-content .modal-header p {
+  margin-top: 5px;
+}
+section.works .container-works .sites-works-4 .site-modal .modal-content .close-btn {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  font-size: 50px;
+  color: #a7a3a3;
+  cursor: pointer;
+}
+section.works .container-works .sites-works-4 .site-modal .modal-content .btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: first baseline;
+  gap: 10px;
+  margin-top: 50px;
+}
+section.works .container-works .sites-works-4 .site-modal .modal-content .btn-container .btn-modal {
+  width: 110px;
+  height: 40px;
+  background-color: rgb(247, 245, 245);
+  border: 2px solid rgba(15, 17, 74, 0.631372549);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+section.works .container-works .sites-works-4 .site-modal .modal-content .modal-footer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+  height: 50px;
+  background-color: #ddd;
+  border-top: 1px solid #a7a3a3;
+}
+section.works .container-works .sites-works-4 .site-modal .modal-content .modal-footer button {
+  width: 80px;
+  height: 40px;
+  margin-right: 25px;
+  border-radius: 0;
+  border: 2px solid rgba(15, 17, 74, 0.631372549);
+  cursor: pointer;
+}
 section.works .container-works .sites-works-5 {
   overflow: hidden;
   margin: 30px auto;
@@ -675,11 +898,13 @@ section.works .container-works .sites-works-5 .site-overlay {
   width: 340px;
   height: 164px;
   left: -340px;
+  bottom: -2px;
   transition: left 0.7s;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  cursor: pointer;
 }
 section.works .container-works .sites-works-5 .site-overlay .overlay-content {
   text-align: center;
@@ -700,13 +925,95 @@ section.works .container-works .sites-works-5 .site-overlay .overlay-content .bg
   position: relative;
   top: 13px;
 }
+section.works .container-works .sites-works-5 .site-modal {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  margin: 0 auto;
+  width: 60%;
+  background-color: #e7e7e7;
+  z-index: 1;
+}
+section.works .container-works .sites-works-5 .site-modal .modal-content picture img {
+  width: 95%;
+  height: 60%;
+  margin: 15px auto;
+}
+section.works .container-works .sites-works-5 .site-modal .modal-content .modal-content-p {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 35px auto;
+  padding: 0px 25px;
+  text-align: center;
+}
+section.works .container-works .sites-works-5 .site-modal .modal-content .modal-header {
+  background-color: #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  border-bottom: 1px solid #a7a3a3;
+  color: #6d6c6c;
+}
+section.works .container-works .sites-works-5 .site-modal .modal-content .modal-header h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+section.works .container-works .sites-works-5 .site-modal .modal-content .modal-header p {
+  margin-top: 5px;
+}
+section.works .container-works .sites-works-5 .site-modal .modal-content .close-btn {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  font-size: 50px;
+  color: #a7a3a3;
+  cursor: pointer;
+}
+section.works .container-works .sites-works-5 .site-modal .modal-content .btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: first baseline;
+  gap: 10px;
+  margin-top: 50px;
+}
+section.works .container-works .sites-works-5 .site-modal .modal-content .btn-container .btn-modal {
+  width: 110px;
+  height: 40px;
+  background-color: rgb(247, 245, 245);
+  border: 2px solid rgba(15, 17, 74, 0.631372549);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+section.works .container-works .sites-works-5 .site-modal .modal-content .modal-footer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+  height: 50px;
+  background-color: #ddd;
+  border-top: 1px solid #a7a3a3;
+}
+section.works .container-works .sites-works-5 .site-modal .modal-content .modal-footer button {
+  width: 80px;
+  height: 40px;
+  margin-right: 25px;
+  border-radius: 0;
+  border: 2px solid rgba(15, 17, 74, 0.631372549);
+  cursor: pointer;
+}
 section.works .container-works .sites-works-6 {
   overflow: hidden;
   margin: 30px auto;
   width: 340px;
-  height: 165px;
+  height: 164px;
   box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.521);
-  background: url("../img/NoteManager.PNG");
+  background: url("../img/weather_react.JPG");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -718,11 +1025,13 @@ section.works .container-works .sites-works-6 .site-overlay {
   width: 340px;
   height: 164px;
   left: -340px;
+  bottom: -1px;
   transition: left 0.7s;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  cursor: pointer;
 }
 section.works .container-works .sites-works-6 .site-overlay .overlay-content {
   text-align: center;
@@ -736,22 +1045,104 @@ section.works .container-works .sites-works-6 .site-overlay .overlay-content .bg
   width: 340px;
   height: 50px;
   position: relative;
-  bottom: -21px;
+  bottom: -20px;
   background-color: rgba(15, 17, 74, 0.631372549);
 }
 section.works .container-works .sites-works-6 .site-overlay .overlay-content .bg-h3 .overlay-title {
   position: relative;
   top: 13px;
 }
+section.works .container-works .sites-works-6 .site-modal {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  margin: 0 auto;
+  width: 60%;
+  background-color: #e7e7e7;
+  z-index: 1;
+}
+section.works .container-works .sites-works-6 .site-modal .modal-content picture img {
+  width: 95%;
+  height: 60%;
+  margin: 15px auto;
+}
+section.works .container-works .sites-works-6 .site-modal .modal-content .modal-content-p {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 35px auto;
+  padding: 0px 25px;
+  text-align: center;
+}
+section.works .container-works .sites-works-6 .site-modal .modal-content .modal-header {
+  background-color: #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  border-bottom: 1px solid #a7a3a3;
+  color: #6d6c6c;
+}
+section.works .container-works .sites-works-6 .site-modal .modal-content .modal-header h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+section.works .container-works .sites-works-6 .site-modal .modal-content .modal-header p {
+  margin-top: 5px;
+}
+section.works .container-works .sites-works-6 .site-modal .modal-content .close-btn {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  font-size: 50px;
+  color: #a7a3a3;
+  cursor: pointer;
+}
+section.works .container-works .sites-works-6 .site-modal .modal-content .btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: first baseline;
+  gap: 10px;
+  margin-top: 50px;
+}
+section.works .container-works .sites-works-6 .site-modal .modal-content .btn-container .btn-modal {
+  width: 110px;
+  height: 40px;
+  background-color: rgb(247, 245, 245);
+  border: 2px solid rgba(15, 17, 74, 0.631372549);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+section.works .container-works .sites-works-6 .site-modal .modal-content .modal-footer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+  height: 50px;
+  background-color: #ddd;
+  border-top: 1px solid #a7a3a3;
+}
+section.works .container-works .sites-works-6 .site-modal .modal-content .modal-footer button {
+  width: 80px;
+  height: 40px;
+  margin-right: 25px;
+  border-radius: 0;
+  border: 2px solid rgba(15, 17, 74, 0.631372549);
+  cursor: pointer;
+}
 section.works .container-works .sites-works-7 {
   overflow: hidden;
   margin: 30px auto;
-  width: 335px;
-  height: 167px;
+  width: 340px;
+  height: 164px;
   box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.521);
   background: url("../img/toDoList.PNG");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.521);
 }
@@ -759,13 +1150,15 @@ section.works .container-works .sites-works-7 .site-overlay {
   background: rgba(0, 0, 0, 0.781);
   position: relative;
   width: 340px;
-  height: 166px;
+  height: 164px;
   left: -340px;
+  bottom: -1px;
   transition: left 0.7s;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  cursor: pointer;
 }
 section.works .container-works .sites-works-7 .site-overlay .overlay-content {
   text-align: center;
@@ -779,17 +1172,354 @@ section.works .container-works .sites-works-7 .site-overlay .overlay-content .bg
   width: 340px;
   height: 50px;
   position: relative;
-  bottom: -21px;
+  bottom: -20px;
   background-color: rgba(15, 17, 74, 0.631372549);
 }
 section.works .container-works .sites-works-7 .site-overlay .overlay-content .bg-h3 .overlay-title {
   position: relative;
   top: 13px;
 }
+section.works .container-works .sites-works-7 .site-modal {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  margin: 0 auto;
+  width: 60%;
+  background-color: #e7e7e7;
+  z-index: 1;
+}
+section.works .container-works .sites-works-7 .site-modal .modal-content picture img {
+  width: 95%;
+  height: 60%;
+  margin: 15px auto;
+}
+section.works .container-works .sites-works-7 .site-modal .modal-content .modal-content-p {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 35px auto;
+  padding: 0px 25px;
+  text-align: center;
+}
+section.works .container-works .sites-works-7 .site-modal .modal-content .modal-header {
+  background-color: #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  border-bottom: 1px solid #a7a3a3;
+  color: #6d6c6c;
+}
+section.works .container-works .sites-works-7 .site-modal .modal-content .modal-header h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+section.works .container-works .sites-works-7 .site-modal .modal-content .modal-header p {
+  margin-top: 5px;
+}
+section.works .container-works .sites-works-7 .site-modal .modal-content .close-btn {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  font-size: 50px;
+  color: #a7a3a3;
+  cursor: pointer;
+}
+section.works .container-works .sites-works-7 .site-modal .modal-content .btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: first baseline;
+  gap: 10px;
+  margin-top: 50px;
+}
+section.works .container-works .sites-works-7 .site-modal .modal-content .btn-container .btn-modal {
+  width: 110px;
+  height: 40px;
+  background-color: rgb(247, 245, 245);
+  border: 2px solid rgba(15, 17, 74, 0.631372549);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+section.works .container-works .sites-works-7 .site-modal .modal-content .modal-footer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+  height: 50px;
+  background-color: #ddd;
+  border-top: 1px solid #a7a3a3;
+}
+section.works .container-works .sites-works-7 .site-modal .modal-content .modal-footer button {
+  width: 80px;
+  height: 40px;
+  margin-right: 25px;
+  border-radius: 0;
+  border: 2px solid rgba(15, 17, 74, 0.631372549);
+  cursor: pointer;
+}
+section.works .container-works .sites-works-8 {
+  overflow: hidden;
+  margin: 30px auto;
+  width: 340px;
+  height: 164px;
+  box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.521);
+  background: url("../img/NoteManager.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.521);
+}
+section.works .container-works .sites-works-8 .site-overlay {
+  background: rgba(0, 0, 0, 0.781);
+  position: relative;
+  width: 340px;
+  height: 164px;
+  left: -340px;
+  bottom: -1px;
+  transition: left 0.7s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+section.works .container-works .sites-works-8 .site-overlay .overlay-content {
+  text-align: center;
+  color: #ddd;
+}
+section.works .container-works .sites-works-8 .site-overlay .overlay-content i {
+  font-size: 30px;
+  margin-top: 45px;
+}
+section.works .container-works .sites-works-8 .site-overlay .overlay-content .bg-h3 {
+  width: 340px;
+  height: 50px;
+  position: relative;
+  bottom: -20px;
+  background-color: rgba(15, 17, 74, 0.631372549);
+}
+section.works .container-works .sites-works-8 .site-overlay .overlay-content .bg-h3 .overlay-title {
+  position: relative;
+  top: 13px;
+}
+section.works .container-works .sites-works-8 .site-modal {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  margin: 0 auto;
+  width: 60%;
+  background-color: #e7e7e7;
+  z-index: 1;
+}
+section.works .container-works .sites-works-8 .site-modal .modal-content picture img {
+  width: 95%;
+  height: 60%;
+  margin: 15px auto;
+}
+section.works .container-works .sites-works-8 .site-modal .modal-content .modal-content-p {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 35px auto;
+  padding: 0px 25px;
+  text-align: center;
+}
+section.works .container-works .sites-works-8 .site-modal .modal-content .modal-header {
+  background-color: #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  border-bottom: 1px solid #a7a3a3;
+  color: #6d6c6c;
+}
+section.works .container-works .sites-works-8 .site-modal .modal-content .modal-header h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+section.works .container-works .sites-works-8 .site-modal .modal-content .modal-header p {
+  margin-top: 5px;
+}
+section.works .container-works .sites-works-8 .site-modal .modal-content .close-btn {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  font-size: 50px;
+  color: #a7a3a3;
+  cursor: pointer;
+}
+section.works .container-works .sites-works-8 .site-modal .modal-content .btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: first baseline;
+  gap: 10px;
+  margin-top: 50px;
+}
+section.works .container-works .sites-works-8 .site-modal .modal-content .btn-container .btn-modal {
+  width: 110px;
+  height: 40px;
+  background-color: rgb(247, 245, 245);
+  border: 2px solid rgba(15, 17, 74, 0.631372549);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+section.works .container-works .sites-works-8 .site-modal .modal-content .modal-footer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+  height: 50px;
+  background-color: #ddd;
+  border-top: 1px solid #a7a3a3;
+}
+section.works .container-works .sites-works-8 .site-modal .modal-content .modal-footer button {
+  width: 80px;
+  height: 40px;
+  margin-right: 25px;
+  border-radius: 0;
+  border: 2px solid rgba(15, 17, 74, 0.631372549);
+  cursor: pointer;
+}
+section.works .container-works .sites-works-9 {
+  overflow: hidden;
+  margin: 30px auto;
+  width: 340px;
+  height: 164px;
+  box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.521);
+  background: url("../img/NoteManager.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.521);
+}
+section.works .container-works .sites-works-9 .site-overlay {
+  background: rgba(0, 0, 0, 0.781);
+  position: relative;
+  width: 340px;
+  height: 164px;
+  left: -340px;
+  bottom: -1px;
+  transition: left 0.7s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+section.works .container-works .sites-works-9 .site-overlay .overlay-content {
+  text-align: center;
+  color: #ddd;
+}
+section.works .container-works .sites-works-9 .site-overlay .overlay-content i {
+  font-size: 30px;
+  margin-top: 45px;
+}
+section.works .container-works .sites-works-9 .site-overlay .overlay-content .bg-h3 {
+  width: 340px;
+  height: 50px;
+  position: relative;
+  bottom: -20px;
+  background-color: rgba(15, 17, 74, 0.631372549);
+}
+section.works .container-works .sites-works-9 .site-overlay .overlay-content .bg-h3 .overlay-title {
+  position: relative;
+  top: 13px;
+}
+section.works .container-works .sites-works-9 .site-modal {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  margin: 0 auto;
+  width: 60%;
+  background-color: #e7e7e7;
+  z-index: 1;
+}
+section.works .container-works .sites-works-9 .site-modal .modal-content picture img {
+  width: 95%;
+  height: 60%;
+  margin: 15px auto;
+}
+section.works .container-works .sites-works-9 .site-modal .modal-content .modal-content-p {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 35px auto;
+  padding: 0px 25px;
+  text-align: center;
+}
+section.works .container-works .sites-works-9 .site-modal .modal-content .modal-header {
+  background-color: #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  border-bottom: 1px solid #a7a3a3;
+  color: #6d6c6c;
+}
+section.works .container-works .sites-works-9 .site-modal .modal-content .modal-header h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+section.works .container-works .sites-works-9 .site-modal .modal-content .modal-header p {
+  margin-top: 5px;
+}
+section.works .container-works .sites-works-9 .site-modal .modal-content .close-btn {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  font-size: 50px;
+  color: #a7a3a3;
+  cursor: pointer;
+}
+section.works .container-works .sites-works-9 .site-modal .modal-content .btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: first baseline;
+  gap: 10px;
+  margin-top: 50px;
+}
+section.works .container-works .sites-works-9 .site-modal .modal-content .btn-container .btn-modal {
+  width: 110px;
+  height: 40px;
+  background-color: rgb(247, 245, 245);
+  border: 2px solid rgba(15, 17, 74, 0.631372549);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+section.works .container-works .sites-works-9 .site-modal .modal-content .modal-footer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+  height: 50px;
+  background-color: #ddd;
+  border-top: 1px solid #a7a3a3;
+}
+section.works .container-works .sites-works-9 .site-modal .modal-content .modal-footer button {
+  width: 80px;
+  height: 40px;
+  margin-right: 25px;
+  border-radius: 0;
+  border: 2px solid rgba(15, 17, 74, 0.631372549);
+  cursor: pointer;
+}
 section.works .container-works .sites-works-1:hover .site-overlay, section.works .container-works .sites-works-2:hover .site-overlay,
 section.works .container-works .sites-works-3:hover .site-overlay, section.works .container-works .sites-works-4:hover .site-overlay,
 section.works .container-works .sites-works-5:hover .site-overlay, section.works .container-works .sites-works-6:hover .site-overlay,
-section.works .container-works .sites-works-7:hover .site-overlay {
+section.works .container-works .sites-works-7:hover .site-overlay, section.works .container-works .sites-works-8:hover .site-overlay,
+section.works .container-works .sites-works-9:hover .site-overlay {
   left: 0;
 }
 
@@ -1100,9 +1830,10 @@ footer .container-social-media .social-media .fa .svg-icon {
   section.works .works-text {
     font-size: 1.3rem;
   }
-  section.works .container-works .sites .sites-works {
-    width: 100%;
-    margin: 25px;
+  section.works .container-works .sites-works-1 .site-modal, section.works .container-works .sites-works-2 .site-modal, section.works .container-works .sites-works-3 .site-modal,
+  section.works .container-works .sites-works-4 .site-modal, section.works .container-works .sites-works-5 .site-modal, section.works .container-works .sites-works-6 .site-modal,
+  section.works .container-works .sites-works-7 .site-modal, section.works .container-works .sites-works-8 .site-modal, section.works .container-works .sites-works-9 .site-modal {
+    width: 85%;
   }
   section.getInTouch p.getInTouch-text {
     width: 280px;
