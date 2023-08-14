@@ -1694,7 +1694,6 @@ footer .container-social-media .social-media .fa .svg-icon {
   section.bg-paralax {
     background-position: center bottom 0px;
     height: 102vh;
-    background-attachment: scroll;
   }
   section.bg-paralax .container .welcome-text {
     font-size: 1.7rem;
