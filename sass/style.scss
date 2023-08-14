@@ -617,7 +617,6 @@ section.works{
         }
       }
     }
-
     .sites-works-3{
       overflow: hidden;
       margin: 30px auto;
@@ -1273,7 +1272,6 @@ section.works{
         }
       }
     } 
-    
     .sites-works-8{
       overflow: hidden;
       margin: 30px auto;
@@ -1537,18 +1535,18 @@ section.works{
       }
     }
   
-    .sites-works-1, .sites-works-2, 
-    .sites-works-3, .sites-works-4, 
-    .sites-works-5, .sites-works-6,
-    .sites-works-7, .sites-works-8,
-    .sites-works-9{
-      &:hover{
-        .site-overlay{
-          left: 0;
+    // .sites-works-2, 
+    // .sites-works-3, .sites-works-4, 
+    // .sites-works-5, .sites-works-6,
+    // .sites-works-7, .sites-works-8,
+    // .sites-works-9{
+    //   &:hover{
+    //     .site-overlay{
+    //       left: 0;
 
-        }
-      }
-    }
+    //     }
+    //   }
+    // }
   }
 }
 section.getInTouch {

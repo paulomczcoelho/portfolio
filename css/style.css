@@ -1529,13 +1529,6 @@ section.works .container-works .sites-works-9 .site-modal .modal-content .modal-
   border: 2px solid rgba(15, 17, 74, 0.631372549);
   cursor: pointer;
 }
-section.works .container-works .sites-works-1:hover .site-overlay, section.works .container-works .sites-works-2:hover .site-overlay,
-section.works .container-works .sites-works-3:hover .site-overlay, section.works .container-works .sites-works-4:hover .site-overlay,
-section.works .container-works .sites-works-5:hover .site-overlay, section.works .container-works .sites-works-6:hover .site-overlay,
-section.works .container-works .sites-works-7:hover .site-overlay, section.works .container-works .sites-works-8:hover .site-overlay,
-section.works .container-works .sites-works-9:hover .site-overlay {
-  left: 0;
-}
 
 section.getInTouch {
   height: 345px;

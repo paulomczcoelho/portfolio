@@ -30,3 +30,10 @@ closeButtons.forEach((button) => {
     closeOpenModal();
   });
 });
+
+function showOverlay(element) {
+  if (window.innerWidth <= 768) {
+    const overlay = element.querySelector(".site-overlay");
+    overlay.style.left = "0px";
+  }
+}
