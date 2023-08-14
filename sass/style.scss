@@ -6,6 +6,9 @@ section.bg-paralax{
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   min-width: 100%;
   height: 135vh;
   .container{
@@ -1708,6 +1711,7 @@ footer{
   section.bg-paralax{
     background-position: center bottom 0px;
     height: 102vh;
+    background-attachment: scroll;
     .container{
       .welcome-text{
         font-size: 1.7rem;
