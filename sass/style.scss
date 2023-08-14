@@ -9,24 +9,22 @@ section.bg-paralax{
   // -webkit-background-size: cover;
   // -moz-background-size: cover;
   // -o-background-size: cover;
-  // min-width: 100%;
-  // height: 135vh;
+  min-width: 100%;
+  height: 135vh;
   &::after{
     content:"";
-      position:fixed; /* stretch a fixed position to the whole screen */
-      top:0;
-      height:100vh; /* fix for mobile browser address bar appearing disappearing */
-      left:0;
-      right:0;
-      z-index:-1; /* needed to keep in the background */
-      background: url(../img/background1.png) center center;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-
+    position:fixed; /* stretch a fixed position to the whole screen */
+    top:0px;
+    height:100vh; /* fix for mobile browser address bar appearing disappearing */
+    left:0;
+    right:0;
+    z-index:-1; /* needed to keep in the background */
+    background: url(../img/background1.png) center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
-
   .container{
     width: 100%;
     height: 100%;
@@ -132,7 +130,7 @@ section.about-me{
   }
 }
 section.whatIDo{
-  background-color: #d9d9d98a;
+  background-color:#F0F0F0;
   .container-whatIDo{
     display: flex;
     flex-direction: column;
@@ -209,22 +207,22 @@ section.whatIDo{
 }
 section.skills{
   background-color: white;
-    .skills-text{
-    margin-top: 60px;
-    margin-bottom: 15px;
+  .skills-text{
+    position: relative;
+    top: 60px;
+    margin-bottom: 20px;
     font-family: "Lato", sans-serif;
     font-size: 30px;
     font-weight: 300;
     letter-spacing: 1px;
     text-align: center;
-    margin-bottom: 20px;
     color: #292727ad;
   }
   p{
     line-height: 1.7;
     text-align: center;
     max-width: 550px;
-    margin: 20px auto 0;
+    margin: 80px auto 0;
     font-size: 16px;
     font-family: "Roboto Slab", sans-serif;
     color:rgba(41, 39, 39, 0.6784313725)
@@ -303,8 +301,8 @@ section.cv{
   min-width: 100%;
   height: 35vh;
   .container-cv{
-    width: 100%;
-    height: 33vh;
+    // width: 100%;
+    // height: 33vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -314,6 +312,36 @@ section.cv{
     letter-spacing: 1px;
     text-align: center;
     color:#FFFFFF; 
+
+    
+      // background-image: url(../img/background1.png);
+      // background-position: center bottom -80px;
+      // background-size: cover;
+      // background-repeat: no-repeat;
+      // // background-attachment: fixed;
+      // -webkit-background-size: cover;
+      // -moz-background-size: cover;
+      // -o-background-size: cover;
+      min-width: 100%;
+      // height: 135vh;
+      &::after{
+        content:"";
+        position:fixed; /* stretch a fixed position to the whole screen */
+        top:0px;
+        height:33vh; /* fix for mobile browser address bar appearing disappearing */
+        left:0;
+        right:0;
+        z-index:-1; /* needed to keep in the background */
+        background: url(../img/background1.png) center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+
+
+
+
     button{
       width: 120px;
       height: 40px;
@@ -338,14 +366,14 @@ section.works{
   width: 100%;
   height: 148vh;
   .works-text{
-    margin-top: 60px;
-    margin-bottom: 15px;
+    position: relative;
+    top: 60px;
+    margin-bottom: 85px;
     font-family: "Lato", sans-serif;
     font-size: 30px;
     font-weight: 300;
     letter-spacing: 1px;
     text-align: center;
-    margin-bottom: 20px;
     color: #292727ad;
   }
   .container-works{
@@ -1824,7 +1852,7 @@ footer{
   }
   section.skills{ 
     .skills-text{
-      margin-top: 60px;
+      // margin-top: 60px;
       font-size: 1.3rem;
     }
     p{

@@ -47,10 +47,14 @@ header .container .display-menu .li-menu a:hover {
   border-radius: 5px;
 }
 
+section.bg-paralax {
+  min-width: 100%;
+  height: 135vh;
+}
 section.bg-paralax::after {
   content: "";
   position: fixed; /* stretch a fixed position to the whole screen */
-  top: 0;
+  top: 0px;
   height: 100vh; /* fix for mobile browser address bar appearing disappearing */
   left: 0;
   right: 0;
@@ -164,7 +168,7 @@ section.about-me .container-about-me .self-proclamations .display-flex .cards .c
 }
 
 section.whatIDo {
-  background-color: rgba(217, 217, 217, 0.5411764706);
+  background-color: #F0F0F0;
 }
 section.whatIDo .container-whatIDo {
   display: flex;
@@ -240,21 +244,21 @@ section.skills {
   background-color: white;
 }
 section.skills .skills-text {
-  margin-top: 60px;
-  margin-bottom: 15px;
+  position: relative;
+  top: 60px;
+  margin-bottom: 20px;
   font-family: "Lato", sans-serif;
   font-size: 30px;
   font-weight: 300;
   letter-spacing: 1px;
   text-align: center;
-  margin-bottom: 20px;
   color: rgba(41, 39, 39, 0.6784313725);
 }
 section.skills p {
   line-height: 1.7;
   text-align: center;
   max-width: 550px;
-  margin: 20px auto 0;
+  margin: 80px auto 0;
   font-size: 16px;
   font-family: "Roboto Slab", sans-serif;
   color: rgba(41, 39, 39, 0.6784313725);
@@ -330,8 +334,6 @@ section.cv {
   height: 35vh;
 }
 section.cv .container-cv {
-  width: 100%;
-  height: 33vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -341,6 +343,21 @@ section.cv .container-cv {
   letter-spacing: 1px;
   text-align: center;
   color: #FFFFFF;
+  min-width: 100%;
+}
+section.cv .container-cv::after {
+  content: "";
+  position: fixed; /* stretch a fixed position to the whole screen */
+  top: 0px;
+  height: 33vh; /* fix for mobile browser address bar appearing disappearing */
+  left: 0;
+  right: 0;
+  z-index: -1; /* needed to keep in the background */
+  background: url(../img/background1.png) center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 section.cv .container-cv button {
   width: 120px;
@@ -365,14 +382,14 @@ section.works {
   height: 148vh;
 }
 section.works .works-text {
-  margin-top: 60px;
-  margin-bottom: 15px;
+  position: relative;
+  top: 60px;
+  margin-bottom: 85px;
   font-family: "Lato", sans-serif;
   font-size: 30px;
   font-weight: 300;
   letter-spacing: 1px;
   text-align: center;
-  margin-bottom: 20px;
   color: rgba(41, 39, 39, 0.6784313725);
 }
 section.works .container-works {
@@ -1778,7 +1795,6 @@ footer .container-social-media .social-media .fa .svg-icon {
     margin: 80px 5px -70px 5px;
   }
   section.skills .skills-text {
-    margin-top: 60px;
     font-size: 1.3rem;
   }
   section.skills p {
