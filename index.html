@@ -19,24 +19,22 @@
       </div>
       <nav class="nav-ul">
         <ul class="display-menu">
-          <li class="li-menu"><a href="#">Home</a></li>
-          <li class="li-menu"><a href="#">About me</a></li>
-          <li class="li-menu"><a href="#">Experince</a></li>
-          <li class="li-menu"><a href="#">Works</a></li>
-          <li class="li-menu"><a href="#">Contact</a></li>
+          <li class="li-menu"><a href="#s-bg-paralax">Home</a></li>
+          <li class="li-menu"><a href="#s-about">About me</a></li>
+          <li class="li-menu"><a href="#s-skills">Experince</a></li>
+          <li class="li-menu"><a href="#s-works">Works</a></li>
+          <li class="li-menu"><a href="#s-getInTouch">Contact</a></li>
         </ul>
       </nav>
     </div>
 </header>
-
-<section class="bg-paralax">
+<section class="bg-paralax" id="s-bg-paralax">
   <div class="container">
     <h1 class="welcome-text">HI, I'M PAULO</h1>
     <p class="welcome-sub-text">I'm a web developer</p>
   </div>
 </section>  
-
-<section class="about-me">
+<section class="about-me" id="s-about">
     <div class="container-about-me">
       <h1 class="about-me-text">A LITTLE BIT ABOUT ME</h1>
       <div class="img-avatar">
@@ -70,7 +68,7 @@
       </div>
     </div>
 </section>
-<section class="whatIDo">
+<section class="whatIDo" id="s-whatIDo">
    <div class="container-whatIDo">
       <h1 class="whatIDo-title">WHAT I DO</h1>
       <div class="container-row">
@@ -104,8 +102,7 @@
       </div>
     </div>
 </section>
-
-<section class="skills">
+<section class="skills" id="s-skills">
   <h1 class="skills-text">EXPERIENCE</h1>
   <p>I've berrn doing web project for 1 year at school, and I'm always eager to learn more in this fast paced industry.</p>
   <div class="container-skills">
@@ -145,14 +142,14 @@
     </div>
   </div>  
 </section>
-<section class="cv">
+<section class="cv" id="s-cv">
   <div class="container-cv">
     <h1 class="resume-text">CHECK OUT MY RÉSUMÉ</h1>
     <button>
       <a href="resume.pdf" download="resume.pdf">Download CV</a></button>
   </div>
 </section>
-<section class="works">
+<section class="works" id="s-works">
   <h1 class="works-text">WHAT I'VE DONE</h1>
   <div class="container-works">
       <div class="sites-works-1" onclick="showOverlay(this)">
@@ -190,7 +187,6 @@
               </div>  
           </div>
       </div>
-
       <div class="sites-works-2" onclick="showOverlay(this)">
         <div class="site-overlay" >
             <div class="overlay-content">
@@ -471,12 +467,9 @@
             </div>  
         </div>
       </div>
-      
-      
-     
   </div>
 </section>
-<section class="getInTouch">
+<section class="getInTouch" id="s-getInTouch">
   <div class="wrapper">
     <div class="pap one"></div>
     <div class="pap two"></div>
@@ -516,11 +509,6 @@
   </div>
     
 </footer>
-
-
-
-
-
 <script src="js/modal.js"></script>
 </body>
 </html>

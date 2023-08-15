@@ -67,3 +67,74 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+// Seletor para todos os links do menu
+const menuLinks = document.querySelectorAll(".li-menu a");
+
+// Função para adicionar comportamento de rolagem suave
+function smoothScroll(event) {
+  event.preventDefault();
+  const targetId = this.getAttribute("href");
+  const targetSection = document.querySelector(targetId);
+
+  if (targetSection) {
+    window.scrollTo({
+      top: targetSection.offsetTop,
+      behavior: "smooth",
+    });
+  }
+}
+
+// Adicionar evento de clique suave a cada link
+menuLinks.forEach((link) => {
+  link.addEventListener("click", smoothScroll);
+});
+
+// // Função para destacar o link ativo
+// function highlightActiveLink() {
+//   const sections = document.querySelectorAll("section");
+
+//   sections.forEach((section) => {
+//     const sectionTop = section.offsetTop;
+//     const sectionBottom = sectionTop + section.offsetHeight;
+
+//     if (window.scrollY >= sectionTop && window.scrollY < sectionBottom) {
+//       const targetLink = document.querySelector(
+//         `.li-menu a[href="#${section.id}"]`
+//       );
+
+//       if (targetLink) {
+//         menuLinks.forEach((link) => link.classList.remove("active"));
+//         targetLink.classList.add("active");
+//       }
+//     }
+//   });
+// }
+
+// // Adicionar evento de rolagem para destacar o link ativo
+// window.addEventListener("scroll", highlightActiveLink);
+
+// Função para destacar o link ativo
+function highlightActiveLink() {
+  const sections = document.querySelectorAll("section");
+
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    const sectionBottom = sectionTop + section.offsetHeight;
+    const scrollY = window.scrollY + window.innerHeight / 2; // Adicionei isso para calcular o centro da janela visível
+
+    if (scrollY >= sectionTop && scrollY < sectionBottom) {
+      const targetLink = document.querySelector(
+        `.li-menu a[href="#${section.id}"]`
+      );
+
+      if (targetLink) {
+        menuLinks.forEach((link) => link.classList.remove("active"));
+        targetLink.classList.add("active");
+      }
+    }
+  });
+}
+
+// Adicionar evento de rolagem para destacar o link ativo
+window.addEventListener("scroll", highlightActiveLink);

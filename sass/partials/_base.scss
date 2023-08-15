@@ -43,6 +43,12 @@ header{
         background-color: #ffffff;
         border-radius: 5px;
       }
+      .li-menu a.active {
+        color: #ff9900; /* Cor do link ativo */
+        font-weight: bold;
+        background-color: #ffffff;
+        border-radius: 5px;
+      }
     }
   }
 }
