@@ -7,6 +7,10 @@
   font-family: "Inter", sans-serif;
 }
 
+h4 {
+  font-size: 14px;
+}
+
 img {
   display: block;
   width: 100%;
@@ -1614,7 +1618,7 @@ section.getInTouch .shadow {
   position: absolute;
   width: 100px;
   height: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 130px;
   background: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
   border-radius: 15px;
 }
@@ -1731,7 +1735,7 @@ footer .container-social-media .social-media .fa .svg-icon {
   }
   section.about-me .container-about-me .self-proclamations {
     width: 85%;
-    height: 110px;
+    height: 140px;
     margin-top: 25px;
   }
   section.about-me .container-about-me .self-proclamations .self-text {
