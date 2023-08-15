@@ -32,8 +32,38 @@ closeButtons.forEach((button) => {
 });
 
 function showOverlay(element) {
-  if (window.innerWidth <= 768) {
+  const allOverlays = document.querySelectorAll(".site-overlay");
+
+  allOverlays.forEach((overlay) => {
+    if (overlay !== element) {
+      overlay.style.left = "-340px"; // Fechando o overlay
+    }
+  });
+
+  if (window.innerWidth <= 500) {
     const overlay = element.querySelector(".site-overlay");
-    overlay.style.left = "0px";
+    overlay.style.left = "0px"; // Abrindo o overlay
   }
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  const allSiteWorks = document.querySelectorAll(
+    ".sites-works-1, .sites-works-2, .sites-works-3, .sites-works-4, .sites-works-5, .sites-works-6, .sites-works-7, .sites-works-8, .sites-works-9"
+  );
+
+  allSiteWorks.forEach((siteWork) => {
+    siteWork.addEventListener("mouseover", function () {
+      if (window.innerWidth > 768) {
+        const overlay = siteWork.querySelector(".site-overlay");
+        overlay.style.left = "0px";
+      }
+    });
+
+    siteWork.addEventListener("mouseleave", function () {
+      if (window.innerWidth > 768) {
+        const overlay = siteWork.querySelector(".site-overlay");
+        overlay.style.left = "-340px";
+      }
+    });
+  });
+});
