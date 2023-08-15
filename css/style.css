@@ -56,6 +56,87 @@ header .container .display-menu .li-menu a.active {
   background-color: #ffffff;
   border-radius: 5px;
 }
+header #menu {
+  z-index: 2;
+}
+header #menu-bar {
+  width: 45px;
+  height: 40px;
+  margin: 15px 20px 0px 20px;
+  cursor: pointer;
+}
+header .bar {
+  height: 5px;
+  width: 100%;
+  background-color: #ffffff;
+  display: block;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+header #bar1 {
+  transform: translateY(-4px);
+}
+header #bar3 {
+  transform: translateY(4px);
+}
+header .nav {
+  transition: 0.3s ease;
+  display: none;
+}
+header .nav ul {
+  text-align: end;
+  margin-right: 20px;
+  margin-left: -15px;
+}
+header .nav li {
+  list-style: none;
+  padding: 12px 0;
+}
+header .nav li a {
+  color: #0F114A;
+  font-size: 20px;
+  text-decoration: none;
+}
+header .nav li a:hover {
+  font-weight: bold;
+}
+header .menu-bg, header #menu {
+  top: 15px;
+  left: 77%;
+  position: absolute;
+}
+header .menu-bg {
+  z-index: 1;
+  width: 0;
+  height: 0;
+  margin: 30px 0 20px 20px;
+  background: radial-gradient(circle, white, white);
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+header .change {
+  display: block;
+  position: relative;
+  top: 0px;
+  right: 10px;
+}
+header .change .bar {
+  background-color: #0F114A;
+}
+header .change #bar1 {
+  transform: translateY(4px) rotateZ(-45deg);
+}
+header .change #bar2 {
+  opacity: 0;
+}
+header .change #bar3 {
+  transform: translateY(-6px) rotateZ(45deg);
+}
+header .change-bg {
+  width: 520px;
+  height: 460px;
+  transform: translate(-25%, -30%);
+}
 
 section.bg-paralax {
   min-width: 100%;
