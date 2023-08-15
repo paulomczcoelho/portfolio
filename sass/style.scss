@@ -1895,29 +1895,29 @@ footer{
     .works-text{
       font-size: 1.3rem;
     }
-    // .container-works{
-    //   .sites-works-1, .sites-works-2, .sites-works-3,
-    //   .sites-works-4, .sites-works-5, .sites-works-6,
-    //   .sites-works-7, .sites-works-8, .sites-works-9{
+    .container-works{
+      .sites-works-1, .sites-works-2, .sites-works-3,
+      .sites-works-4, .sites-works-5, .sites-works-6,
+      .sites-works-7, .sites-works-8, .sites-works-9{
        
-    //     .site-modal{
-    //       width: 85%;
-    //       .modal-content{
-    //         font-size: 5px;
-    //         .modal-header{
-    //           font-size: 10px;
-    //           span{
-    //             font-size: 35px;
-    //             top: 3px;
-    //           }
-    //         }  
-    //         }
+        .site-modal{
+          width: 90%;
+          .modal-content{
+            font-size: 5px;
+            .modal-header{
+              font-size: 10px;
+              span{
+                font-size: 35px;
+                top: 3px;
+              }
+            }  
+            }
    
             
-    //     }
-    //   }  
+        }
+      }  
       
-    // }
+    }
   }
   section.getInTouch{
     p.getInTouch-text{
