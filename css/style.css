@@ -58,6 +58,7 @@ header .container .display-menu .li-menu a.active {
 }
 header #menu {
   z-index: 2;
+  display: none;
 }
 header #menu-bar {
   width: 45px;
@@ -1787,6 +1788,9 @@ footer .container-social-media .social-media .fa .svg-icon {
 @media screen and (max-width: 480px) {
   header .container .display-menu {
     display: none;
+  }
+  header .container #menu {
+    display: block;
   }
   section.bg-paralax {
     background-position: center bottom 0px;
