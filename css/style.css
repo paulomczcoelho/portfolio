@@ -325,13 +325,25 @@ section.skills .container-skills .container-school .curses {
 }
 
 section.cv {
+  position: relative;
+  z-index: -1;
   background-image: url(../img/bgcv.jpg);
-  background-position: center bottom -80px;
-  background-size: cover;
-  background-repeat: no-repeat;
   background-attachment: fixed;
   max-width: 100%;
   height: 245px;
+}
+section.cv::after {
+  content: "";
+  position: fixed; /* stretch a fixed position to the whole screen */
+  top: 0px;
+  height: 100vh; /* fix for mobile browser address bar appearing disappearing */
+  left: 0;
+  right: 0;
+  z-index: -1; /* needed to keep in the background */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 section.cv .container-cv {
   width: 100%;
@@ -1835,27 +1847,6 @@ footer .container-social-media .social-media .fa .svg-icon {
   }
   section.works .works-text {
     font-size: 1.3rem;
-  }
-  section.works .container-works .sites-works-1 .site-modal, section.works .container-works .sites-works-2 .site-modal, section.works .container-works .sites-works-3 .site-modal,
-  section.works .container-works .sites-works-4 .site-modal, section.works .container-works .sites-works-5 .site-modal, section.works .container-works .sites-works-6 .site-modal,
-  section.works .container-works .sites-works-7 .site-modal, section.works .container-works .sites-works-8 .site-modal, section.works .container-works .sites-works-9 .site-modal {
-    width: 85%;
-  }
-  section.works .container-works .sites-works-1 .site-modal .modal-content, section.works .container-works .sites-works-2 .site-modal .modal-content, section.works .container-works .sites-works-3 .site-modal .modal-content,
-  section.works .container-works .sites-works-4 .site-modal .modal-content, section.works .container-works .sites-works-5 .site-modal .modal-content, section.works .container-works .sites-works-6 .site-modal .modal-content,
-  section.works .container-works .sites-works-7 .site-modal .modal-content, section.works .container-works .sites-works-8 .site-modal .modal-content, section.works .container-works .sites-works-9 .site-modal .modal-content {
-    font-size: 5px;
-  }
-  section.works .container-works .sites-works-1 .site-modal .modal-content .modal-header, section.works .container-works .sites-works-2 .site-modal .modal-content .modal-header, section.works .container-works .sites-works-3 .site-modal .modal-content .modal-header,
-  section.works .container-works .sites-works-4 .site-modal .modal-content .modal-header, section.works .container-works .sites-works-5 .site-modal .modal-content .modal-header, section.works .container-works .sites-works-6 .site-modal .modal-content .modal-header,
-  section.works .container-works .sites-works-7 .site-modal .modal-content .modal-header, section.works .container-works .sites-works-8 .site-modal .modal-content .modal-header, section.works .container-works .sites-works-9 .site-modal .modal-content .modal-header {
-    font-size: 10px;
-  }
-  section.works .container-works .sites-works-1 .site-modal .modal-content .modal-header span, section.works .container-works .sites-works-2 .site-modal .modal-content .modal-header span, section.works .container-works .sites-works-3 .site-modal .modal-content .modal-header span,
-  section.works .container-works .sites-works-4 .site-modal .modal-content .modal-header span, section.works .container-works .sites-works-5 .site-modal .modal-content .modal-header span, section.works .container-works .sites-works-6 .site-modal .modal-content .modal-header span,
-  section.works .container-works .sites-works-7 .site-modal .modal-content .modal-header span, section.works .container-works .sites-works-8 .site-modal .modal-content .modal-header span, section.works .container-works .sites-works-9 .site-modal .modal-content .modal-header span {
-    font-size: 35px;
-    top: 3px;
   }
   section.getInTouch p.getInTouch-text {
     width: 280px;

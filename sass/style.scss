@@ -293,27 +293,29 @@ section.skills{
   }  
 }
 section.cv{
+  position: relative;
+  z-index: -1;
   background-image: url(../img/bgcv.jpg);
-  background-position: center bottom -80px;
-  background-size: cover;
-  background-repeat: no-repeat;
+  // background-position: center bottom -80px;
+  // background-size: cover;
+  // background-repeat: no-repeat;
   background-attachment: fixed;
   max-width: 100%;
   height: 245px;
-  // &::after{
-  //   content:"";
-  //   position:fixed; /* stretch a fixed position to the whole screen */
-  //   top:0px;
-  //   height:100vh; /* fix for mobile browser address bar appearing disappearing */
-  //   left:0;
-  //   right:0;
-  //   z-index:-1; /* needed to keep in the background */
-  //   background: url(../img/bgcv.jpg) center center;
-  //   -webkit-background-size: cover;
-  //   -moz-background-size: cover;
-  //   -o-background-size: cover;
-  //   background-size: cover;
-  // }
+  &::after{
+    content:"";
+    position:fixed; /* stretch a fixed position to the whole screen */
+    top:0px;
+    height:100vh; /* fix for mobile browser address bar appearing disappearing */
+    left:0;
+    right:0;
+    z-index:-1; /* needed to keep in the background */
+    // background: url(../img/bgcv.jpg) center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
   .container-cv{
     width: 100%;
     height: 245px;
@@ -1893,30 +1895,29 @@ footer{
     .works-text{
       font-size: 1.3rem;
     }
-    .container-works{
-      .sites-works-1, .sites-works-2, .sites-works-3,
-      .sites-works-4, .sites-works-5, .sites-works-6,
-      .sites-works-7, .sites-works-8, .sites-works-9{
+    // .container-works{
+    //   .sites-works-1, .sites-works-2, .sites-works-3,
+    //   .sites-works-4, .sites-works-5, .sites-works-6,
+    //   .sites-works-7, .sites-works-8, .sites-works-9{
        
-        .site-modal{
-          width: 85%;
-          .modal-content{
-            font-size: 5px;
-            .modal-header{
-              font-size: 10px;
-              span{
-                font-size: 35px;
-                top: 3px;
-              }
-            }  
-            }
-        
-        
-          
-        }
-      }  
+    //     .site-modal{
+    //       width: 85%;
+    //       .modal-content{
+    //         font-size: 5px;
+    //         .modal-header{
+    //           font-size: 10px;
+    //           span{
+    //             font-size: 35px;
+    //             top: 3px;
+    //           }
+    //         }  
+    //         }
+   
+            
+    //     }
+    //   }  
       
-    }
+    // }
   }
   section.getInTouch{
     p.getInTouch-text{
