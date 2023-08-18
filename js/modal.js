@@ -90,30 +90,6 @@ menuLinks.forEach((link) => {
   link.addEventListener("click", smoothScroll);
 });
 
-// // Função para destacar o link ativo
-// function highlightActiveLink() {
-//   const sections = document.querySelectorAll("section");
-
-//   sections.forEach((section) => {
-//     const sectionTop = section.offsetTop;
-//     const sectionBottom = sectionTop + section.offsetHeight;
-
-//     if (window.scrollY >= sectionTop && window.scrollY < sectionBottom) {
-//       const targetLink = document.querySelector(
-//         `.li-menu a[href="#${section.id}"]`
-//       );
-
-//       if (targetLink) {
-//         menuLinks.forEach((link) => link.classList.remove("active"));
-//         targetLink.classList.add("active");
-//       }
-//     }
-//   });
-// }
-
-// // Adicionar evento de rolagem para destacar o link ativo
-// window.addEventListener("scroll", highlightActiveLink);
-
 // Função para destacar o link ativo
 function highlightActiveLink() {
   const sections = document.querySelectorAll("section");
