@@ -2164,6 +2164,9 @@ footer p {
     gap: 15px;
     width: 72%;
   }
+  section.works {
+    height: 1300px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
