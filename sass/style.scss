@@ -98,6 +98,8 @@ section.about-me{
       height: 200px;
       margin-top: 20px;
       background-color: #d9d9d98a;
+      border-radius: 5px;
+      box-shadow: 4px 4px 8px 1px #000000a1;
       text-align: center;
       color: #504747;
       
@@ -1534,19 +1536,6 @@ section.works{
         }
       }
     }
-  
-    // .sites-works-1, .sites-works-2, 
-    // .sites-works-3, .sites-works-4, 
-    // .sites-works-5, .sites-works-6,
-    // .sites-works-7, .sites-works-8,
-    // .sites-works-9{
-    //   &:hover{
-    //     .site-overlay{
-    //       left: 0;
-
-    //     }
-    //   }
-    // }
   }
 }
 section.getInTouch {
@@ -1705,14 +1694,18 @@ footer{
         text-align: center;
         width: 48px;
         height: 45px;
-         background-color: #2e2a2a;
+         background-color: #5b5858;
         .svg-icon{
           margin-left: 2px;
           margin-top: 6px;
+          fill: white;
          
         }
       }
     }
+  }
+  p{
+    color: white;
   }
 }
 
@@ -1927,4 +1920,234 @@ footer{
       width: 280px;
     }
   } 
+}
+@media screen and (min-width: 481px) and (max-width: 666px){
+  header{
+    .container{
+      .display-menu{
+        display: none;
+      }
+      #menu{
+        display: block;
+      }
+    }
+  }
+  section.about-me{
+    height: 740px;
+    .container-about-me{
+      .about-me-text{
+        font-size: 1.3rem;
+        margin-top: 40px;
+      }
+      .img-avatar{
+        width: 145px;
+        height: 145px;
+      }
+      .text-about-me{
+        max-width: 380px;
+        margin-top: 10px;
+        font-size: 12px;
+      }
+      .self-proclamations{
+        width: 90%;
+        margin-top: 45px;
+
+      }
+    }
+  }
+  section.whatIDo{
+    .container-whatIDo{
+      height: 460px;
+      .whatIDo-title{
+        font-size: 1.3rem;
+        margin-top: 60px;
+        margin-bottom: 35px;
+      }
+      .container-row{
+        // flex-direction: column;
+        // gap: 60px;
+        .card{
+          .circle{
+            width: 125px;
+            height: 125px;
+            .icon-img{
+              width: 45px;
+              height: 45px;
+              margin: 0 auto -25px;
+            }
+           .title-do{
+              font-size: 18px;
+              top: 75px;
+            }
+            .what-IDo-text{
+              width: 115px;
+              margin: 80px 5px -141px 5px;
+              font-size: 11px;
+            }
+          }
+        }
+      }
+    }
+  } 
+  section.skills{ 
+    .container-skills{
+      height: 1020px;
+      flex-direction: column;
+      justify-content: inherit;
+      .container-tools{
+        width: 100%;
+        .tools-img{
+          margin: 0 55px;
+        }         
+      }
+      .container-school{
+        width: 100%;
+        height: 90%;
+        background-color: rgba(217, 217, 217, 0.5411764706);
+        .school-text{
+          margin-top: 50px;
+        }
+        .img-college{
+          margin: 35px
+        }
+       
+      }
+    }
+  }     
+  section.works{
+    height: 2210px;
+  }
+  section.getInTouch{
+    p.getInTouch-text{
+      max-width: 440px;
+    }
+  } 
+}
+@media screen and (min-width: 667px) and (max-width: 767px){
+  header{
+    .container{
+      .display-menu{
+        width:510px;
+        margin-right: 15px;
+      }
+    }
+  }
+  section.about-me{
+    height: 875px;
+    .container-about-me{
+      .text-about-me{
+        width: 500px;
+      }
+      .self-proclamations{
+        width: 85%;
+        margin-top: 50px;
+      }  
+    }
+  }  
+  section.whatIDo{
+    .container-whatIDo{
+      height: 460px;
+      .whatIDo-title{
+        font-size: 1.3rem;
+        margin-top: 60px;
+        margin-bottom: 35px;
+      }
+      .container-row{
+        // flex-direction: column;
+        // gap: 60px;
+        .card{
+          .circle{
+            width: 125px;
+            height: 125px;
+            .icon-img{
+              width: 45px;
+              height: 45px;
+              margin: 0 auto -25px;
+            }
+           .title-do{
+              font-size: 18px;
+              top: 75px;
+            }
+            .what-IDo-text{
+              width: 115px;
+              margin: 80px 5px -141px 5px;
+              font-size: 11px;
+            }
+          }
+        }
+      }
+    }
+  } 
+  section.skills{ 
+    h1.skills-text{
+      font-size: 25px;
+    }
+    
+    .container-skills{
+      height: 1020px;
+      flex-direction: column;
+      justify-content: inherit;
+      .container-tools{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        .tools-img{
+          margin: 0 55px;
+        }
+        .tools-text{
+          text-align: center;
+          margin-left: 0;
+        }         
+      }
+      .container-school{
+        width: 100%;
+        height: 90%;
+        background-color: rgba(217, 217, 217, 0.5411764706);
+        .school-text{
+          margin-top: 50px;
+        }
+        .img-college{
+          margin: 35px
+        }
+       
+      }
+    }
+  } 
+  section.works{
+    height: 2180px;
+  } 
+}
+@media screen and (min-width: 768px) and (max-width: 896px){
+  section.skills{ 
+    .container-skills{
+      .container-tools{
+        width: 50%;
+        .tools-img{
+          width: 90%;
+          margin: 0px 35px;
+          padding: 10px 0px 10px 5px;
+          .tools{
+            margin: 15px 17px;
+            width: 40px;
+            height: 50px;
+          }
+        }
+      }
+      .container-school{
+        width: 52%;
+        .img-college{
+          width: 48%;
+          margin-top: 45px;
+        }
+        .curses{
+          margin-top: 30px;
+          gap: 15px;
+          width: 72%;
+        }
+      }
+    }
+  }
+
+
 }
