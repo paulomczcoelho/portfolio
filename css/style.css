@@ -142,13 +142,13 @@ header .change-bg {
 
 section.bg-paralax {
   min-width: 100%;
-  height: 135vh;
+  height: 110vh;
 }
 section.bg-paralax::after {
   content: "";
   position: fixed; /* stretch a fixed position to the whole screen */
-  top: 0px;
-  height: 100vh; /* fix for mobile browser address bar appearing disappearing */
+  top: -120px;
+  height: 120vh; /* fix for mobile browser address bar appearing disappearing */
   left: 0;
   right: 0;
   z-index: -1; /* needed to keep in the background */
@@ -2106,7 +2106,7 @@ footer p {
     font-size: 25px;
   }
   section.skills .container-skills {
-    height: 1020px;
+    height: 940px;
     flex-direction: column;
     justify-content: inherit;
   }
@@ -2142,6 +2142,11 @@ footer p {
   section.skills .container-skills .container-tools {
     width: 50%;
   }
+  section.skills .container-skills .container-tools .tools-text {
+    font-size: 19px;
+    width: 100%;
+    margin-left: 30px;
+  }
   section.skills .container-skills .container-tools .tools-img {
     width: 90%;
     margin: 0px 35px;
@@ -2149,11 +2154,14 @@ footer p {
   }
   section.skills .container-skills .container-tools .tools-img .tools {
     margin: 15px 17px;
-    width: 40px;
-    height: 50px;
+    width: 44px;
+    height: 54px;
   }
   section.skills .container-skills .container-school {
-    width: 52%;
+    width: 50%;
+  }
+  section.skills .container-skills .container-school .school-text {
+    font-size: 19px;
   }
   section.skills .container-skills .container-school .img-college {
     width: 48%;
@@ -2166,6 +2174,39 @@ footer p {
   }
   section.works {
     height: 1300px;
+  }
+}
+@media screen and (min-width: 897px) and (max-width: 1132px) {
+  section.skills .container-skills .container-tools {
+    width: 50%;
+  }
+  section.skills .container-skills .container-tools .tools-text {
+    width: 100%;
+  }
+  section.skills .container-skills .container-tools .tools-img {
+    width: 90%;
+    margin: 0px 35px;
+    padding: 10px 0px 10px 5px;
+  }
+  section.skills .container-skills .container-tools .tools-img .tools {
+    margin: 15px 17px;
+    width: 44px;
+    height: 54px;
+  }
+  section.skills .container-skills .container-school {
+    width: 50%;
+  }
+  section.skills .container-skills .container-school .img-college {
+    width: 48%;
+    margin-top: 45px;
+  }
+  section.skills .container-skills .container-school .curses {
+    margin-top: 30px;
+    gap: 15px;
+    width: 72%;
+  }
+  section.works {
+    height: 1350px;
   }
 }
 
