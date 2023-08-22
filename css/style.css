@@ -152,7 +152,7 @@ section.bg-paralax::after {
   left: 0;
   right: 0;
   z-index: -1; /* needed to keep in the background */
-  background: url(../img/background1.png) center center;
+  background: url(../img/background1.jpg) center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2176,12 +2176,14 @@ footer p {
     height: 1300px;
   }
 }
-@media screen and (min-width: 897px) and (max-width: 1132px) {
+@media screen and (min-width: 897px) and (max-width: 1114px) {
   section.skills .container-skills .container-tools {
-    width: 50%;
+    width: 480px;
   }
   section.skills .container-skills .container-tools .tools-text {
     width: 100%;
+    font-size: 19px;
+    margin-left: 30px;
   }
   section.skills .container-skills .container-tools .tools-img {
     width: 90%;
@@ -2194,7 +2196,7 @@ footer p {
     height: 54px;
   }
   section.skills .container-skills .container-school {
-    width: 50%;
+    max-width: 400px;
   }
   section.skills .container-skills .container-school .img-college {
     width: 48%;
