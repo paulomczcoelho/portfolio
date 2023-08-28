@@ -120,3 +120,9 @@ function menuOnClick() {
   document.getElementById("nav").classList.toggle("change");
   document.getElementById("menu-bg").classList.toggle("change-bg");
 }
+document
+  .getElementById("download-button")
+  .addEventListener("click", function () {
+    // Redirecionar para o arquivo de currículo para download
+    window.location.href = "resume.pdf";
+  });

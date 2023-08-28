@@ -8,7 +8,7 @@
 }
 
 h4 {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 img {
@@ -41,6 +41,7 @@ header .container .display-menu {
   display: flex;
   justify-content: space-between;
   width: 550px;
+  margin: 10px;
 }
 header .container .display-menu .li-menu a {
   color: aliceblue;
@@ -142,7 +143,7 @@ header .change-bg {
 
 section.bg-paralax {
   min-width: 100%;
-  height: 110vh;
+  height: 100vh;
 }
 section.bg-paralax::after {
   content: "";
@@ -420,8 +421,6 @@ section.skills .container-skills .container-school .curses {
 }
 
 section.cv {
-  position: relative;
-  z-index: -1;
   background-image: url(../img/bgcv.jpg);
   background-position: center bottom -80px;
   background-size: cover;
@@ -449,7 +448,6 @@ section.cv .container-cv button {
   margin-top: 15px;
   background-color: rgba(15, 17, 74, 0.631372549);
   border: 2px solid white;
-  cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 section.cv .container-cv button:hover {
@@ -458,6 +456,7 @@ section.cv .container-cv button:hover {
 }
 section.cv .container-cv button a {
   color: white;
+  cursor: pointer;
 }
 
 section.works {
@@ -581,7 +580,7 @@ section.works .container-works .sites-works-1 .site-modal .modal-content .btn-co
   width: 100%;
   justify-content: center;
   align-items: first baseline;
-  gap: 10px;
+  gap: 40px;
   margin-top: 50px;
 }
 section.works .container-works .sites-works-1 .site-modal .modal-content .btn-container .btn-modal {
@@ -592,25 +591,7 @@ section.works .container-works .sites-works-1 .site-modal .modal-content .btn-co
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-section.works .container-works .sites-works-1 .site-modal .modal-content .modal-footer {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  margin-top: 50px;
-  width: 100%;
-  height: 50px;
-  background-color: #ddd;
-  border-top: 1px solid #a7a3a3;
-}
-section.works .container-works .sites-works-1 .site-modal .modal-content .modal-footer button {
-  width: 80px;
-  height: 40px;
-  margin-right: 25px;
-  border-radius: 0;
-  border: 2px solid rgba(15, 17, 74, 0.631372549);
-  cursor: pointer;
-}
-section.works .container-works .sites-works-2 {
+section.works .sites-works-2 {
   overflow: hidden;
   margin: 30px auto;
   width: 340px;
@@ -622,7 +603,7 @@ section.works .container-works .sites-works-2 {
   background-position: center;
   background-color: rgba(0, 0, 0, 0.521);
 }
-section.works .container-works .sites-works-2 .site-overlay {
+section.works .sites-works-2 .site-overlay {
   background: rgba(0, 0, 0, 0.781);
   position: relative;
   width: 340px;
@@ -636,26 +617,26 @@ section.works .container-works .sites-works-2 .site-overlay {
   align-items: center;
   cursor: pointer;
 }
-section.works .container-works .sites-works-2 .site-overlay .overlay-content {
+section.works .sites-works-2 .site-overlay .overlay-content {
   text-align: center;
   color: #ddd;
 }
-section.works .container-works .sites-works-2 .site-overlay .overlay-content i {
+section.works .sites-works-2 .site-overlay .overlay-content i {
   font-size: 30px;
   margin-top: 45px;
 }
-section.works .container-works .sites-works-2 .site-overlay .overlay-content .bg-h3 {
+section.works .sites-works-2 .site-overlay .overlay-content .bg-h3 {
   width: 340px;
   height: 50px;
   position: relative;
   bottom: -20px;
   background-color: rgba(15, 17, 74, 0.631372549);
 }
-section.works .container-works .sites-works-2 .site-overlay .overlay-content .bg-h3 .overlay-title {
+section.works .sites-works-2 .site-overlay .overlay-content .bg-h3 .overlay-title {
   position: relative;
   top: 13px;
 }
-section.works .container-works .sites-works-2 .site-modal {
+section.works .sites-works-2 .site-modal {
   display: none;
   position: absolute;
   left: 50%;
@@ -665,19 +646,19 @@ section.works .container-works .sites-works-2 .site-modal {
   background-color: #e7e7e7;
   z-index: 1;
 }
-section.works .container-works .sites-works-2 .site-modal .modal-content picture img {
+section.works .sites-works-2 .site-modal .modal-content picture img {
   width: 95%;
   height: 60%;
   margin: 15px auto;
 }
-section.works .container-works .sites-works-2 .site-modal .modal-content .modal-content-p {
+section.works .sites-works-2 .site-modal .modal-content .modal-content-p {
   font-size: 15px;
   font-weight: 300;
   margin: 35px auto;
   padding: 0px 25px;
   text-align: center;
 }
-section.works .container-works .sites-works-2 .site-modal .modal-content .modal-header {
+section.works .sites-works-2 .site-modal .modal-content .modal-header {
   background-color: #ddd;
   display: flex;
   flex-direction: column;
@@ -688,14 +669,14 @@ section.works .container-works .sites-works-2 .site-modal .modal-content .modal-
   border-bottom: 1px solid #a7a3a3;
   color: #6d6c6c;
 }
-section.works .container-works .sites-works-2 .site-modal .modal-content .modal-header h2 {
+section.works .sites-works-2 .site-modal .modal-content .modal-header h2 {
   font-size: 20px;
   font-weight: 300;
 }
-section.works .container-works .sites-works-2 .site-modal .modal-content .modal-header p {
+section.works .sites-works-2 .site-modal .modal-content .modal-header p {
   margin-top: 5px;
 }
-section.works .container-works .sites-works-2 .site-modal .modal-content .close-btn {
+section.works .sites-works-2 .site-modal .modal-content .close-btn {
   position: absolute;
   top: 0px;
   right: 15px;
@@ -703,15 +684,15 @@ section.works .container-works .sites-works-2 .site-modal .modal-content .close-
   color: #a7a3a3;
   cursor: pointer;
 }
-section.works .container-works .sites-works-2 .site-modal .modal-content .btn-container {
+section.works .sites-works-2 .site-modal .modal-content .btn-container {
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: first baseline;
-  gap: 10px;
+  gap: 40px;
   margin-top: 50px;
 }
-section.works .container-works .sites-works-2 .site-modal .modal-content .btn-container .btn-modal {
+section.works .sites-works-2 .site-modal .modal-content .btn-container .btn-modal {
   width: 110px;
   height: 40px;
   background-color: rgb(247, 245, 245);
@@ -719,25 +700,7 @@ section.works .container-works .sites-works-2 .site-modal .modal-content .btn-co
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-section.works .container-works .sites-works-2 .site-modal .modal-content .modal-footer {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  margin-top: 50px;
-  width: 100%;
-  height: 50px;
-  background-color: #ddd;
-  border-top: 1px solid #a7a3a3;
-}
-section.works .container-works .sites-works-2 .site-modal .modal-content .modal-footer button {
-  width: 80px;
-  height: 40px;
-  margin-right: 25px;
-  border-radius: 0;
-  border: 2px solid rgba(15, 17, 74, 0.631372549);
-  cursor: pointer;
-}
-section.works .container-works .sites-works-3 {
+section.works .sites-works-3 {
   overflow: hidden;
   margin: 30px auto;
   width: 340px;
@@ -749,7 +712,7 @@ section.works .container-works .sites-works-3 {
   background-position: center;
   background-color: rgba(0, 0, 0, 0.521);
 }
-section.works .container-works .sites-works-3 .site-overlay {
+section.works .sites-works-3 .site-overlay {
   background: rgba(0, 0, 0, 0.781);
   position: relative;
   width: 340px;
@@ -763,26 +726,26 @@ section.works .container-works .sites-works-3 .site-overlay {
   align-items: center;
   cursor: pointer;
 }
-section.works .container-works .sites-works-3 .site-overlay .overlay-content {
+section.works .sites-works-3 .site-overlay .overlay-content {
   text-align: center;
   color: #ddd;
 }
-section.works .container-works .sites-works-3 .site-overlay .overlay-content i {
+section.works .sites-works-3 .site-overlay .overlay-content i {
   font-size: 30px;
   margin-top: 45px;
 }
-section.works .container-works .sites-works-3 .site-overlay .overlay-content .bg-h3 {
+section.works .sites-works-3 .site-overlay .overlay-content .bg-h3 {
   width: 340px;
   height: 50px;
   position: relative;
   bottom: -20px;
   background-color: rgba(15, 17, 74, 0.631372549);
 }
-section.works .container-works .sites-works-3 .site-overlay .overlay-content .bg-h3 .overlay-title {
+section.works .sites-works-3 .site-overlay .overlay-content .bg-h3 .overlay-title {
   position: relative;
   top: 13px;
 }
-section.works .container-works .sites-works-3 .site-modal {
+section.works .sites-works-3 .site-modal {
   display: none;
   position: absolute;
   left: 50%;
@@ -792,19 +755,19 @@ section.works .container-works .sites-works-3 .site-modal {
   background-color: #e7e7e7;
   z-index: 1;
 }
-section.works .container-works .sites-works-3 .site-modal .modal-content picture img {
+section.works .sites-works-3 .site-modal .modal-content picture img {
   width: 95%;
   height: 60%;
   margin: 15px auto;
 }
-section.works .container-works .sites-works-3 .site-modal .modal-content .modal-content-p {
+section.works .sites-works-3 .site-modal .modal-content .modal-content-p {
   font-size: 15px;
   font-weight: 300;
   margin: 35px auto;
   padding: 0px 25px;
   text-align: center;
 }
-section.works .container-works .sites-works-3 .site-modal .modal-content .modal-header {
+section.works .sites-works-3 .site-modal .modal-content .modal-header {
   background-color: #ddd;
   display: flex;
   flex-direction: column;
@@ -815,14 +778,14 @@ section.works .container-works .sites-works-3 .site-modal .modal-content .modal-
   border-bottom: 1px solid #a7a3a3;
   color: #6d6c6c;
 }
-section.works .container-works .sites-works-3 .site-modal .modal-content .modal-header h2 {
+section.works .sites-works-3 .site-modal .modal-content .modal-header h2 {
   font-size: 20px;
   font-weight: 300;
 }
-section.works .container-works .sites-works-3 .site-modal .modal-content .modal-header p {
+section.works .sites-works-3 .site-modal .modal-content .modal-header p {
   margin-top: 5px;
 }
-section.works .container-works .sites-works-3 .site-modal .modal-content .close-btn {
+section.works .sites-works-3 .site-modal .modal-content .close-btn {
   position: absolute;
   top: 0px;
   right: 15px;
@@ -830,15 +793,15 @@ section.works .container-works .sites-works-3 .site-modal .modal-content .close-
   color: #a7a3a3;
   cursor: pointer;
 }
-section.works .container-works .sites-works-3 .site-modal .modal-content .btn-container {
+section.works .sites-works-3 .site-modal .modal-content .btn-container {
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: first baseline;
-  gap: 10px;
+  gap: 40px;
   margin-top: 50px;
 }
-section.works .container-works .sites-works-3 .site-modal .modal-content .btn-container .btn-modal {
+section.works .sites-works-3 .site-modal .modal-content .btn-container .btn-modal {
   width: 110px;
   height: 40px;
   background-color: rgb(247, 245, 245);
@@ -846,25 +809,7 @@ section.works .container-works .sites-works-3 .site-modal .modal-content .btn-co
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-section.works .container-works .sites-works-3 .site-modal .modal-content .modal-footer {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  margin-top: 50px;
-  width: 100%;
-  height: 50px;
-  background-color: #ddd;
-  border-top: 1px solid #a7a3a3;
-}
-section.works .container-works .sites-works-3 .site-modal .modal-content .modal-footer button {
-  width: 80px;
-  height: 40px;
-  margin-right: 25px;
-  border-radius: 0;
-  border: 2px solid rgba(15, 17, 74, 0.631372549);
-  cursor: pointer;
-}
-section.works .container-works .sites-works-4 {
+section.works .sites-works-4 {
   overflow: hidden;
   margin: 30px auto;
   width: 340px;
@@ -876,7 +821,7 @@ section.works .container-works .sites-works-4 {
   background-position: center;
   background-color: rgba(0, 0, 0, 0.521);
 }
-section.works .container-works .sites-works-4 .site-overlay {
+section.works .sites-works-4 .site-overlay {
   background: rgba(0, 0, 0, 0.781);
   position: relative;
   width: 340px;
@@ -890,26 +835,26 @@ section.works .container-works .sites-works-4 .site-overlay {
   align-items: center;
   cursor: pointer;
 }
-section.works .container-works .sites-works-4 .site-overlay .overlay-content {
+section.works .sites-works-4 .site-overlay .overlay-content {
   text-align: center;
   color: #ddd;
 }
-section.works .container-works .sites-works-4 .site-overlay .overlay-content i {
+section.works .sites-works-4 .site-overlay .overlay-content i {
   font-size: 30px;
   margin-top: 45px;
 }
-section.works .container-works .sites-works-4 .site-overlay .overlay-content .bg-h3 {
+section.works .sites-works-4 .site-overlay .overlay-content .bg-h3 {
   width: 340px;
   height: 50px;
   position: relative;
   bottom: -20px;
   background-color: rgba(15, 17, 74, 0.631372549);
 }
-section.works .container-works .sites-works-4 .site-overlay .overlay-content .bg-h3 .overlay-title {
+section.works .sites-works-4 .site-overlay .overlay-content .bg-h3 .overlay-title {
   position: relative;
   top: 13px;
 }
-section.works .container-works .sites-works-4 .site-modal {
+section.works .sites-works-4 .site-modal {
   display: none;
   position: absolute;
   left: 50%;
@@ -919,19 +864,19 @@ section.works .container-works .sites-works-4 .site-modal {
   background-color: #e7e7e7;
   z-index: 1;
 }
-section.works .container-works .sites-works-4 .site-modal .modal-content picture img {
+section.works .sites-works-4 .site-modal .modal-content picture img {
   width: 95%;
   height: 60%;
   margin: 15px auto;
 }
-section.works .container-works .sites-works-4 .site-modal .modal-content .modal-content-p {
+section.works .sites-works-4 .site-modal .modal-content .modal-content-p {
   font-size: 15px;
   font-weight: 300;
   margin: 35px auto;
   padding: 0px 25px;
   text-align: center;
 }
-section.works .container-works .sites-works-4 .site-modal .modal-content .modal-header {
+section.works .sites-works-4 .site-modal .modal-content .modal-header {
   background-color: #ddd;
   display: flex;
   flex-direction: column;
@@ -942,14 +887,14 @@ section.works .container-works .sites-works-4 .site-modal .modal-content .modal-
   border-bottom: 1px solid #a7a3a3;
   color: #6d6c6c;
 }
-section.works .container-works .sites-works-4 .site-modal .modal-content .modal-header h2 {
+section.works .sites-works-4 .site-modal .modal-content .modal-header h2 {
   font-size: 20px;
   font-weight: 300;
 }
-section.works .container-works .sites-works-4 .site-modal .modal-content .modal-header p {
+section.works .sites-works-4 .site-modal .modal-content .modal-header p {
   margin-top: 5px;
 }
-section.works .container-works .sites-works-4 .site-modal .modal-content .close-btn {
+section.works .sites-works-4 .site-modal .modal-content .close-btn {
   position: absolute;
   top: 0px;
   right: 15px;
@@ -957,15 +902,15 @@ section.works .container-works .sites-works-4 .site-modal .modal-content .close-
   color: #a7a3a3;
   cursor: pointer;
 }
-section.works .container-works .sites-works-4 .site-modal .modal-content .btn-container {
+section.works .sites-works-4 .site-modal .modal-content .btn-container {
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: first baseline;
-  gap: 10px;
+  gap: 40px;
   margin-top: 50px;
 }
-section.works .container-works .sites-works-4 .site-modal .modal-content .btn-container .btn-modal {
+section.works .sites-works-4 .site-modal .modal-content .btn-container .btn-modal {
   width: 110px;
   height: 40px;
   background-color: rgb(247, 245, 245);
@@ -973,25 +918,7 @@ section.works .container-works .sites-works-4 .site-modal .modal-content .btn-co
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-section.works .container-works .sites-works-4 .site-modal .modal-content .modal-footer {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  margin-top: 50px;
-  width: 100%;
-  height: 50px;
-  background-color: #ddd;
-  border-top: 1px solid #a7a3a3;
-}
-section.works .container-works .sites-works-4 .site-modal .modal-content .modal-footer button {
-  width: 80px;
-  height: 40px;
-  margin-right: 25px;
-  border-radius: 0;
-  border: 2px solid rgba(15, 17, 74, 0.631372549);
-  cursor: pointer;
-}
-section.works .container-works .sites-works-5 {
+section.works .sites-works-5 {
   overflow: hidden;
   margin: 30px auto;
   width: 340px;
@@ -1003,7 +930,7 @@ section.works .container-works .sites-works-5 {
   background-position: center;
   background-color: rgba(0, 0, 0, 0.521);
 }
-section.works .container-works .sites-works-5 .site-overlay {
+section.works .sites-works-5 .site-overlay {
   background: rgba(0, 0, 0, 0.781);
   position: relative;
   width: 340px;
@@ -1017,26 +944,26 @@ section.works .container-works .sites-works-5 .site-overlay {
   align-items: center;
   cursor: pointer;
 }
-section.works .container-works .sites-works-5 .site-overlay .overlay-content {
+section.works .sites-works-5 .site-overlay .overlay-content {
   text-align: center;
   color: #ddd;
 }
-section.works .container-works .sites-works-5 .site-overlay .overlay-content i {
+section.works .sites-works-5 .site-overlay .overlay-content i {
   font-size: 30px;
   margin-top: 45px;
 }
-section.works .container-works .sites-works-5 .site-overlay .overlay-content .bg-h3 {
+section.works .sites-works-5 .site-overlay .overlay-content .bg-h3 {
   width: 340px;
   height: 50px;
   position: relative;
   bottom: -20px;
   background-color: rgba(15, 17, 74, 0.631372549);
 }
-section.works .container-works .sites-works-5 .site-overlay .overlay-content .bg-h3 .overlay-title {
+section.works .sites-works-5 .site-overlay .overlay-content .bg-h3 .overlay-title {
   position: relative;
   top: 13px;
 }
-section.works .container-works .sites-works-5 .site-modal {
+section.works .sites-works-5 .site-modal {
   display: none;
   position: absolute;
   left: 50%;
@@ -1046,19 +973,19 @@ section.works .container-works .sites-works-5 .site-modal {
   background-color: #e7e7e7;
   z-index: 1;
 }
-section.works .container-works .sites-works-5 .site-modal .modal-content picture img {
+section.works .sites-works-5 .site-modal .modal-content picture img {
   width: 95%;
   height: 60%;
   margin: 15px auto;
 }
-section.works .container-works .sites-works-5 .site-modal .modal-content .modal-content-p {
+section.works .sites-works-5 .site-modal .modal-content .modal-content-p {
   font-size: 15px;
   font-weight: 300;
   margin: 35px auto;
   padding: 0px 25px;
   text-align: center;
 }
-section.works .container-works .sites-works-5 .site-modal .modal-content .modal-header {
+section.works .sites-works-5 .site-modal .modal-content .modal-header {
   background-color: #ddd;
   display: flex;
   flex-direction: column;
@@ -1069,14 +996,14 @@ section.works .container-works .sites-works-5 .site-modal .modal-content .modal-
   border-bottom: 1px solid #a7a3a3;
   color: #6d6c6c;
 }
-section.works .container-works .sites-works-5 .site-modal .modal-content .modal-header h2 {
+section.works .sites-works-5 .site-modal .modal-content .modal-header h2 {
   font-size: 20px;
   font-weight: 300;
 }
-section.works .container-works .sites-works-5 .site-modal .modal-content .modal-header p {
+section.works .sites-works-5 .site-modal .modal-content .modal-header p {
   margin-top: 5px;
 }
-section.works .container-works .sites-works-5 .site-modal .modal-content .close-btn {
+section.works .sites-works-5 .site-modal .modal-content .close-btn {
   position: absolute;
   top: 0px;
   right: 15px;
@@ -1084,15 +1011,15 @@ section.works .container-works .sites-works-5 .site-modal .modal-content .close-
   color: #a7a3a3;
   cursor: pointer;
 }
-section.works .container-works .sites-works-5 .site-modal .modal-content .btn-container {
+section.works .sites-works-5 .site-modal .modal-content .btn-container {
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: first baseline;
-  gap: 10px;
+  gap: 40px;
   margin-top: 50px;
 }
-section.works .container-works .sites-works-5 .site-modal .modal-content .btn-container .btn-modal {
+section.works .sites-works-5 .site-modal .modal-content .btn-container .btn-modal {
   width: 110px;
   height: 40px;
   background-color: rgb(247, 245, 245);
@@ -1100,25 +1027,7 @@ section.works .container-works .sites-works-5 .site-modal .modal-content .btn-co
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-section.works .container-works .sites-works-5 .site-modal .modal-content .modal-footer {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  margin-top: 50px;
-  width: 100%;
-  height: 50px;
-  background-color: #ddd;
-  border-top: 1px solid #a7a3a3;
-}
-section.works .container-works .sites-works-5 .site-modal .modal-content .modal-footer button {
-  width: 80px;
-  height: 40px;
-  margin-right: 25px;
-  border-radius: 0;
-  border: 2px solid rgba(15, 17, 74, 0.631372549);
-  cursor: pointer;
-}
-section.works .container-works .sites-works-6 {
+section.works .sites-works-6 {
   overflow: hidden;
   margin: 30px auto;
   width: 340px;
@@ -1130,7 +1039,7 @@ section.works .container-works .sites-works-6 {
   background-position: center;
   background-color: rgba(0, 0, 0, 0.521);
 }
-section.works .container-works .sites-works-6 .site-overlay {
+section.works .sites-works-6 .site-overlay {
   background: rgba(0, 0, 0, 0.781);
   position: relative;
   width: 340px;
@@ -1144,26 +1053,26 @@ section.works .container-works .sites-works-6 .site-overlay {
   align-items: center;
   cursor: pointer;
 }
-section.works .container-works .sites-works-6 .site-overlay .overlay-content {
+section.works .sites-works-6 .site-overlay .overlay-content {
   text-align: center;
   color: #ddd;
 }
-section.works .container-works .sites-works-6 .site-overlay .overlay-content i {
+section.works .sites-works-6 .site-overlay .overlay-content i {
   font-size: 30px;
   margin-top: 45px;
 }
-section.works .container-works .sites-works-6 .site-overlay .overlay-content .bg-h3 {
+section.works .sites-works-6 .site-overlay .overlay-content .bg-h3 {
   width: 340px;
   height: 50px;
   position: relative;
   bottom: -20px;
   background-color: rgba(15, 17, 74, 0.631372549);
 }
-section.works .container-works .sites-works-6 .site-overlay .overlay-content .bg-h3 .overlay-title {
+section.works .sites-works-6 .site-overlay .overlay-content .bg-h3 .overlay-title {
   position: relative;
   top: 13px;
 }
-section.works .container-works .sites-works-6 .site-modal {
+section.works .sites-works-6 .site-modal {
   display: none;
   position: absolute;
   left: 50%;
@@ -1173,19 +1082,19 @@ section.works .container-works .sites-works-6 .site-modal {
   background-color: #e7e7e7;
   z-index: 1;
 }
-section.works .container-works .sites-works-6 .site-modal .modal-content picture img {
+section.works .sites-works-6 .site-modal .modal-content picture img {
   width: 95%;
   height: 60%;
   margin: 15px auto;
 }
-section.works .container-works .sites-works-6 .site-modal .modal-content .modal-content-p {
+section.works .sites-works-6 .site-modal .modal-content .modal-content-p {
   font-size: 15px;
   font-weight: 300;
   margin: 35px auto;
   padding: 0px 25px;
   text-align: center;
 }
-section.works .container-works .sites-works-6 .site-modal .modal-content .modal-header {
+section.works .sites-works-6 .site-modal .modal-content .modal-header {
   background-color: #ddd;
   display: flex;
   flex-direction: column;
@@ -1196,14 +1105,14 @@ section.works .container-works .sites-works-6 .site-modal .modal-content .modal-
   border-bottom: 1px solid #a7a3a3;
   color: #6d6c6c;
 }
-section.works .container-works .sites-works-6 .site-modal .modal-content .modal-header h2 {
+section.works .sites-works-6 .site-modal .modal-content .modal-header h2 {
   font-size: 20px;
   font-weight: 300;
 }
-section.works .container-works .sites-works-6 .site-modal .modal-content .modal-header p {
+section.works .sites-works-6 .site-modal .modal-content .modal-header p {
   margin-top: 5px;
 }
-section.works .container-works .sites-works-6 .site-modal .modal-content .close-btn {
+section.works .sites-works-6 .site-modal .modal-content .close-btn {
   position: absolute;
   top: 0px;
   right: 15px;
@@ -1211,15 +1120,15 @@ section.works .container-works .sites-works-6 .site-modal .modal-content .close-
   color: #a7a3a3;
   cursor: pointer;
 }
-section.works .container-works .sites-works-6 .site-modal .modal-content .btn-container {
+section.works .sites-works-6 .site-modal .modal-content .btn-container {
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: first baseline;
-  gap: 10px;
+  gap: 40px;
   margin-top: 50px;
 }
-section.works .container-works .sites-works-6 .site-modal .modal-content .btn-container .btn-modal {
+section.works .sites-works-6 .site-modal .modal-content .btn-container .btn-modal {
   width: 110px;
   height: 40px;
   background-color: rgb(247, 245, 245);
@@ -1227,25 +1136,7 @@ section.works .container-works .sites-works-6 .site-modal .modal-content .btn-co
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-section.works .container-works .sites-works-6 .site-modal .modal-content .modal-footer {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  margin-top: 50px;
-  width: 100%;
-  height: 50px;
-  background-color: #ddd;
-  border-top: 1px solid #a7a3a3;
-}
-section.works .container-works .sites-works-6 .site-modal .modal-content .modal-footer button {
-  width: 80px;
-  height: 40px;
-  margin-right: 25px;
-  border-radius: 0;
-  border: 2px solid rgba(15, 17, 74, 0.631372549);
-  cursor: pointer;
-}
-section.works .container-works .sites-works-7 {
+section.works .sites-works-7 {
   overflow: hidden;
   margin: 30px auto;
   width: 340px;
@@ -1257,7 +1148,7 @@ section.works .container-works .sites-works-7 {
   background-position: center;
   background-color: rgba(0, 0, 0, 0.521);
 }
-section.works .container-works .sites-works-7 .site-overlay {
+section.works .sites-works-7 .site-overlay {
   background: rgba(0, 0, 0, 0.781);
   position: relative;
   width: 340px;
@@ -1271,26 +1162,26 @@ section.works .container-works .sites-works-7 .site-overlay {
   align-items: center;
   cursor: pointer;
 }
-section.works .container-works .sites-works-7 .site-overlay .overlay-content {
+section.works .sites-works-7 .site-overlay .overlay-content {
   text-align: center;
   color: #ddd;
 }
-section.works .container-works .sites-works-7 .site-overlay .overlay-content i {
+section.works .sites-works-7 .site-overlay .overlay-content i {
   font-size: 30px;
   margin-top: 45px;
 }
-section.works .container-works .sites-works-7 .site-overlay .overlay-content .bg-h3 {
+section.works .sites-works-7 .site-overlay .overlay-content .bg-h3 {
   width: 340px;
   height: 50px;
   position: relative;
   bottom: -20px;
   background-color: rgba(15, 17, 74, 0.631372549);
 }
-section.works .container-works .sites-works-7 .site-overlay .overlay-content .bg-h3 .overlay-title {
+section.works .sites-works-7 .site-overlay .overlay-content .bg-h3 .overlay-title {
   position: relative;
   top: 13px;
 }
-section.works .container-works .sites-works-7 .site-modal {
+section.works .sites-works-7 .site-modal {
   display: none;
   position: absolute;
   left: 50%;
@@ -1300,19 +1191,19 @@ section.works .container-works .sites-works-7 .site-modal {
   background-color: #e7e7e7;
   z-index: 1;
 }
-section.works .container-works .sites-works-7 .site-modal .modal-content picture img {
+section.works .sites-works-7 .site-modal .modal-content picture img {
   width: 95%;
   height: 60%;
   margin: 15px auto;
 }
-section.works .container-works .sites-works-7 .site-modal .modal-content .modal-content-p {
+section.works .sites-works-7 .site-modal .modal-content .modal-content-p {
   font-size: 15px;
   font-weight: 300;
   margin: 35px auto;
   padding: 0px 25px;
   text-align: center;
 }
-section.works .container-works .sites-works-7 .site-modal .modal-content .modal-header {
+section.works .sites-works-7 .site-modal .modal-content .modal-header {
   background-color: #ddd;
   display: flex;
   flex-direction: column;
@@ -1323,14 +1214,14 @@ section.works .container-works .sites-works-7 .site-modal .modal-content .modal-
   border-bottom: 1px solid #a7a3a3;
   color: #6d6c6c;
 }
-section.works .container-works .sites-works-7 .site-modal .modal-content .modal-header h2 {
+section.works .sites-works-7 .site-modal .modal-content .modal-header h2 {
   font-size: 20px;
   font-weight: 300;
 }
-section.works .container-works .sites-works-7 .site-modal .modal-content .modal-header p {
+section.works .sites-works-7 .site-modal .modal-content .modal-header p {
   margin-top: 5px;
 }
-section.works .container-works .sites-works-7 .site-modal .modal-content .close-btn {
+section.works .sites-works-7 .site-modal .modal-content .close-btn {
   position: absolute;
   top: 0px;
   right: 15px;
@@ -1338,15 +1229,15 @@ section.works .container-works .sites-works-7 .site-modal .modal-content .close-
   color: #a7a3a3;
   cursor: pointer;
 }
-section.works .container-works .sites-works-7 .site-modal .modal-content .btn-container {
+section.works .sites-works-7 .site-modal .modal-content .btn-container {
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: first baseline;
-  gap: 10px;
+  gap: 40px;
   margin-top: 50px;
 }
-section.works .container-works .sites-works-7 .site-modal .modal-content .btn-container .btn-modal {
+section.works .sites-works-7 .site-modal .modal-content .btn-container .btn-modal {
   width: 110px;
   height: 40px;
   background-color: rgb(247, 245, 245);
@@ -1354,25 +1245,7 @@ section.works .container-works .sites-works-7 .site-modal .modal-content .btn-co
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-section.works .container-works .sites-works-7 .site-modal .modal-content .modal-footer {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  margin-top: 50px;
-  width: 100%;
-  height: 50px;
-  background-color: #ddd;
-  border-top: 1px solid #a7a3a3;
-}
-section.works .container-works .sites-works-7 .site-modal .modal-content .modal-footer button {
-  width: 80px;
-  height: 40px;
-  margin-right: 25px;
-  border-radius: 0;
-  border: 2px solid rgba(15, 17, 74, 0.631372549);
-  cursor: pointer;
-}
-section.works .container-works .sites-works-8 {
+section.works .sites-works-8 {
   overflow: hidden;
   margin: 30px auto;
   width: 340px;
@@ -1384,7 +1257,7 @@ section.works .container-works .sites-works-8 {
   background-position: center;
   background-color: rgba(0, 0, 0, 0.521);
 }
-section.works .container-works .sites-works-8 .site-overlay {
+section.works .sites-works-8 .site-overlay {
   background: rgba(0, 0, 0, 0.781);
   position: relative;
   width: 340px;
@@ -1398,26 +1271,26 @@ section.works .container-works .sites-works-8 .site-overlay {
   align-items: center;
   cursor: pointer;
 }
-section.works .container-works .sites-works-8 .site-overlay .overlay-content {
+section.works .sites-works-8 .site-overlay .overlay-content {
   text-align: center;
   color: #ddd;
 }
-section.works .container-works .sites-works-8 .site-overlay .overlay-content i {
+section.works .sites-works-8 .site-overlay .overlay-content i {
   font-size: 30px;
   margin-top: 45px;
 }
-section.works .container-works .sites-works-8 .site-overlay .overlay-content .bg-h3 {
+section.works .sites-works-8 .site-overlay .overlay-content .bg-h3 {
   width: 340px;
   height: 50px;
   position: relative;
   bottom: -20px;
   background-color: rgba(15, 17, 74, 0.631372549);
 }
-section.works .container-works .sites-works-8 .site-overlay .overlay-content .bg-h3 .overlay-title {
+section.works .sites-works-8 .site-overlay .overlay-content .bg-h3 .overlay-title {
   position: relative;
   top: 13px;
 }
-section.works .container-works .sites-works-8 .site-modal {
+section.works .sites-works-8 .site-modal {
   display: none;
   position: absolute;
   left: 50%;
@@ -1427,19 +1300,19 @@ section.works .container-works .sites-works-8 .site-modal {
   background-color: #e7e7e7;
   z-index: 1;
 }
-section.works .container-works .sites-works-8 .site-modal .modal-content picture img {
+section.works .sites-works-8 .site-modal .modal-content picture img {
   width: 95%;
   height: 60%;
   margin: 15px auto;
 }
-section.works .container-works .sites-works-8 .site-modal .modal-content .modal-content-p {
+section.works .sites-works-8 .site-modal .modal-content .modal-content-p {
   font-size: 15px;
   font-weight: 300;
   margin: 35px auto;
   padding: 0px 25px;
   text-align: center;
 }
-section.works .container-works .sites-works-8 .site-modal .modal-content .modal-header {
+section.works .sites-works-8 .site-modal .modal-content .modal-header {
   background-color: #ddd;
   display: flex;
   flex-direction: column;
@@ -1450,14 +1323,14 @@ section.works .container-works .sites-works-8 .site-modal .modal-content .modal-
   border-bottom: 1px solid #a7a3a3;
   color: #6d6c6c;
 }
-section.works .container-works .sites-works-8 .site-modal .modal-content .modal-header h2 {
+section.works .sites-works-8 .site-modal .modal-content .modal-header h2 {
   font-size: 20px;
   font-weight: 300;
 }
-section.works .container-works .sites-works-8 .site-modal .modal-content .modal-header p {
+section.works .sites-works-8 .site-modal .modal-content .modal-header p {
   margin-top: 5px;
 }
-section.works .container-works .sites-works-8 .site-modal .modal-content .close-btn {
+section.works .sites-works-8 .site-modal .modal-content .close-btn {
   position: absolute;
   top: 0px;
   right: 15px;
@@ -1465,15 +1338,15 @@ section.works .container-works .sites-works-8 .site-modal .modal-content .close-
   color: #a7a3a3;
   cursor: pointer;
 }
-section.works .container-works .sites-works-8 .site-modal .modal-content .btn-container {
+section.works .sites-works-8 .site-modal .modal-content .btn-container {
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: first baseline;
-  gap: 10px;
+  gap: 40px;
   margin-top: 50px;
 }
-section.works .container-works .sites-works-8 .site-modal .modal-content .btn-container .btn-modal {
+section.works .sites-works-8 .site-modal .modal-content .btn-container .btn-modal {
   width: 110px;
   height: 40px;
   background-color: rgb(247, 245, 245);
@@ -1481,25 +1354,7 @@ section.works .container-works .sites-works-8 .site-modal .modal-content .btn-co
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-section.works .container-works .sites-works-8 .site-modal .modal-content .modal-footer {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  margin-top: 50px;
-  width: 100%;
-  height: 50px;
-  background-color: #ddd;
-  border-top: 1px solid #a7a3a3;
-}
-section.works .container-works .sites-works-8 .site-modal .modal-content .modal-footer button {
-  width: 80px;
-  height: 40px;
-  margin-right: 25px;
-  border-radius: 0;
-  border: 2px solid rgba(15, 17, 74, 0.631372549);
-  cursor: pointer;
-}
-section.works .container-works .sites-works-9 {
+section.works .sites-works-9 {
   overflow: hidden;
   margin: 30px auto;
   width: 340px;
@@ -1511,7 +1366,7 @@ section.works .container-works .sites-works-9 {
   background-position: center;
   background-color: rgba(0, 0, 0, 0.521);
 }
-section.works .container-works .sites-works-9 .site-overlay {
+section.works .sites-works-9 .site-overlay {
   background: rgba(0, 0, 0, 0.781);
   position: relative;
   width: 340px;
@@ -1525,26 +1380,26 @@ section.works .container-works .sites-works-9 .site-overlay {
   align-items: center;
   cursor: pointer;
 }
-section.works .container-works .sites-works-9 .site-overlay .overlay-content {
+section.works .sites-works-9 .site-overlay .overlay-content {
   text-align: center;
   color: #ddd;
 }
-section.works .container-works .sites-works-9 .site-overlay .overlay-content i {
+section.works .sites-works-9 .site-overlay .overlay-content i {
   font-size: 30px;
   margin-top: 45px;
 }
-section.works .container-works .sites-works-9 .site-overlay .overlay-content .bg-h3 {
+section.works .sites-works-9 .site-overlay .overlay-content .bg-h3 {
   width: 340px;
   height: 50px;
   position: relative;
   bottom: -20px;
   background-color: rgba(15, 17, 74, 0.631372549);
 }
-section.works .container-works .sites-works-9 .site-overlay .overlay-content .bg-h3 .overlay-title {
+section.works .sites-works-9 .site-overlay .overlay-content .bg-h3 .overlay-title {
   position: relative;
   top: 13px;
 }
-section.works .container-works .sites-works-9 .site-modal {
+section.works .sites-works-9 .site-modal {
   display: none;
   position: absolute;
   left: 50%;
@@ -1554,19 +1409,19 @@ section.works .container-works .sites-works-9 .site-modal {
   background-color: #e7e7e7;
   z-index: 1;
 }
-section.works .container-works .sites-works-9 .site-modal .modal-content picture img {
+section.works .sites-works-9 .site-modal .modal-content picture img {
   width: 95%;
   height: 60%;
   margin: 15px auto;
 }
-section.works .container-works .sites-works-9 .site-modal .modal-content .modal-content-p {
+section.works .sites-works-9 .site-modal .modal-content .modal-content-p {
   font-size: 15px;
   font-weight: 300;
   margin: 35px auto;
   padding: 0px 25px;
   text-align: center;
 }
-section.works .container-works .sites-works-9 .site-modal .modal-content .modal-header {
+section.works .sites-works-9 .site-modal .modal-content .modal-header {
   background-color: #ddd;
   display: flex;
   flex-direction: column;
@@ -1577,14 +1432,14 @@ section.works .container-works .sites-works-9 .site-modal .modal-content .modal-
   border-bottom: 1px solid #a7a3a3;
   color: #6d6c6c;
 }
-section.works .container-works .sites-works-9 .site-modal .modal-content .modal-header h2 {
+section.works .sites-works-9 .site-modal .modal-content .modal-header h2 {
   font-size: 20px;
   font-weight: 300;
 }
-section.works .container-works .sites-works-9 .site-modal .modal-content .modal-header p {
+section.works .sites-works-9 .site-modal .modal-content .modal-header p {
   margin-top: 5px;
 }
-section.works .container-works .sites-works-9 .site-modal .modal-content .close-btn {
+section.works .sites-works-9 .site-modal .modal-content .close-btn {
   position: absolute;
   top: 0px;
   right: 15px;
@@ -1592,39 +1447,21 @@ section.works .container-works .sites-works-9 .site-modal .modal-content .close-
   color: #a7a3a3;
   cursor: pointer;
 }
-section.works .container-works .sites-works-9 .site-modal .modal-content .btn-container {
+section.works .sites-works-9 .site-modal .modal-content .btn-container {
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: first baseline;
-  gap: 10px;
+  gap: 40px;
   margin-top: 50px;
 }
-section.works .container-works .sites-works-9 .site-modal .modal-content .btn-container .btn-modal {
+section.works .sites-works-9 .site-modal .modal-content .btn-container .btn-modal {
   width: 110px;
   height: 40px;
   background-color: rgb(247, 245, 245);
   border: 2px solid rgba(15, 17, 74, 0.631372549);
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-}
-section.works .container-works .sites-works-9 .site-modal .modal-content .modal-footer {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  margin-top: 50px;
-  width: 100%;
-  height: 50px;
-  background-color: #ddd;
-  border-top: 1px solid #a7a3a3;
-}
-section.works .container-works .sites-works-9 .site-modal .modal-content .modal-footer button {
-  width: 80px;
-  height: 40px;
-  margin-right: 25px;
-  border-radius: 0;
-  border: 2px solid rgba(15, 17, 74, 0.631372549);
-  cursor: pointer;
 }
 
 section.getInTouch {
@@ -1975,6 +1812,13 @@ footer p {
     font-size: 35px;
     top: 3px;
   }
+  section.works .container-works .sites-works-1 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-2 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-3 .site-modal .modal-content .btn-container,
+  section.works .container-works .sites-works-4 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-5 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-6 .site-modal .modal-content .btn-container,
+  section.works .container-works .sites-works-7 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-8 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-9 .site-modal .modal-content .btn-container {
+    gap: 25px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+  }
   section.getInTouch p.getInTouch-text {
     width: 280px;
   }
@@ -2137,10 +1981,17 @@ footer p {
   section.works {
     height: 2180px;
   }
+  section.works .container-works .sites-works-1 .site-modal .modal-content .btn-container {
+    gap: 35px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 896px) {
+  section.skills .container-skills {
+    height: 410px;
+  }
   section.skills .container-skills .container-tools {
-    width: 50%;
+    width: 60%;
+    height: 350px;
   }
   section.skills .container-skills .container-tools .tools-text {
     font-size: 19px;
@@ -2148,29 +1999,29 @@ footer p {
     margin-left: 30px;
   }
   section.skills .container-skills .container-tools .tools-img {
-    width: 90%;
-    margin: 0px 35px;
-    padding: 10px 0px 10px 5px;
+    width: 450px;
+    margin: 0px 20px;
+    padding: 10px 0px 10px 0px;
   }
   section.skills .container-skills .container-tools .tools-img .tools {
-    margin: 15px 17px;
+    margin: 15px 15px;
     width: 44px;
     height: 54px;
   }
   section.skills .container-skills .container-school {
-    width: 50%;
+    width: 570px;
   }
   section.skills .container-skills .container-school .school-text {
     font-size: 19px;
   }
   section.skills .container-skills .container-school .img-college {
-    width: 48%;
+    width: 160px;
     margin-top: 45px;
   }
   section.skills .container-skills .container-school .curses {
-    margin-top: 30px;
+    margin-top: 10px;
     gap: 15px;
-    width: 72%;
+    width: 200px;
   }
   section.works {
     height: 1300px;
