@@ -40,7 +40,7 @@ function showOverlay(element) {
     }
   });
 
-  if (window.innerWidth <= 500) {
+  if (window.innerWidth <= 700) {
     const overlay = element.querySelector(".site-overlay");
     overlay.style.left = "0px"; // Abrindo o overlay
   }

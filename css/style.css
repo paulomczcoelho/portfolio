@@ -2050,7 +2050,7 @@ footer p {
     max-width: 400px;
   }
   section.skills .container-skills .container-school .img-college {
-    width: 48%;
+    width: 210px;
     margin-top: 45px;
   }
   section.skills .container-skills .container-school .curses {
@@ -2060,6 +2060,145 @@ footer p {
   }
   section.works {
     height: 1350px;
+  }
+}
+@media screen and (min-width: 1115px) and (max-width: 1300px) {
+  section.skills .container-skills .container-tools {
+    width: 480px;
+  }
+  section.skills .container-skills .container-tools .tools-text {
+    width: 100%;
+    font-size: 19px;
+    margin-left: 30px;
+  }
+  section.skills .container-skills .container-tools .tools-img {
+    width: 95%;
+    margin: 0px 0px;
+    padding: 10px 0px 10px 5px;
+  }
+  section.skills .container-skills .container-tools .tools-img .tools {
+    margin: 15px 17px;
+    width: 44px;
+    height: 54px;
+  }
+  section.skills .container-skills .container-school {
+    max-width: 400px;
+  }
+  section.skills .container-skills .container-school .school-text {
+    margin-left: 50px;
+  }
+  section.skills .container-skills .container-school .img-college {
+    width: 235px;
+    margin-top: 40px;
+    margin-left: 50px;
+  }
+  section.skills .container-skills .container-school .curses {
+    margin-top: 15px;
+    margin-left: 50px;
+    gap: 15px;
+    width: 72%;
+  }
+}
+@media screen and (min-width: 1301px) and (max-width: 1700px) {
+  header .container {
+    max-width: 1620px;
+  }
+  section.skills .container-skills {
+    gap: 60px;
+  }
+  section.skills .container-skills .container-tools {
+    width: 480px;
+  }
+  section.skills .container-skills .container-tools .tools-text {
+    width: 100%;
+    font-size: 19px;
+    margin-left: 30px;
+  }
+  section.skills .container-skills .container-tools .tools-img {
+    width: 100%;
+    margin: 0px 0px;
+    padding: 10px 0px 10px 5px;
+  }
+  section.skills .container-skills .container-tools .tools-img .tools {
+    margin: 15px 17px;
+    width: 50px;
+    height: 64px;
+  }
+  section.skills .container-skills .container-school {
+    max-width: 400px;
+  }
+  section.skills .container-skills .container-school .school-text {
+    margin-left: 50px;
+  }
+  section.skills .container-skills .container-school .img-college {
+    width: 265px;
+    margin-top: 40px;
+    margin-left: 50px;
+  }
+  section.skills .container-skills .container-school .curses {
+    margin-top: 15px;
+    margin-left: 50px;
+    gap: 15px;
+    width: 72%;
+  }
+  section.works {
+    height: 900px;
+  }
+  section.works .container-works {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1701px) and (max-width: 2000px) {
+  header .container {
+    max-width: 1880px;
+  }
+  section.skills {
+    height: 780px;
+  }
+  section.skills .container-skills {
+    gap: 200px;
+  }
+  section.skills .container-skills .container-tools {
+    width: 580px;
+  }
+  section.skills .container-skills .container-tools .tools-text {
+    width: 100%;
+    font-size: 21px;
+    margin-left: 50px;
+  }
+  section.skills .container-skills .container-tools .tools-img {
+    width: 100%;
+    margin: 25px -20px;
+    padding: 15px 0px 25px 10px;
+  }
+  section.skills .container-skills .container-tools .tools-img .tools {
+    margin: 15px 25px;
+    width: 54px;
+    height: 74px;
+  }
+  section.skills .container-skills .container-school {
+    max-width: 400px;
+  }
+  section.skills .container-skills .container-school .school-text {
+    margin-left: 50px;
+    font-size: 21px;
+  }
+  section.skills .container-skills .container-school .img-college {
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 50px;
+  }
+  section.skills .container-skills .container-school .curses {
+    margin-top: 15px;
+    margin-left: 50px;
+    gap: 15px;
+    width: 80%;
+  }
+  section.works {
+    height: 900px;
+  }
+  section.works .container-works {
+    width: 70%;
   }
 }
 

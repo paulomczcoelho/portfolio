@@ -2200,7 +2200,7 @@ footer{
       .container-school{
         max-width:400px ;
         .img-college{
-          width: 48%;
+          width: 210px;
           margin-top: 45px;
         }
         .curses{
@@ -2215,6 +2215,153 @@ footer{
     height: 1350px;
   } 
 }
-@media screen and (min-width: 115px) and (max-width: 1300px){
-
+@media screen and (min-width: 1115px) and (max-width: 1300px){
+  section.skills{ 
+    .container-skills{
+      .container-tools{
+        width: 480px;
+        .tools-text{
+          width: 100%;
+          font-size: 19px;
+          margin-left: 30px;
+        }
+        .tools-img{
+          width: 95%;
+          margin: 0px 0px;
+          padding: 10px 0px 10px 5px;
+          .tools{
+            margin: 15px 17px;
+            width: 44px;
+            height: 54px;
+          }
+        }
+      }
+      .container-school{
+        max-width:400px ;
+        .school-text{
+          margin-left: 50px;
+        }
+        .img-college{
+          width: 235px;
+          margin-top: 40px;
+          margin-left: 50px;
+        }
+        .curses{
+          margin-top: 15px;
+          margin-left: 50px;
+          gap: 15px;
+          width: 72%;
+        }
+      }
+    }
+  }   
+}
+@media screen and (min-width: 1301px) and (max-width: 1700px){
+  header{
+    .container{
+      max-width: 1620px;
+    }
+  }      
+  section.skills{ 
+    .container-skills{
+      gap: 60px;
+      .container-tools{
+        width: 480px;
+        .tools-text{
+          width: 100%;
+          font-size: 19px;
+          margin-left: 30px;
+        }
+        .tools-img{
+          width: 100%;
+          margin: 0px 0px;
+          padding: 10px 0px 10px 5px;
+          .tools{
+            margin: 15px 17px;
+            width: 50px;
+            height: 64px;
+          }
+        }
+      }
+      .container-school{
+        max-width:400px ;
+        .school-text{
+          margin-left: 50px;
+        }
+        .img-college{
+          width: 265px;
+          margin-top: 40px;
+          margin-left: 50px;
+        }
+        .curses{
+          margin-top: 15px;
+          margin-left: 50px;
+          gap: 15px;
+          width: 72%;
+        }
+      }
+    }
+  } 
+  section.works{
+    height: 900px;
+    .container-works{
+      width: 80%;
+    }
+  }
+}  
+@media screen and (min-width: 1701px) and (max-width: 2000px){
+  header{
+    .container{
+      max-width: 1880px;
+    }
+  }
+  section.skills{ 
+    height: 780px;
+    .container-skills{
+      gap: 200px;
+      .container-tools{
+        width: 580px;
+        .tools-text{
+          width: 100%;
+          font-size: 21px;
+          margin-left: 50px;
+        }
+        .tools-img{
+          width: 100%;
+          margin: 25px -20px;
+          padding: 15px 0px 25px 10px;
+          .tools{
+            margin: 15px 25px;
+            width: 54px;
+            height: 74px;
+          }
+        }
+      }
+      .container-school{
+        max-width:400px ;
+        .school-text{
+          margin-left: 50px;
+          font-size: 21px;
+        }
+        .img-college{
+          width: 300px;
+          margin-top: 40px;
+          margin-left: 50px;
+        }
+        .curses{
+          margin-top: 15px;
+          margin-left: 50px;
+          gap: 15px;
+          width: 80%;
+        }
+      }
+    }
+  } 
+  section.works{
+    height: 900px;
+    
+    .container-works{
+      width: 70%;
+    }
+  }
 }
