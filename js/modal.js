@@ -2,6 +2,7 @@
 const overlayContents = document.querySelectorAll(".overlay-content");
 // Get all modal elements
 const modals = document.querySelectorAll(".site-modal");
+let conteinerWorks = document.querySelectorAll(".conteiner-works");
 
 // Variable to keep track of the currently open modal
 let openModalIndex = null;
@@ -53,14 +54,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
   allSiteWorks.forEach((siteWork) => {
     siteWork.addEventListener("mouseover", function () {
-      if (window.innerWidth > 768) {
+      if (window.innerWidth > 500) {
         const overlay = siteWork.querySelector(".site-overlay");
         overlay.style.left = "0px";
+        // siteWork.style.filter = "grayscale(0%)";
       }
     });
 
     siteWork.addEventListener("mouseleave", function () {
-      if (window.innerWidth > 768) {
+      if (window.innerWidth > 500) {
         const overlay = siteWork.querySelector(".site-overlay");
         overlay.style.left = "-340px";
       }
@@ -120,9 +122,63 @@ function menuOnClick() {
   document.getElementById("nav").classList.toggle("change");
   document.getElementById("menu-bg").classList.toggle("change-bg");
 }
-document
-  .getElementById("download-button")
-  .addEventListener("click", function () {
-    // Redirecionar para o arquivo de currículo para download
-    window.location.href = "resume.pdf";
+
+// ... (seu código existente)
+
+// Seletor para todos os links do menu no menu mobile
+const mobileMenuLinks = document.querySelectorAll(".nav a");
+
+// Função para adicionar comportamento de rolagem suave aos links do menu mobile
+function smoothScrollMobile(event) {
+  event.preventDefault();
+  const targetId = this.getAttribute("href");
+  const targetSection = document.querySelector(targetId);
+
+  if (targetSection) {
+    // Calcule o topo de destino com um deslocamento adicional para o título da seção
+    const titleHeight = targetSection.querySelector("h1").offsetHeight; // Altura do título
+    const targetTop = targetSection.offsetTop - titleHeight;
+
+    // Feche o menu após clicar em um link (opcional)
+    document.getElementById("menu-bar").classList.remove("change");
+    document.getElementById("nav").classList.remove("change");
+    document.getElementById("menu-bg").classList.remove("change-bg");
+
+    window.scrollTo({
+      top: targetTop,
+      behavior: "smooth",
+    });
+  }
+}
+
+// Adicione evento de clique suave a cada link do menu mobile
+mobileMenuLinks.forEach((link) => {
+  link.addEventListener("click", smoothScrollMobile);
+});
+
+// Função para destacar o link ativo no menu mobile
+function highlightActiveMobileLink() {
+  const sections = document.querySelectorAll("section");
+
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    const sectionBottom = sectionTop + section.offsetHeight;
+    const scrollY = window.scrollY + window.innerHeight / 2;
+
+    if (scrollY >= sectionTop && scrollY < sectionBottom) {
+      const targetLink = document.querySelector(
+        `.nav a[href="#${section.id}"]`
+      );
+
+      if (targetLink) {
+        mobileMenuLinks.forEach((link) => link.classList.remove("active"));
+        targetLink.classList.add("active");
+      }
+    }
   });
+}
+
+// Adicione evento de rolagem para destacar o link ativo no menu mobile
+window.addEventListener("scroll", highlightActiveMobileLink);
+
+// ... (seu código existente)

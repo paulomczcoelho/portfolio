@@ -36,7 +36,7 @@ header{
     .display-menu{
       display: flex;
       justify-content: space-between;
-      width: 550px;
+      width: 620px;
       margin: 10px;
       .li-menu a{
         color: aliceblue;
@@ -61,8 +61,8 @@ header{
   }
   
   #menu-bar {
-    width: 45px;
-    height: 40px;
+    width: 35px;
+    height: 30px;
     margin: 15px 20px 0px 20px;
     cursor: pointer;
   }
@@ -150,9 +150,9 @@ header{
   }
   
   .change-bg {
-    width: 520px;
-    height: 460px;
-    transform: translate(-25%,-25%);
+    width: 530px;
+    height: 465px;
+    transform: translate(-27%,-20%);
   }
 
 

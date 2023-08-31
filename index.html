@@ -23,12 +23,30 @@
         <ul class="display-menu">
           <li class="li-menu"><a href="#s-bg-paralax">Home</a></li>
           <li class="li-menu"><a href="#s-about">About me</a></li>
+          <li class="li-menu"><a href="#s-whatIDo">What I Do</a></li>
           <li class="li-menu"><a href="#s-skills">Experince</a></li>
           <li class="li-menu"><a href="#s-works">Works</a></li>
           <li class="li-menu"><a href="#s-getInTouch">Contact</a></li>
         </ul>
       </nav>
       <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()" class="mobile-menu-button">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+        <nav class="nav" id="nav">
+          <ul>
+            <li><a href="#s-bg-paralax" class="menu-link">Home</a></li>
+            <li><a href="#s-about" class="menu-link">About</a></li>
+            <li><a href="#s-whatIDo" class="menu-link">What I Do</a></li>
+            <li><a href="#s-skills" class="menu-link">Experience</a></li>
+            <li><a href="#s-works" class="menu-link">Works</a></li>
+            <li><a href="#s-getInTouch" class="menu-link">Contact</a></li>
+          </ul>
+        </nav> 
+      </div>
+      <!-- <div id="menu">
         <div id="menu-bar" onclick="menuOnClick()">
           <div id="bar1" class="bar"></div>
           <div id="bar2" class="bar"></div>
@@ -43,7 +61,7 @@
             <li><a href="#s-getInTouch">Contact</a></li>
           </ul>
         </nav> 
-      </div>
+      </div> -->
       <div class="menu-bg" id="menu-bg"></div>
   </div>
 </header>
@@ -174,7 +192,7 @@
 <section class="works" id="s-works">
   <h1 class="works-text">WHAT I'VE DONE</h1>
   <div class="container-works">
-      <div class="sites-works-1" onclick="showOverlay(this)">
+      <div class="sites-works-1 grayscale-1"  onclick="showOverlay(this)">
           <div class="site-overlay">
               <div class="overlay-content">
                   <i class="fas fa-search-plus"></i>
