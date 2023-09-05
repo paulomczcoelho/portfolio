@@ -64,7 +64,7 @@ section.about-me{
     flex-direction: column;
     align-items: center;
     .about-me-text{
-      margin-top: 60px;
+      margin-top: 80px;
       font-size: 30px;
       font-family: "Lato", sans-serif;
       font-weight: 300;
@@ -94,7 +94,7 @@ section.about-me{
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      width: 52%;
+      width: 40%;
       height: 200px;
       margin-top: 20px;
       background-color: #d9d9d98a;
@@ -140,7 +140,7 @@ section.whatIDo{
     width: 100%;
     height: 550px;
     .whatIDo-title{
-      margin-top: 70px;
+      margin-top: 80px;
       margin-bottom: 40px;
       font-family: "Lato", sans-serif;
       font-size: 30px;
@@ -211,7 +211,7 @@ section.skills{
   background-color: white;
   .skills-text{
     position: relative;
-    top: 60px;
+    top: 80px;
     margin-bottom: 20px;
     font-family: "Lato", sans-serif;
     font-size: 30px;
@@ -335,12 +335,12 @@ section.cv{
   }
 }
 section.works{
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   width: 100%;
   height: 138vh;
   .works-text{
     position: relative;
-    top: 60px;
+    top: 80px;
     margin-bottom: 85px;
     font-family: "Lato", sans-serif;
     font-size: 30px;
@@ -352,13 +352,13 @@ section.works{
   .container-works{
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 60%;
     margin: 50px auto 0;
     height: 174px;
     .sites-works-1{
       overflow: hidden;
       margin: 30px auto;
-      width: 339px;
+      width: 340px;
       height: 163px;
       box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.521);
       background: url("../img/cosinebo.png");
@@ -409,6 +409,7 @@ section.works{
         width: 60%;
         background-color: #e7e7e7;
         z-index: 1;
+        box-shadow: 2px 2px 4px 1px rgb(87, 84, 84);
         .modal-content{
           picture{
             img{
@@ -431,7 +432,7 @@ section.works{
             justify-content: center;
             align-items: center;
             width: 100%;
-            height: 75px;
+            height: 60px;
             border-bottom: 1px solid #a7a3a3;;
             color: #6d6c6c;
             h2{
@@ -545,7 +546,7 @@ section.works{
             justify-content: center;
             align-items: center;
             width: 100%;
-            height: 75px;
+            height: 60px;
             border-bottom: 1px solid #a7a3a3;;
             color: #6d6c6c;
             h2{
@@ -658,7 +659,7 @@ section.works{
             justify-content: center;
             align-items: center;
             width: 100%;
-            height: 75px;
+            height: 60px;
             border-bottom: 1px solid #a7a3a3;;
             color: #6d6c6c;
             h2{
@@ -771,7 +772,7 @@ section.works{
             justify-content: center;
             align-items: center;
             width: 100%;
-            height: 75px;
+            height: 60px;
             border-bottom: 1px solid #a7a3a3;;
             color: #6d6c6c;
             h2{
@@ -784,7 +785,7 @@ section.works{
           }
           .close-btn{
             position: absolute;
-            top: 0px;
+            top: -5px;
             right: 15px;
             font-size: 50px;
             color: #a7a3a3;
@@ -884,7 +885,7 @@ section.works{
             justify-content: center;
             align-items: center;
             width: 100%;
-            height: 75px;
+            height: 60px;
             border-bottom: 1px solid #a7a3a3;;
             color: #6d6c6c;
             h2{
@@ -997,7 +998,7 @@ section.works{
             justify-content: center;
             align-items: center;
             width: 100%;
-            height: 75px;
+            height: 60px;
             border-bottom: 1px solid #a7a3a3;;
             color: #6d6c6c;
             h2{
@@ -1110,7 +1111,7 @@ section.works{
             justify-content: center;
             align-items: center;
             width: 100%;
-            height: 75px;
+            height: 60px;
             border-bottom: 1px solid #a7a3a3;;
             color: #6d6c6c;
             h2{
@@ -1223,7 +1224,7 @@ section.works{
             justify-content: center;
             align-items: center;
             width: 100%;
-            height: 75px;
+            height: 60px;
             border-bottom: 1px solid #a7a3a3;;
             color: #6d6c6c;
             h2{
@@ -1336,7 +1337,7 @@ section.works{
             justify-content: center;
             align-items: center;
             width: 100%;
-            height: 75px;
+            height: 60px;
             border-bottom: 1px solid #a7a3a3;;
             color: #6d6c6c;
             h2{
@@ -1593,16 +1594,16 @@ footer{
     .container-about-me{
       .about-me-text{
         font-size: 1.3rem;
-        margin-top: 40px;
+        margin-top: 60px;
       }
       .img-avatar{
         width: 145px;
         height: 145px;
       }
       .text-about-me{
-        width: 250px;
+        width: 330px;
         margin-top: 0px;
-        font-size: 10px;
+        font-size: 13px;
       }
       .self-proclamations{
         width: 85%;
@@ -1616,9 +1617,10 @@ footer{
             width: 35%;
             font-size: 10px;
             font-family: 'Roboto Slab', sans-serif;
-            .card-img{
-              width: 45px;
-              height: 45px;
+            i{
+              font-size: 40px;
+              margin-top: 10px;
+              margin-bottom: 10px;
             }
           }
         }
@@ -1630,7 +1632,7 @@ footer{
       height: 790px;
       .whatIDo-title{
         font-size: 1.3rem;
-        margin-top: 40px;
+        margin-top: 60px;
         margin-bottom: 35px;
       }
       .container-row{
@@ -1671,7 +1673,7 @@ footer{
   }
   section.skills{ 
     .skills-text{
-      // margin-top: 60px;
+      top: 60px;
       font-size: 1.3rem;
     }
     p{
@@ -1748,6 +1750,7 @@ footer{
       font-size: 1.3rem;
     }
     .container-works{
+      width: 90%;
       .sites-works-1, .sites-works-2, .sites-works-3,
       .sites-works-4, .sites-works-5, .sites-works-6,
       .sites-works-7, .sites-works-8, .sites-works-9{
@@ -1796,7 +1799,7 @@ footer{
     .container-about-me{
       .about-me-text{
         font-size: 1.3rem;
-        margin-top: 40px;
+        margin-top: 60px;
       }
       .img-avatar{
         width: 145px;
@@ -1821,6 +1824,7 @@ footer{
         font-size: 1.3rem;
         margin-top: 60px;
         margin-bottom: 35px;
+        background-color: #00009C;
       }
       .container-row{
         // flex-direction: column;
@@ -1876,6 +1880,7 @@ footer{
   section.works{
     height: 2210px;
     .container-works{
+       width: 75%;
       .sites-works-1,.sites-works-2,
       .sites-works-3,.sites-works-4,
       .sites-works-5,.sites-works-6,
@@ -1883,9 +1888,10 @@ footer{
       .sites-works-9{
         cursor: pointer;
         .site-modal{
-          width: 70%;
-          height: 570px;
+          width: 80%;
+          height: 520px;
           .modal-content{
+            max-width: 520px;
             .btn-container{
               margin-top: 10px;
               gap: 25px;
@@ -2004,7 +2010,7 @@ footer{
       .sites-works-7, .sites-works-8, .sites-works-9{
         cursor: pointer;
         .site-modal{
-          height: 555px;
+          height: 510px;
           .modal-content{
             .btn-container{
               gap: 30px;
@@ -2216,9 +2222,12 @@ footer{
       .sites-works-6,.sites-works-7,
       .sites-works-8,.sites-works-9{
         .site-modal{
-          width: 60%;
-          height: 700px;
+          width: 45%;
+          height: 580px;
           .modal-content{
+            picture img{
+              width: 95%;
+            }
             .btn-container{
               margin-top: 10px;
               gap: 25px;
@@ -2228,9 +2237,12 @@ footer{
       }
       .sites-works-4{
         .site-modal{
-          width: 60%;
-          height: 700px;
+          width: 45%;
+          height: 580px;
           .modal-content{
+            picture img{
+              width: 95%;
+            }
             .btn-container{
               margin-top: 10px;
               gap: 25px;
@@ -2291,14 +2303,14 @@ footer{
   section.works{
     height: 900px;
     .container-works{
-      width: 95%;
+      width: 82%;
       .sites-works-1,.sites-works-2,
-      .sites-works-3,.sites-works-5,
+      .sites-works-3,.sites-works-5,.sites-works-4,
       .sites-works-6,.sites-works-7,
       .sites-works-8,.sites-works-9{
         .site-modal{
           width: 50%;
-          height: 690px;
+          height: 640px;
           .modal-content{
             .btn-container{
               margin-top: 10px;
@@ -2307,18 +2319,18 @@ footer{
           }
         }
       }
-      .sites-works-4{
-        .site-modal{
-          width: 50%;
-          height: 740px;
-          .modal-content{
-            .btn-container{
-              margin-top: 10px;
-              gap: 25px;
-            }
-          }
-        }
-      }
+      // .sites-works-4{
+      //   .site-modal{
+      //     width: 50%;
+      //     height: 740px;
+      //     .modal-content{
+      //       .btn-container{
+      //         margin-top: 10px;
+      //         gap: 25px;
+      //       }
+      //     }
+      //   }
+      // }
     }
   } 
 }  
