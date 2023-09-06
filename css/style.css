@@ -27,15 +27,15 @@ header .container {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 80px;
+  height: 70px;
   background-color: #0F114A;
   max-width: 1300px;
-  margin: 0 auto;
+  margin: 0px auto;
   flex-wrap: wrap;
 }
 header .container .logo {
   margin: 5px 5px 5px 5px;
-  width: 80px;
+  width: 75px;
 }
 header .container .display-menu {
   display: flex;
@@ -65,7 +65,7 @@ header #menu {
 header #menu-bar {
   width: 35px;
   height: 30px;
-  margin: 15px 20px 0px 20px;
+  margin: 2px 20px 0px 10px;
   cursor: pointer;
 }
 header .bar {
@@ -104,8 +104,8 @@ header .nav li a:hover {
   font-weight: bold;
 }
 header .menu-bg, header #menu {
-  top: 18px;
-  left: 77%;
+  top: 13px;
+  left: 87%;
   position: absolute;
 }
 header .menu-bg {
@@ -199,7 +199,7 @@ section.about-me .container-about-me {
   align-items: center;
 }
 section.about-me .container-about-me .about-me-text {
-  margin-top: 60px;
+  margin-top: 80px;
   font-size: 30px;
   font-family: "Lato", sans-serif;
   font-weight: 300;
@@ -228,7 +228,7 @@ section.about-me .container-about-me .self-proclamations {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 52%;
+  width: 40%;
   height: 200px;
   margin-top: 20px;
   background-color: rgba(217, 217, 217, 0.5411764706);
@@ -274,7 +274,7 @@ section.whatIDo .container-whatIDo {
   height: 550px;
 }
 section.whatIDo .container-whatIDo .whatIDo-title {
-  margin-top: 70px;
+  margin-top: 80px;
   margin-bottom: 40px;
   font-family: "Lato", sans-serif;
   font-size: 30px;
@@ -341,7 +341,7 @@ section.skills {
 }
 section.skills .skills-text {
   position: relative;
-  top: 60px;
+  top: 80px;
   margin-bottom: 20px;
   font-family: "Lato", sans-serif;
   font-size: 30px;
@@ -422,7 +422,7 @@ section.skills .container-skills .container-school .curses {
 
 section.cv {
   background-image: url(../img/bgcv.jpg);
-  background-position: center bottom -80px;
+  background-position: center bottom -65px;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -460,13 +460,13 @@ section.cv .container-cv button a {
 }
 
 section.works {
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   width: 100%;
   height: 138vh;
 }
 section.works .works-text {
   position: relative;
-  top: 60px;
+  top: 80px;
   margin-bottom: 85px;
   font-family: "Lato", sans-serif;
   font-size: 30px;
@@ -478,14 +478,14 @@ section.works .works-text {
 section.works .container-works {
   display: flex;
   flex-wrap: wrap;
-  width: 90%;
+  width: 60%;
   margin: 50px auto 0;
   height: 174px;
 }
 section.works .container-works .sites-works-1 {
   overflow: hidden;
   margin: 30px auto;
-  width: 339px;
+  width: 340px;
   height: 163px;
   box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.521);
   background: url("../img/cosinebo.png");
@@ -536,6 +536,7 @@ section.works .container-works .sites-works-1 .site-modal {
   width: 60%;
   background-color: #e7e7e7;
   z-index: 1;
+  box-shadow: 2px 2px 4px 1px rgb(87, 84, 84);
 }
 section.works .container-works .sites-works-1 .site-modal .modal-content picture img {
   width: 95%;
@@ -556,7 +557,7 @@ section.works .container-works .sites-works-1 .site-modal .modal-content .modal-
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 75px;
+  height: 60px;
   border-bottom: 1px solid #a7a3a3;
   color: #6d6c6c;
 }
@@ -665,7 +666,7 @@ section.works .sites-works-2 .site-modal .modal-content .modal-header {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 75px;
+  height: 60px;
   border-bottom: 1px solid #a7a3a3;
   color: #6d6c6c;
 }
@@ -774,7 +775,7 @@ section.works .sites-works-3 .site-modal .modal-content .modal-header {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 75px;
+  height: 60px;
   border-bottom: 1px solid #a7a3a3;
   color: #6d6c6c;
 }
@@ -883,7 +884,7 @@ section.works .sites-works-4 .site-modal .modal-content .modal-header {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 75px;
+  height: 60px;
   border-bottom: 1px solid #a7a3a3;
   color: #6d6c6c;
 }
@@ -896,7 +897,7 @@ section.works .sites-works-4 .site-modal .modal-content .modal-header p {
 }
 section.works .sites-works-4 .site-modal .modal-content .close-btn {
   position: absolute;
-  top: 0px;
+  top: -5px;
   right: 15px;
   font-size: 50px;
   color: #a7a3a3;
@@ -992,7 +993,7 @@ section.works .sites-works-5 .site-modal .modal-content .modal-header {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 75px;
+  height: 60px;
   border-bottom: 1px solid #a7a3a3;
   color: #6d6c6c;
 }
@@ -1101,7 +1102,7 @@ section.works .sites-works-6 .site-modal .modal-content .modal-header {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 75px;
+  height: 60px;
   border-bottom: 1px solid #a7a3a3;
   color: #6d6c6c;
 }
@@ -1169,6 +1170,7 @@ section.works .sites-works-7 .site-overlay .overlay-content {
 section.works .sites-works-7 .site-overlay .overlay-content i {
   font-size: 30px;
   margin-top: 45px;
+  color: #00009C;
 }
 section.works .sites-works-7 .site-overlay .overlay-content .bg-h3 {
   width: 340px;
@@ -1210,7 +1212,7 @@ section.works .sites-works-7 .site-modal .modal-content .modal-header {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 75px;
+  height: 60px;
   border-bottom: 1px solid #a7a3a3;
   color: #6d6c6c;
 }
@@ -1319,7 +1321,7 @@ section.works .sites-works-8 .site-modal .modal-content .modal-header {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 75px;
+  height: 60px;
   border-bottom: 1px solid #a7a3a3;
   color: #6d6c6c;
 }
@@ -1428,7 +1430,7 @@ section.works .sites-works-9 .site-modal .modal-content .modal-header {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 75px;
+  height: 60px;
   border-bottom: 1px solid #a7a3a3;
   color: #6d6c6c;
 }
@@ -1635,6 +1637,7 @@ footer p {
   }
   header .container #menu {
     display: block;
+    left: 80%;
   }
   section.bg-paralax {
     background-position: center bottom 0px;
@@ -1651,16 +1654,16 @@ footer p {
   }
   section.about-me .container-about-me .about-me-text {
     font-size: 1.3rem;
-    margin-top: 40px;
+    margin-top: 60px;
   }
   section.about-me .container-about-me .img-avatar {
     width: 145px;
     height: 145px;
   }
   section.about-me .container-about-me .text-about-me {
-    width: 250px;
+    width: 330px;
     margin-top: 0px;
-    font-size: 10px;
+    font-size: 13px;
   }
   section.about-me .container-about-me .self-proclamations {
     width: 85%;
@@ -1675,16 +1678,17 @@ footer p {
     font-size: 10px;
     font-family: "Roboto Slab", sans-serif;
   }
-  section.about-me .container-about-me .self-proclamations .display-flex .cards .card-img {
-    width: 45px;
-    height: 45px;
+  section.about-me .container-about-me .self-proclamations .display-flex .cards i {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   section.whatIDo .container-whatIDo {
     height: 790px;
   }
   section.whatIDo .container-whatIDo .whatIDo-title {
     font-size: 1.3rem;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 35px;
   }
   section.whatIDo .container-whatIDo .container-row {
@@ -1716,6 +1720,7 @@ footer p {
     margin: 80px 5px -70px 5px;
   }
   section.skills .skills-text {
+    top: 60px;
     font-size: 1.3rem;
   }
   section.skills p {
@@ -1791,6 +1796,9 @@ footer p {
   section.works .works-text {
     font-size: 1.3rem;
   }
+  section.works .container-works {
+    width: 90%;
+  }
   section.works .container-works .sites-works-1, section.works .container-works .sites-works-2, section.works .container-works .sites-works-3,
   section.works .container-works .sites-works-4, section.works .container-works .sites-works-5, section.works .container-works .sites-works-6,
   section.works .container-works .sites-works-7, section.works .container-works .sites-works-8, section.works .container-works .sites-works-9 {
@@ -1840,7 +1848,7 @@ footer p {
   }
   section.about-me .container-about-me .about-me-text {
     font-size: 1.3rem;
-    margin-top: 40px;
+    margin-top: 60px;
   }
   section.about-me .container-about-me .img-avatar {
     width: 145px;
@@ -1862,6 +1870,7 @@ footer p {
     font-size: 1.3rem;
     margin-top: 60px;
     margin-bottom: 35px;
+    background-color: #00009C;
   }
   section.whatIDo .container-whatIDo .container-row .card .circle {
     width: 125px;
@@ -1906,6 +1915,9 @@ footer p {
   section.works {
     height: 2210px;
   }
+  section.works .container-works {
+    width: 75%;
+  }
   section.works .container-works .sites-works-1, section.works .container-works .sites-works-2,
   section.works .container-works .sites-works-3, section.works .container-works .sites-works-4,
   section.works .container-works .sites-works-5, section.works .container-works .sites-works-6,
@@ -1918,8 +1930,15 @@ footer p {
   section.works .container-works .sites-works-5 .site-modal, section.works .container-works .sites-works-6 .site-modal,
   section.works .container-works .sites-works-7 .site-modal, section.works .container-works .sites-works-8 .site-modal,
   section.works .container-works .sites-works-9 .site-modal {
-    width: 70%;
-    height: 570px;
+    width: 80%;
+    height: 520px;
+  }
+  section.works .container-works .sites-works-1 .site-modal .modal-content, section.works .container-works .sites-works-2 .site-modal .modal-content,
+  section.works .container-works .sites-works-3 .site-modal .modal-content, section.works .container-works .sites-works-4 .site-modal .modal-content,
+  section.works .container-works .sites-works-5 .site-modal .modal-content, section.works .container-works .sites-works-6 .site-modal .modal-content,
+  section.works .container-works .sites-works-7 .site-modal .modal-content, section.works .container-works .sites-works-8 .site-modal .modal-content,
+  section.works .container-works .sites-works-9 .site-modal .modal-content {
+    max-width: 520px;
   }
   section.works .container-works .sites-works-1 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-2 .site-modal .modal-content .btn-container,
   section.works .container-works .sites-works-3 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-4 .site-modal .modal-content .btn-container,
@@ -2019,7 +2038,7 @@ footer p {
   section.works .container-works .sites-works-1 .site-modal, section.works .container-works .sites-works-2 .site-modal, section.works .container-works .sites-works-3 .site-modal,
   section.works .container-works .sites-works-5 .site-modal, section.works .container-works .sites-works-6 .site-modal,
   section.works .container-works .sites-works-7 .site-modal, section.works .container-works .sites-works-8 .site-modal, section.works .container-works .sites-works-9 .site-modal {
-    height: 555px;
+    height: 510px;
   }
   section.works .container-works .sites-works-1 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-2 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-3 .site-modal .modal-content .btn-container,
   section.works .container-works .sites-works-5 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-6 .site-modal .modal-content .btn-container,
@@ -2083,7 +2102,7 @@ footer p {
   section.works .container-works .sites-works-6 .site-modal, section.works .container-works .sites-works-7 .site-modal,
   section.works .container-works .sites-works-8 .site-modal, section.works .container-works .sites-works-9 .site-modal {
     width: 70%;
-    height: 600px;
+    height: 557px;
   }
   section.works .container-works .sites-works-1 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-2 .site-modal .modal-content .btn-container,
   section.works .container-works .sites-works-3 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-5 .site-modal .modal-content .btn-container,
@@ -2142,8 +2161,8 @@ footer p {
   section.works .container-works .sites-works-3 .site-modal, section.works .container-works .sites-works-5 .site-modal,
   section.works .container-works .sites-works-6 .site-modal, section.works .container-works .sites-works-7 .site-modal,
   section.works .container-works .sites-works-8 .site-modal, section.works .container-works .sites-works-9 .site-modal {
-    width: 70%;
-    height: 645px;
+    width: 55%;
+    height: 555px;
   }
   section.works .container-works .sites-works-1 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-2 .site-modal .modal-content .btn-container,
   section.works .container-works .sites-works-3 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-5 .site-modal .modal-content .btn-container,
@@ -2198,7 +2217,7 @@ footer p {
     width: 72%;
   }
   section.works {
-    height: 1350px;
+    height: 1050px;
   }
   section.works .container-works {
     width: 95%;
@@ -2207,8 +2226,14 @@ footer p {
   section.works .container-works .sites-works-3 .site-modal, section.works .container-works .sites-works-5 .site-modal,
   section.works .container-works .sites-works-6 .site-modal, section.works .container-works .sites-works-7 .site-modal,
   section.works .container-works .sites-works-8 .site-modal, section.works .container-works .sites-works-9 .site-modal {
-    width: 60%;
-    height: 700px;
+    width: 45%;
+    height: 560px;
+  }
+  section.works .container-works .sites-works-1 .site-modal .modal-content picture img, section.works .container-works .sites-works-2 .site-modal .modal-content picture img,
+  section.works .container-works .sites-works-3 .site-modal .modal-content picture img, section.works .container-works .sites-works-5 .site-modal .modal-content picture img,
+  section.works .container-works .sites-works-6 .site-modal .modal-content picture img, section.works .container-works .sites-works-7 .site-modal .modal-content picture img,
+  section.works .container-works .sites-works-8 .site-modal .modal-content picture img, section.works .container-works .sites-works-9 .site-modal .modal-content picture img {
+    width: 95%;
   }
   section.works .container-works .sites-works-1 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-2 .site-modal .modal-content .btn-container,
   section.works .container-works .sites-works-3 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-5 .site-modal .modal-content .btn-container,
@@ -2218,8 +2243,11 @@ footer p {
     gap: 25px;
   }
   section.works .container-works .sites-works-4 .site-modal {
-    width: 60%;
-    height: 700px;
+    width: 45%;
+    height: 580px;
+  }
+  section.works .container-works .sites-works-4 .site-modal .modal-content picture img {
+    width: 95%;
   }
   section.works .container-works .sites-works-4 .site-modal .modal-content .btn-container {
     margin-top: 10px;
@@ -2272,27 +2300,19 @@ footer p {
     height: 900px;
   }
   section.works .container-works {
-    width: 95%;
+    width: 82%;
   }
   section.works .container-works .sites-works-1 .site-modal, section.works .container-works .sites-works-2 .site-modal,
-  section.works .container-works .sites-works-3 .site-modal, section.works .container-works .sites-works-5 .site-modal,
+  section.works .container-works .sites-works-3 .site-modal, section.works .container-works .sites-works-5 .site-modal, section.works .container-works .sites-works-4 .site-modal,
   section.works .container-works .sites-works-6 .site-modal, section.works .container-works .sites-works-7 .site-modal,
   section.works .container-works .sites-works-8 .site-modal, section.works .container-works .sites-works-9 .site-modal {
     width: 50%;
-    height: 690px;
+    height: 640px;
   }
   section.works .container-works .sites-works-1 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-2 .site-modal .modal-content .btn-container,
-  section.works .container-works .sites-works-3 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-5 .site-modal .modal-content .btn-container,
+  section.works .container-works .sites-works-3 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-5 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-4 .site-modal .modal-content .btn-container,
   section.works .container-works .sites-works-6 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-7 .site-modal .modal-content .btn-container,
   section.works .container-works .sites-works-8 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-9 .site-modal .modal-content .btn-container {
-    margin-top: 10px;
-    gap: 25px;
-  }
-  section.works .container-works .sites-works-4 .site-modal {
-    width: 50%;
-    height: 740px;
-  }
-  section.works .container-works .sites-works-4 .site-modal .modal-content .btn-container {
     margin-top: 10px;
     gap: 25px;
   }
