@@ -104,7 +104,7 @@ header .nav li a:hover {
   font-weight: bold;
 }
 header .menu-bg, header #menu {
-  top: 13px;
+  top: 25px;
   left: 87%;
   position: absolute;
 }
@@ -646,6 +646,7 @@ section.works .sites-works-2 .site-modal {
   width: 60%;
   background-color: #e7e7e7;
   z-index: 1;
+  box-shadow: 2px 2px 4px 1px rgb(87, 84, 84);
 }
 section.works .sites-works-2 .site-modal .modal-content picture img {
   width: 95%;
@@ -755,6 +756,7 @@ section.works .sites-works-3 .site-modal {
   width: 60%;
   background-color: #e7e7e7;
   z-index: 1;
+  box-shadow: 2px 2px 4px 1px rgb(87, 84, 84);
 }
 section.works .sites-works-3 .site-modal .modal-content picture img {
   width: 95%;
@@ -864,6 +866,7 @@ section.works .sites-works-4 .site-modal {
   width: 60%;
   background-color: #e7e7e7;
   z-index: 1;
+  box-shadow: 2px 2px 4px 1px rgb(87, 84, 84);
 }
 section.works .sites-works-4 .site-modal .modal-content picture img {
   width: 95%;
@@ -973,6 +976,7 @@ section.works .sites-works-5 .site-modal {
   width: 60%;
   background-color: #e7e7e7;
   z-index: 1;
+  box-shadow: 2px 2px 4px 1px rgb(87, 84, 84);
 }
 section.works .sites-works-5 .site-modal .modal-content picture img {
   width: 95%;
@@ -1082,6 +1086,7 @@ section.works .sites-works-6 .site-modal {
   width: 60%;
   background-color: #e7e7e7;
   z-index: 1;
+  box-shadow: 2px 2px 4px 1px rgb(87, 84, 84);
 }
 section.works .sites-works-6 .site-modal .modal-content picture img {
   width: 95%;
@@ -1192,6 +1197,7 @@ section.works .sites-works-7 .site-modal {
   width: 60%;
   background-color: #e7e7e7;
   z-index: 1;
+  box-shadow: 2px 2px 4px 1px rgb(87, 84, 84);
 }
 section.works .sites-works-7 .site-modal .modal-content picture img {
   width: 95%;
@@ -1301,6 +1307,7 @@ section.works .sites-works-8 .site-modal {
   width: 60%;
   background-color: #e7e7e7;
   z-index: 1;
+  box-shadow: 2px 2px 4px 1px rgb(87, 84, 84);
 }
 section.works .sites-works-8 .site-modal .modal-content picture img {
   width: 95%;
@@ -1410,6 +1417,7 @@ section.works .sites-works-9 .site-modal {
   width: 60%;
   background-color: #e7e7e7;
   z-index: 1;
+  box-shadow: 2px 2px 4px 1px rgb(87, 84, 84);
 }
 section.works .sites-works-9 .site-modal .modal-content picture img {
   width: 95%;
@@ -2038,7 +2046,7 @@ footer p {
   section.works .container-works .sites-works-1 .site-modal, section.works .container-works .sites-works-2 .site-modal, section.works .container-works .sites-works-3 .site-modal,
   section.works .container-works .sites-works-5 .site-modal, section.works .container-works .sites-works-6 .site-modal,
   section.works .container-works .sites-works-7 .site-modal, section.works .container-works .sites-works-8 .site-modal, section.works .container-works .sites-works-9 .site-modal {
-    height: 510px;
+    height: 530px;
   }
   section.works .container-works .sites-works-1 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-2 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-3 .site-modal .modal-content .btn-container,
   section.works .container-works .sites-works-5 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-6 .site-modal .modal-content .btn-container,
@@ -2102,7 +2110,7 @@ footer p {
   section.works .container-works .sites-works-6 .site-modal, section.works .container-works .sites-works-7 .site-modal,
   section.works .container-works .sites-works-8 .site-modal, section.works .container-works .sites-works-9 .site-modal {
     width: 70%;
-    height: 557px;
+    height: 577px;
   }
   section.works .container-works .sites-works-1 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-2 .site-modal .modal-content .btn-container,
   section.works .container-works .sites-works-3 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-5 .site-modal .modal-content .btn-container,
@@ -2162,7 +2170,7 @@ footer p {
   section.works .container-works .sites-works-6 .site-modal, section.works .container-works .sites-works-7 .site-modal,
   section.works .container-works .sites-works-8 .site-modal, section.works .container-works .sites-works-9 .site-modal {
     width: 55%;
-    height: 555px;
+    height: 570px;
   }
   section.works .container-works .sites-works-1 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-2 .site-modal .modal-content .btn-container,
   section.works .container-works .sites-works-3 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-5 .site-modal .modal-content .btn-container,
