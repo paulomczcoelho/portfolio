@@ -413,7 +413,6 @@ section.works{
           picture{
             img{
               width: 95%;
-              height: 60%;
               margin: 15px auto;
             }
           }
@@ -527,7 +526,6 @@ section.works{
           picture{
             img{
               width: 95%;
-              height: 60%;
               margin: 15px auto;
             }
           }
@@ -641,7 +639,6 @@ section.works{
           picture{
             img{
               width: 95%;
-              height: 60%;
               margin: 15px auto;
             }
           }
@@ -755,7 +752,6 @@ section.works{
           picture{
             img{
               width: 95%;
-              height: 60%;
               margin: 15px auto;
             }
           }
@@ -869,7 +865,6 @@ section.works{
           picture{
             img{
               width: 95%;
-              height: 60%;
               margin: 15px auto;
             }
           }
@@ -983,7 +978,6 @@ section.works{
           picture{
             img{
               width: 95%;
-              height: 60%;
               margin: 15px auto;
             }
           }
@@ -1097,7 +1091,6 @@ section.works{
           picture{
             img{
               width: 95%;
-              height: 60%;
               margin: 15px auto;
             }
           }
@@ -1211,7 +1204,6 @@ section.works{
           picture{
             img{
               width: 95%;
-              height: 60%;
               margin: 15px auto;
             }
           }
@@ -1325,7 +1317,6 @@ section.works{
           picture{
             img{
               width: 95%;
-              height: 60%;
               margin: 15px auto;
             }
           }
@@ -1401,7 +1392,6 @@ section.works{
     }
   }  
 }
-
 section.getInTouch {
   height: 345px;
   background-color: #F0F0F0;
@@ -1771,8 +1761,8 @@ footer{
             .modal-header{
               font-size: 10px;
               span{
-                font-size: 35px;
-                top: 3px;
+                font-size: 42px;
+                top: 1px;
               }
             }
             .btn-container{
@@ -1833,7 +1823,6 @@ footer{
         font-size: 1.3rem;
         margin-top: 60px;
         margin-bottom: 35px;
-        background-color: #00009C;
       }
       .container-row{
         // flex-direction: column;
@@ -1891,11 +1880,10 @@ footer{
     .container-works{
        width: 75%;
       .sites-works-1,.sites-works-2,
-      .sites-works-3,.sites-works-4,
-      .sites-works-5,.sites-works-6,
-      .sites-works-7,.sites-works-8,
-      .sites-works-9{
-        cursor: pointer;
+      .sites-works-3,.sites-works-5,
+      .sites-works-6,.sites-works-7,
+      .sites-works-8,.sites-works-9{
+        
         .site-modal{
           width: 425px;
           height: 530px;
@@ -1903,6 +1891,24 @@ footer{
             width: 425px;
             .modal-content-p{
               margin: 30px auto;
+            }
+            .close-btn{
+              top: -4px;
+            }
+            .btn-container{
+              margin-top: 10px;
+              gap: 25px;
+            }
+          }
+        }
+      }
+      .sites-works-4{
+        .site-modal{
+          width: 425px;
+          height: 555px;
+          .modal-content{
+            .modal-content-p{
+              margin: 25px auto;
             }
             .btn-container{
               margin-top: 10px;
@@ -2028,6 +2034,9 @@ footer{
             .modal-content-p{
               margin: 30px auto;
             }
+            .close-btn{
+              top: -4px;
+            }
             .btn-container{
               gap: 30px;
               margin-top: 25px;
@@ -2036,9 +2045,21 @@ footer{
         }
       }
       .sites-works-4{
-        cursor: pointer;
         .site-modal{
-          height: 615px;
+          width: 480px;
+          height: 555px;
+          .modal-content{
+            .modal-content-p{
+              margin: 25px auto;
+            }
+            .btn-container{
+              margin-top: 10px;
+              gap: 25px;
+            }
+            .close-btn{
+              top: -4px;
+            }
+          }
         }
       }
     }
@@ -2104,14 +2125,20 @@ footer{
               margin-top: 10px;
               gap: 25px;
             }
+            .close-btn{
+              top: -4px 
+            }
           }
         }
       }
       .sites-works-4{
         .site-modal{
-          width: 70%;
-          height: 650px;
+          width: 500px;
+          height: 565px;
           .modal-content{
+            .modal-content-p{
+              margin: 25px auto;
+            }
             .btn-container{
               margin-top: 10px;
               gap: 25px;
@@ -2176,17 +2203,23 @@ footer{
               margin-top: 10px;
               gap: 25px;
             }
+            .close-btn{
+              top: -4px;
+            }
           }
         }
       }
       .sites-works-4{
         .site-modal{
-          width: 70%;
-          height: 700px;
+          width: 515px;
+          height: 590px;
           .modal-content{
             .btn-container{
               margin-top: 10px;
               gap: 25px;
+            }
+            .close-btn{
+              top: -4px;
             }
           }
         }
@@ -2262,8 +2295,8 @@ footer{
       }
       .sites-works-4{
         .site-modal{
-          width: 45%;
-          height: 580px;
+          width: 520px;
+          height: 600px;
           .modal-content{
             picture img{
               width: 95%;
@@ -2329,7 +2362,7 @@ footer{
     .container-works{
       width: 82%;
       .sites-works-1,.sites-works-2,
-      .sites-works-3,.sites-works-5,.sites-works-4,
+      .sites-works-3,.sites-works-5,
       .sites-works-6,.sites-works-7,
       .sites-works-8,.sites-works-9{
         .site-modal{
@@ -2343,21 +2376,27 @@ footer{
               margin-top: 10px;
               gap: 25px;
             }
+            .close-btn{
+              top: -4px;
+            }
           }
         }
       }
-      // .sites-works-4{
-      //   .site-modal{
-      //     width: 50%;
-      //     height: 740px;
-      //     .modal-content{
-      //       .btn-container{
-      //         margin-top: 10px;
-      //         gap: 25px;
-      //       }
-      //     }
-      //   }
-      // }
+      .sites-works-4{
+        .site-modal{
+          width: 530px;
+          height: 600px;
+          .modal-content{
+            .btn-container{
+              margin-top: 10px;
+              gap: 25px;
+            }
+            .close-btn{
+              top: -4px;
+            }
+          }
+        }
+      }
     }
   } 
 }  
