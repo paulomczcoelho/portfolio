@@ -1648,23 +1648,26 @@ footer{
             }
             .title-do{
               font-size: 17px;
-              top: 50px;
+              top: 46px;
             }
             .what-IDo-text{
               width: 300px;
-              margin: 57px 5px -205px 5px;
+              margin: 50px 5px -200px 5px;
               font-size: 13px;
             }
           }
         }
         .card:nth-child(2) .what-IDo-text{
-          margin: 64px 5px -227px 5px;
+          margin: 56px 5px -218px 5px;
+        }
+        .card:nth-child(2) .title-do{
+          top: 50px;
         }
         .card:nth-last-child(1) .icon-img{
           margin: -26px auto;
         }
         .card:nth-last-child(1) .what-IDo-text{
-          margin: 134px 5px -216px 5px;
+          margin: 122px 5px -205px 5px;
           
         }
         .card:nth-last-child(1) .title-do{
