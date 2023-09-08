@@ -219,7 +219,7 @@ section.about-me .container-about-me .text-about-me {
   width: 700px;
   margin-top: 20px;
   font-family: "Roboto Slab", sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 300;
   text-align: center;
   color: #292727;
@@ -1682,7 +1682,7 @@ footer p {
     margin-bottom: 10px;
   }
   section.whatIDo .container-whatIDo {
-    height: 790px;
+    height: 1240px;
   }
   section.whatIDo .container-whatIDo .whatIDo-title {
     font-size: 1.3rem;
@@ -1691,7 +1691,7 @@ footer p {
   }
   section.whatIDo .container-whatIDo .container-row {
     flex-direction: column;
-    gap: 60px;
+    gap: 210px;
   }
   section.whatIDo .container-whatIDo .container-row .card .circle {
     width: 115px;
@@ -1700,22 +1700,28 @@ footer p {
   section.whatIDo .container-whatIDo .container-row .card .circle .icon-img {
     width: 45px;
     height: 45px;
-    margin: 0 auto -25px;
+    margin: 0 auto -10px;
   }
   section.whatIDo .container-whatIDo .container-row .card .circle .title-do {
     font-size: 17px;
-    top: 70px;
+    top: 50px;
   }
   section.whatIDo .container-whatIDo .container-row .card .circle .what-IDo-text {
-    width: 240px;
-    margin: 80px 5px -82px 5px;
-    font-size: 10px;
+    width: 300px;
+    margin: 57px 5px -205px 5px;
+    font-size: 13px;
   }
-  section.whatIDo .container-whatIDo .container-row .card:nth-last-child(1).icon-img {
-    margin: -15px auto;
+  section.whatIDo .container-whatIDo .container-row .card:nth-child(2) .what-IDo-text {
+    margin: 64px 5px -227px 5px;
+  }
+  section.whatIDo .container-whatIDo .container-row .card:nth-last-child(1) .icon-img {
+    margin: -26px auto;
   }
   section.whatIDo .container-whatIDo .container-row .card:nth-last-child(1) .what-IDo-text {
-    margin: 80px 5px -70px 5px;
+    margin: 134px 5px -216px 5px;
+  }
+  section.whatIDo .container-whatIDo .container-row .card:nth-last-child(1) .title-do {
+    margin: 17px 5px -68px 5px;
   }
   section.skills .skills-text {
     top: 60px;
@@ -1970,7 +1976,7 @@ footer p {
     display: block;
   }
   section.about-me {
-    height: 875px;
+    height: 940px;
   }
   section.about-me .container-about-me .text-about-me {
     width: 500px;
@@ -2083,6 +2089,16 @@ footer p {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 896px) {
+  section.about-me {
+    height: 960px;
+  }
+  section.about-me .container-about-me .text-about-me {
+    width: 500px;
+  }
+  section.about-me .container-about-me .self-proclamations {
+    width: 70%;
+    margin-top: 50px;
+  }
   section.skills .container-skills {
     height: 410px;
   }
@@ -2165,6 +2181,16 @@ footer p {
   }
 }
 @media screen and (min-width: 897px) and (max-width: 1114px) {
+  section.about-me {
+    height: 960px;
+  }
+  section.about-me .container-about-me .text-about-me {
+    width: 500px;
+  }
+  section.about-me .container-about-me .self-proclamations {
+    width: 70%;
+    margin-top: 50px;
+  }
   section.skills .container-skills .container-tools {
     width: 480px;
   }
@@ -2240,6 +2266,16 @@ footer p {
   }
 }
 @media screen and (min-width: 1115px) and (max-width: 1300px) {
+  section.about-me {
+    height: 960px;
+  }
+  section.about-me .container-about-me .text-about-me {
+    width: 500px;
+  }
+  section.about-me .container-about-me .self-proclamations {
+    width: 70%;
+    margin-top: 50px;
+  }
   section.skills .container-skills .container-tools {
     width: 480px;
   }
@@ -2322,6 +2358,16 @@ footer p {
 @media screen and (min-width: 1301px) and (max-width: 1700px) {
   header .container {
     max-width: 1620px;
+  }
+  section.about-me {
+    height: 960px;
+  }
+  section.about-me .container-about-me .text-about-me {
+    width: 500px;
+  }
+  section.about-me .container-about-me .self-proclamations {
+    width: 48%;
+    margin-top: 50px;
   }
   section.skills .container-skills {
     gap: 60px;
@@ -2408,6 +2454,9 @@ footer p {
 @media screen and (min-width: 1701px) and (max-width: 2000px) {
   header .container {
     max-width: 1880px;
+  }
+  section.about-me {
+    height: 900px;
   }
   section.skills {
     height: 780px;

@@ -84,7 +84,7 @@ section.about-me{
       width: 700px;
       margin-top: 20px;
       font-family: "Roboto Slab", sans-serif;
-      font-size: 15px;
+      font-size: 18px;
 
       font-weight: 300;
       text-align: center;
@@ -1628,7 +1628,7 @@ footer{
   }
   section.whatIDo{
     .container-whatIDo{
-      height: 790px;
+      height: 1240px;
       .whatIDo-title{
         font-size: 1.3rem;
         margin-top: 60px;
@@ -1636,7 +1636,7 @@ footer{
       }
       .container-row{
         flex-direction: column;
-        gap: 60px;
+        gap: 210px;
         .card{
           .circle{
             width: 115px;
@@ -1644,29 +1644,33 @@ footer{
             .icon-img{
               width: 45px;
               height: 45px;
-              margin: 0 auto -25px;
+              margin: 0 auto -10px;
             }
-          
             .title-do{
               font-size: 17px;
-              top: 70px;
+              top: 50px;
             }
             .what-IDo-text{
-              width: 240px;
-              margin: 80px 5px -82px 5px;
-              font-size: 10px;
-              
+              width: 300px;
+              margin: 57px 5px -205px 5px;
+              font-size: 13px;
             }
-         
           }
         }
-        .card:nth-last-child(1).icon-img{
-          margin: -15px auto;
+        .card:nth-child(2) .what-IDo-text{
+          margin: 64px 5px -227px 5px;
+        }
+        .card:nth-last-child(1) .icon-img{
+          margin: -26px auto;
         }
         .card:nth-last-child(1) .what-IDo-text{
-          margin: 80px 5px -70px 5px;
+          margin: 134px 5px -216px 5px;
+          
         }
-        
+        .card:nth-last-child(1) .title-do{
+          margin: 17px 5px -68px 5px;
+          // background-color: rgb(221, 175, 175);
+        }
       }
     }
   }
@@ -1937,7 +1941,7 @@ footer{
     }
   }
   section.about-me{
-    height: 875px;
+    height: 940px;
     .container-about-me{
       .text-about-me{
         width: 500px;
@@ -2066,6 +2070,19 @@ footer{
   } 
 }
 @media screen and (min-width: 768px) and (max-width: 896px){
+  section.about-me{
+    height: 960px;
+    .container-about-me{
+      .text-about-me{
+        width: 500px;
+      }
+      .self-proclamations{
+        width: 70%;
+        margin-top: 50px;
+      }  
+    }
+  }  
+  
   section.skills{ 
     .container-skills{
       height: 410px;
@@ -2150,6 +2167,18 @@ footer{
   } 
 }
 @media screen and (min-width: 897px) and (max-width: 1114px){
+  section.about-me{
+    height: 960px;
+    .container-about-me{
+      .text-about-me{
+        width: 500px;
+      }
+      .self-proclamations{
+        width: 70%;
+        margin-top: 50px;
+      }  
+    }
+  }  
   section.skills{ 
     .container-skills{
       .container-tools{
@@ -2229,6 +2258,18 @@ footer{
   } 
 }
 @media screen and (min-width: 1115px) and (max-width: 1300px){
+  section.about-me{
+    height: 960px;
+    .container-about-me{
+      .text-about-me{
+        width: 500px;
+      }
+      .self-proclamations{
+        width: 70%;
+        margin-top: 50px;
+      }  
+    }
+  }  
   section.skills{ 
     .container-skills{
       .container-tools{
@@ -2317,6 +2358,18 @@ footer{
       max-width: 1620px;
     }
   }      
+  section.about-me{
+    height: 960px;
+    .container-about-me{
+      .text-about-me{
+        width: 500px;
+      }
+      .self-proclamations{
+        width: 48%;
+        margin-top: 50px;
+      }  
+    }
+  }  
   section.skills{ 
     .container-skills{
       gap: 60px;
@@ -2406,6 +2459,9 @@ footer{
       max-width: 1880px;
     }
   }
+  section.about-me{
+    height: 900px;
+  }  
   section.skills{ 
     height: 780px;
     .container-skills{
