@@ -1871,7 +1871,7 @@ footer p {
     margin-top: 45px;
   }
   section.whatIDo .container-whatIDo {
-    height: 460px;
+    height: 700px;
   }
   section.whatIDo .container-whatIDo .whatIDo-title {
     font-size: 1.3rem;
@@ -1879,22 +1879,37 @@ footer p {
     margin-bottom: 35px;
   }
   section.whatIDo .container-whatIDo .container-row .card .circle {
-    width: 125px;
-    height: 125px;
+    width: 115px;
+    height: 115px;
   }
   section.whatIDo .container-whatIDo .container-row .card .circle .icon-img {
     width: 45px;
     height: 45px;
-    margin: 0 auto -25px;
+    margin: 0 auto -38px;
   }
   section.whatIDo .container-whatIDo .container-row .card .circle .title-do {
     font-size: 18px;
     top: 75px;
   }
   section.whatIDo .container-whatIDo .container-row .card .circle .what-IDo-text {
-    width: 115px;
-    margin: 80px 5px -141px 5px;
+    width: 130px;
+    margin: 80px 5px -350px 5px;
     font-size: 11px;
+  }
+  section.whatIDo .container-whatIDo .container-row .card:nth-child(2) .what-IDo-text {
+    margin: 83px 5px -364px 5px;
+  }
+  section.whatIDo .container-whatIDo .container-row .card:nth-child(2) .title-do {
+    top: 79px;
+  }
+  section.whatIDo .container-whatIDo .container-row .card:nth-last-child(1) .icon-img {
+    margin: -37px auto;
+  }
+  section.whatIDo .container-whatIDo .container-row .card:nth-last-child(1) .what-IDo-text {
+    margin: 123px 5px -321px 5px;
+  }
+  section.whatIDo .container-whatIDo .container-row .card:nth-last-child(1) .title-do {
+    margin: 0px 5px -45px 5px;
   }
   section.skills .container-skills {
     height: 1020px;
@@ -1989,7 +2004,7 @@ footer p {
     margin-top: 50px;
   }
   section.whatIDo .container-whatIDo {
-    height: 460px;
+    height: 700px;
   }
   section.whatIDo .container-whatIDo .whatIDo-title {
     font-size: 1.3rem;
@@ -2010,9 +2025,24 @@ footer p {
     top: 75px;
   }
   section.whatIDo .container-whatIDo .container-row .card .circle .what-IDo-text {
-    width: 115px;
-    margin: 80px 5px -141px 5px;
+    width: 185px;
+    margin: 80px 5px -230px 5px;
     font-size: 11px;
+  }
+  section.whatIDo .container-whatIDo .container-row .card:nth-child(2) .what-IDo-text {
+    margin: 83px 5px -286px 5px;
+  }
+  section.whatIDo .container-whatIDo .container-row .card:nth-child(2) .title-do {
+    top: 79px;
+  }
+  section.whatIDo .container-whatIDo .container-row .card:nth-last-child(1) .icon-img {
+    margin: -24px auto;
+  }
+  section.whatIDo .container-whatIDo .container-row .card:nth-last-child(1) .what-IDo-text {
+    margin: 137px 5px -244px 5px;
+  }
+  section.whatIDo .container-whatIDo .container-row .card:nth-last-child(1) .title-do {
+    margin: 0px 5px -57px 5px;
   }
   section.skills h1.skills-text {
     font-size: 25px;

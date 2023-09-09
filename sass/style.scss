@@ -1824,7 +1824,7 @@ footer{
   }
   section.whatIDo{
     .container-whatIDo{
-      height: 460px;
+      height: 700px;
       .whatIDo-title{
         font-size: 1.3rem;
         margin-top: 60px;
@@ -1835,23 +1835,40 @@ footer{
         // gap: 60px;
         .card{
           .circle{
-            width: 125px;
-            height: 125px;
+            width: 115px;
+            height: 115px;
             .icon-img{
               width: 45px;
               height: 45px;
-              margin: 0 auto -25px;
+              margin: 0 auto -38px;
             }
            .title-do{
               font-size: 18px;
               top: 75px;
             }
             .what-IDo-text{
-              width: 115px;
-              margin: 80px 5px -141px 5px;
+              width: 130px;
+              margin: 80px 5px -350px 5px;
               font-size: 11px;
             }
+            
           }
+        }
+        .card:nth-child(2) .what-IDo-text{
+          margin: 83px 5px -364px 5px;
+        }
+        .card:nth-child(2) .title-do{
+          top: 79px;
+        }
+        .card:nth-last-child(1) .icon-img{
+          margin: -37px auto;
+        }
+        .card:nth-last-child(1) .what-IDo-text{
+          margin: 123px 5px -321px 5px;
+          
+        }
+        .card:nth-last-child(1) .title-do{
+          margin: 0px 5px -45px 5px;
         }
       }
     }
@@ -1956,7 +1973,7 @@ footer{
   }  
   section.whatIDo{
     .container-whatIDo{
-      height: 460px;
+      height: 700px;
       .whatIDo-title{
         font-size: 1.3rem;
         margin-top: 60px;
@@ -1979,11 +1996,27 @@ footer{
               top: 75px;
             }
             .what-IDo-text{
-              width: 115px;
-              margin: 80px 5px -141px 5px;
+              width: 185px;
+              margin: 80px 5px -230px 5px;
               font-size: 11px;
             }
           }
+        }
+        .card:nth-child(2) .what-IDo-text{
+          margin: 83px 5px -286px 5px;
+        }
+        .card:nth-child(2) .title-do{
+          top: 79px;
+        }
+        .card:nth-last-child(1) .icon-img{
+          margin: -24px auto;
+        }
+        .card:nth-last-child(1) .what-IDo-text{
+          margin: 137px 5px -244px 5px;
+          
+        }
+        .card:nth-last-child(1) .title-do{
+          margin: 0px 5px -57px 5px;
         }
       }
     }
