@@ -271,7 +271,7 @@ section.whatIDo .container-whatIDo {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 550px;
+  height: 830px;
 }
 section.whatIDo .container-whatIDo .whatIDo-title {
   margin-top: 80px;
@@ -288,9 +288,12 @@ section.whatIDo .container-whatIDo .container-row {
   width: 100%;
 }
 section.whatIDo .container-whatIDo .container-row .card {
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 2px 2px 4px 1px #929191;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
-  width: 100%;
 }
 section.whatIDo .container-whatIDo .container-row .card .circle {
   display: flex;
@@ -303,7 +306,7 @@ section.whatIDo .container-whatIDo .container-row .card .circle {
   background: #00009C;
   border-radius: 50%;
   font-size: 55px;
-  margin: 0 auto 40px;
+  margin: 30px auto 30px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
@@ -314,12 +317,12 @@ section.whatIDo .container-whatIDo .container-row .card .circle i {
 section.whatIDo .container-whatIDo .container-row .card .circle .icon-img {
   width: 60px;
   height: 60px;
-  margin: 0 auto 38px;
+  margin: 0 auto 54px;
 }
-section.whatIDo .container-whatIDo .container-row .card .circle .title-do {
+section.whatIDo .container-whatIDo .container-row .card .title-do {
   width: 100%;
   position: relative;
-  top: 25px;
+  top: -20px;
   color: rgb(41, 40, 40);
   font-family: "Lato", sans-serif;
   font-size: 22px;
@@ -327,9 +330,9 @@ section.whatIDo .container-whatIDo .container-row .card .circle .title-do {
   letter-spacing: 1px;
   text-align: center;
 }
-section.whatIDo .container-whatIDo .container-row .card .circle .what-IDo-text {
+section.whatIDo .container-whatIDo .container-row .card .what-IDo-text {
   width: 250px;
-  margin: 38px 5px -135px 5px;
+  margin: 0 auto;
   font-size: 15px;
   font-weight: 300;
   color: #292727;
@@ -1682,7 +1685,7 @@ footer p {
     margin-bottom: 10px;
   }
   section.whatIDo .container-whatIDo {
-    height: 1240px;
+    height: 1665px;
   }
   section.whatIDo .container-whatIDo .whatIDo-title {
     font-size: 1.3rem;
@@ -1691,7 +1694,10 @@ footer p {
   }
   section.whatIDo .container-whatIDo .container-row {
     flex-direction: column;
-    gap: 210px;
+    gap: 30px;
+  }
+  section.whatIDo .container-whatIDo .container-row .card {
+    background-color: white;
   }
   section.whatIDo .container-whatIDo .container-row .card .circle {
     width: 115px;
@@ -1700,31 +1706,15 @@ footer p {
   section.whatIDo .container-whatIDo .container-row .card .circle .icon-img {
     width: 45px;
     height: 45px;
-    margin: 0 auto -10px;
+    margin: 0 auto 32px;
   }
-  section.whatIDo .container-whatIDo .container-row .card .circle .title-do {
+  section.whatIDo .container-whatIDo .container-row .card .title-do {
     font-size: 17px;
-    top: 46px;
   }
-  section.whatIDo .container-whatIDo .container-row .card .circle .what-IDo-text {
-    width: 300px;
-    margin: 50px 5px -200px 5px;
+  section.whatIDo .container-whatIDo .container-row .card .what-IDo-text {
+    width: 220px;
+    margin: 0px auto 25px;
     font-size: 13px;
-  }
-  section.whatIDo .container-whatIDo .container-row .card:nth-child(2) .what-IDo-text {
-    margin: 56px 5px -218px 5px;
-  }
-  section.whatIDo .container-whatIDo .container-row .card:nth-child(2) .title-do {
-    top: 50px;
-  }
-  section.whatIDo .container-whatIDo .container-row .card:nth-last-child(1) .icon-img {
-    margin: -26px auto;
-  }
-  section.whatIDo .container-whatIDo .container-row .card:nth-last-child(1) .what-IDo-text {
-    margin: 122px 5px -205px 5px;
-  }
-  section.whatIDo .container-whatIDo .container-row .card:nth-last-child(1) .title-do {
-    margin: 17px 5px -68px 5px;
   }
   section.skills .skills-text {
     top: 60px;
@@ -2004,7 +1994,7 @@ footer p {
     margin-top: 50px;
   }
   section.whatIDo .container-whatIDo {
-    height: 700px;
+    height: 625px;
   }
   section.whatIDo .container-whatIDo .whatIDo-title {
     font-size: 1.3rem;
