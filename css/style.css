@@ -138,7 +138,7 @@ header .change #bar3 {
 header .change-bg {
   width: 530px;
   height: 465px;
-  transform: translate(-27%, -20%);
+  transform: translate(-30%, -25%);
 }
 
 section.bg-paralax {
@@ -1627,7 +1627,10 @@ footer .container-social-media .social-media .fa {
 footer .container-social-media .social-media .fa .svg-icon {
   margin-left: 2px;
   margin-top: 6px;
-  fill: white;
+  fill: rgb(255, 255, 255);
+}
+footer .container-social-media .social-media .svg-icon:hover {
+  fill: #00009C;
 }
 footer p {
   color: white;
@@ -1793,6 +1796,7 @@ footer p {
   }
   section.works .works-text {
     font-size: 1.3rem;
+    top: 60px;
   }
   section.works .container-works {
     width: 90%;
