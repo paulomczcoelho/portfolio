@@ -52,20 +52,6 @@ section.bg-paralax{
       color: #fff;
       margin-top: 10px;
     }
-    .hidden{
-      display: none;
-    }
-      
-   
-   
-    // #elementEl::after {
-    //   content: '|';
-    //   margin-left: 5px;
-    //   animation: blinkEl 0.7s infinite;
-    //   opacity: 0;
-    //   transition: opacity 0.5s;
-    // }
-    
     #elementE2::after {
       content: '|';
       margin-left: 5px;
@@ -73,16 +59,6 @@ section.bg-paralax{
       opacity: 0;
       transition: opacity 0.5s;
     }
-    
-    @keyframes blinkEl {
-      0% {
-        opacity: 1;
-      }
-      100% {
-        opacity: 0;
-      }
-    }
-    
     @keyframes blinkE2 {
       0% {
         opacity: 1;
@@ -91,46 +67,8 @@ section.bg-paralax{
         opacity: 0;
       }
     }
-    
-
-    // .welcome-text::after,
-    // .welcome-sub-text::after {
-    //   content: '|';
-    //   margin-left: 5px;
-    //   animation: blink 0.7s infinite;
-    //   opacity: 0; /* Oculta o elemento ::after no início */
-    //   transition: opacity 0.5s; /* Adicione uma transição de opacidade */
-    // }
-    // @keyframes blink {
-    //   0% {
-    //     opacity: 1;
-    //   }
-    //   100% {
-    //     opacity: 0;
-    //   }
-    // }
-   
-       
-    // #elementEl::after,
-    // #elementE2::after {
-    //   content: '|';
-    //   margin-left: 5px;
-    //   animation: blink 0.7s infinite;
-    // }
-    // @keyframes blink {
-    //   0% {
-    //     opacity: 1;
-    //   }
-    //   100% {
-    //     opacity: 0;
-    //   }
-    // }
-    // #elementEl.hide::after {
-    //   opacity: 0;
-    // }
   }
 }
-
 section.about-me{
   background-color: white;
   width: 100%;
@@ -340,7 +278,7 @@ section.skills{
           margin: 20px 17px ;
           width: 45px;
           height: 55px;
-          transition: all 0.5s ease-in-out;
+          transition: all 0.3s ease-in-out;
         }
         .tools:hover{
           filter: grayscale(0%);
@@ -348,7 +286,6 @@ section.skills{
       }
     }
     .container-school{
-      // background-color: #999c00;
       width: 50%;
       display: flex;
       flex-direction: column;
@@ -358,12 +295,10 @@ section.skills{
         font-size: 20px;
         font-weight: 300;
         margin-top: 20px;
-        
       }
       .img-college{
         width: 40%;
         margin-top: 45px;
-        // margin-bottom: 10px;
       }
       .curses{
         display: flex;
@@ -397,6 +332,21 @@ section.cv{
     letter-spacing: 1px;
     text-align: center;
     color:#FFFFFF; 
+    #resumeText::after {
+      content: '|';
+      margin-left: 5px;
+      animation: blinkE2 0.7s infinite;
+      opacity: 0;
+      transition: opacity 0.5s;
+    }
+    @keyframes blinkE2 {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
     button{
       width: 120px;
       height: 40px;
@@ -1677,7 +1627,7 @@ footer{
     }
   }
   section.about-me{
-    height: 690px;
+    height: 750px;
     .container-about-me{
       .about-me-text{
         font-size: 1.3rem;
@@ -1716,7 +1666,7 @@ footer{
   }
   section.whatIDo{
     .container-whatIDo{
-      height: 1665px;
+      height: 1700px;
       .whatIDo-title{
         font-size: 1.3rem;
         margin-top: 60px;
@@ -1890,7 +1840,7 @@ footer{
     }
   }
   section.about-me{
-    height: 740px;
+    height: 745px;
     .container-about-me{
       .about-me-text{
         font-size: 1.3rem;
@@ -1914,7 +1864,7 @@ footer{
   }
   section.whatIDo{
     .container-whatIDo{
-      height: 1648px;
+      height: 1825px;
       .whatIDo-title{
         font-size: 1.3rem;
         margin-top: 60px;
@@ -2385,7 +2335,7 @@ footer{
   section.works{
     height: 1350px;
     .container-works{
-      width: 95%;
+      width: 93%;
       .sites-works-1,.sites-works-2,
       .sites-works-3,.sites-works-5,
       .sites-works-6,.sites-works-7,
@@ -2515,7 +2465,7 @@ footer{
     }
   } 
   section.works{
-    height: 1050px;
+    height: 930px;
     .container-works{
       width: 95%;
       .sites-works-1,.sites-works-2,

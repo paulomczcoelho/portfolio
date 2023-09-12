@@ -185,23 +185,12 @@ section.bg-paralax .container .welcome-sub-text {
   color: #fff;
   margin-top: 10px;
 }
-section.bg-paralax .container .hidden {
-  display: none;
-}
 section.bg-paralax .container #elementE2::after {
   content: "|";
   margin-left: 5px;
   animation: blinkE2 0.7s infinite;
   opacity: 0;
   transition: opacity 0.5s;
-}
-@keyframes blinkEl {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
 }
 @keyframes blinkE2 {
   0% {
@@ -421,7 +410,7 @@ section.skills .container-skills .container-tools .tools-img .tools {
   margin: 20px 17px;
   width: 45px;
   height: 55px;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 section.skills .container-skills .container-tools .tools-img .tools:hover {
   filter: grayscale(0%);
@@ -471,6 +460,21 @@ section.cv .container-cv {
   letter-spacing: 1px;
   text-align: center;
   color: #FFFFFF;
+}
+section.cv .container-cv #resumeText::after {
+  content: "|";
+  margin-left: 5px;
+  animation: blinkE2 0.7s infinite;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+@keyframes blinkE2 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 section.cv .container-cv button {
   width: 120px;
@@ -1681,7 +1685,7 @@ footer p {
     font-size: 1rem;
   }
   section.about-me {
-    height: 690px;
+    height: 750px;
   }
   section.about-me .container-about-me .about-me-text {
     font-size: 1.3rem;
@@ -1715,7 +1719,7 @@ footer p {
     margin-bottom: 10px;
   }
   section.whatIDo .container-whatIDo {
-    height: 1665px;
+    height: 1700px;
   }
   section.whatIDo .container-whatIDo .whatIDo-title {
     font-size: 1.3rem;
@@ -1872,7 +1876,7 @@ footer p {
     display: block;
   }
   section.about-me {
-    height: 740px;
+    height: 745px;
   }
   section.about-me .container-about-me .about-me-text {
     font-size: 1.3rem;
@@ -1892,7 +1896,7 @@ footer p {
     margin-top: 45px;
   }
   section.whatIDo .container-whatIDo {
-    height: 1648px;
+    height: 1825px;
   }
   section.whatIDo .container-whatIDo .whatIDo-title {
     font-size: 1.3rem;
@@ -2330,7 +2334,7 @@ footer p {
     height: 1350px;
   }
   section.works .container-works {
-    width: 95%;
+    width: 93%;
   }
   section.works .container-works .sites-works-1 .site-modal, section.works .container-works .sites-works-2 .site-modal,
   section.works .container-works .sites-works-3 .site-modal, section.works .container-works .sites-works-5 .site-modal,
@@ -2450,7 +2454,7 @@ footer p {
     width: 72%;
   }
   section.works {
-    height: 1050px;
+    height: 930px;
   }
   section.works .container-works {
     width: 95%;
