@@ -1,3 +1,19 @@
+"use strict";
+function typeWriter(el) {
+  const textArray = el.innerHTML.split("");
+  el.innerHTML = "";
+
+  textArray.forEach((letter, i) => {
+    setTimeout(() => (el.innerHTML += letter), 95 * i);
+  });
+
+  setInterval(() => typeWriter(el), 8000);
+}
+typeWriter(elementE2);
+//////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////
+
 // // Get all overlay-content elements
 const overlayContents = document.querySelectorAll(".overlay-content");
 // Get all modal elements

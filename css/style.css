@@ -34,7 +34,7 @@ header .container {
   flex-wrap: wrap;
 }
 header .container .logo {
-  margin: 5px 5px 5px 5px;
+  margin: 2px 5px 5px 5px;
   width: 75px;
 }
 header .container .display-menu {
@@ -185,6 +185,32 @@ section.bg-paralax .container .welcome-sub-text {
   color: #fff;
   margin-top: 10px;
 }
+section.bg-paralax .container .hidden {
+  display: none;
+}
+section.bg-paralax .container #elementE2::after {
+  content: "|";
+  margin-left: 5px;
+  animation: blinkE2 0.7s infinite;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+@keyframes blinkEl {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes blinkE2 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
 section.about-me {
   background-color: white;
@@ -285,7 +311,7 @@ section.whatIDo .container-whatIDo .whatIDo-title {
 section.whatIDo .container-whatIDo .container-row {
   display: flex;
   justify-content: space-evenly;
-  width: 100%;
+  width: 85%;
 }
 section.whatIDo .container-whatIDo .container-row .card {
   width: 75%;
@@ -1666,7 +1692,7 @@ footer p {
     height: 145px;
   }
   section.about-me .container-about-me .text-about-me {
-    width: 330px;
+    width: 250px;
     margin-top: 0px;
     font-size: 13px;
   }
@@ -1701,7 +1727,7 @@ footer p {
     gap: 30px;
   }
   section.whatIDo .container-whatIDo .container-row .card {
-    width: 75%;
+    width: 240px;
   }
   section.whatIDo .container-whatIDo .container-row .card .circle {
     width: 115px;
@@ -1716,7 +1742,7 @@ footer p {
     font-size: 17px;
   }
   section.whatIDo .container-whatIDo .container-row .card .what-IDo-text {
-    width: 220px;
+    width: 200px;
     margin: 0px auto 25px;
     font-size: 13px;
   }
@@ -1878,7 +1904,7 @@ footer p {
     gap: 60px;
   }
   section.whatIDo .container-whatIDo .container-row .card {
-    width: 56%;
+    width: 60%;
   }
   section.whatIDo .container-whatIDo .container-row .card .circle {
     width: 115px;
@@ -1893,7 +1919,7 @@ footer p {
     font-size: 18px;
   }
   section.whatIDo .container-whatIDo .container-row .card .what-IDo-text {
-    max-width: 266px;
+    max-width: 215px;
     margin: 0px auto 25px;
     font-size: 14px;
   }
@@ -2122,6 +2148,7 @@ footer p {
     margin-bottom: 35px;
   }
   section.whatIDo .container-whatIDo .container-row {
+    width: 100%;
     flex-direction: row;
     gap: 0px;
   }
@@ -2141,7 +2168,7 @@ footer p {
     font-size: 18px;
   }
   section.whatIDo .container-whatIDo .container-row .card .what-IDo-text {
-    width: 215px;
+    width: 210px;
     margin: 0px auto 25px;
     font-size: 14px;
   }
@@ -2155,7 +2182,7 @@ footer p {
   section.skills .container-skills .container-tools .tools-text {
     font-size: 19px;
     width: 100%;
-    margin-left: 30px;
+    margin-left: 50px;
   }
   section.skills .container-skills .container-tools .tools-img {
     width: 450px;
@@ -2274,8 +2301,8 @@ footer p {
   }
   section.skills .container-skills .container-tools .tools-text {
     width: 100%;
-    font-size: 19px;
-    margin-left: 30px;
+    font-size: 20px;
+    margin-left: 50px;
   }
   section.skills .container-skills .container-tools .tools-img {
     width: 90%;
@@ -2363,6 +2390,7 @@ footer p {
     margin-bottom: 45px;
   }
   section.whatIDo .container-whatIDo .container-row {
+    width: 90%;
     flex-direction: row;
     gap: 0px;
   }
@@ -2382,7 +2410,7 @@ footer p {
     font-size: 18px;
   }
   section.whatIDo .container-whatIDo .container-row .card .what-IDo-text {
-    width: 215px;
+    width: 260px;
     margin: 0px auto 25px;
     font-size: 14px;
   }
@@ -2391,7 +2419,7 @@ footer p {
   }
   section.skills .container-skills .container-tools .tools-text {
     width: 100%;
-    font-size: 19px;
+    font-size: 20px;
     margin-left: 30px;
   }
   section.skills .container-skills .container-tools .tools-img {
@@ -2453,6 +2481,12 @@ footer p {
     margin-top: 10px;
     gap: 25px;
   }
+  section.works .container-works .sites-works-1 .site-modal .modal-content .close-btn, section.works .container-works .sites-works-2 .site-modal .modal-content .close-btn,
+  section.works .container-works .sites-works-3 .site-modal .modal-content .close-btn, section.works .container-works .sites-works-5 .site-modal .modal-content .close-btn,
+  section.works .container-works .sites-works-6 .site-modal .modal-content .close-btn, section.works .container-works .sites-works-7 .site-modal .modal-content .close-btn,
+  section.works .container-works .sites-works-8 .site-modal .modal-content .close-btn, section.works .container-works .sites-works-9 .site-modal .modal-content .close-btn {
+    top: -5px;
+  }
   section.works .container-works .sites-works-4 .site-modal {
     width: 520px;
     height: 600px;
@@ -2488,6 +2522,7 @@ footer p {
     margin-bottom: 45px;
   }
   section.whatIDo .container-whatIDo .container-row {
+    width: 95%;
     flex-direction: row;
     gap: 0px;
   }
@@ -2507,7 +2542,7 @@ footer p {
     font-size: 18px;
   }
   section.whatIDo .container-whatIDo .container-row .card .what-IDo-text {
-    width: 280px;
+    width: 265px;
     margin: 0px auto 25px;
     font-size: 14px;
   }
@@ -2519,8 +2554,8 @@ footer p {
   }
   section.skills .container-skills .container-tools .tools-text {
     width: 100%;
-    font-size: 19px;
-    margin-left: 30px;
+    font-size: 23px;
+    margin-left: 0px;
   }
   section.skills .container-skills .container-tools .tools-img {
     width: 100%;
@@ -2536,6 +2571,7 @@ footer p {
     max-width: 400px;
   }
   section.skills .container-skills .container-school .school-text {
+    font-size: 23px;
     margin-left: 50px;
   }
   section.skills .container-skills .container-school .img-college {
@@ -2625,12 +2661,12 @@ footer p {
     margin: 0 auto 34px;
   }
   section.whatIDo .container-whatIDo .container-row .card .title-do {
-    font-size: 18px;
+    font-size: 20px;
   }
   section.whatIDo .container-whatIDo .container-row .card .what-IDo-text {
     width: 280px;
     margin: 0px auto 25px;
-    font-size: 14px;
+    font-size: 15px;
   }
   section.skills {
     height: 780px;
@@ -2643,8 +2679,8 @@ footer p {
   }
   section.skills .container-skills .container-tools .tools-text {
     width: 100%;
-    font-size: 21px;
-    margin-left: 50px;
+    font-size: 24px;
+    margin-left: 26px;
   }
   section.skills .container-skills .container-tools .tools-img {
     width: 100%;
@@ -2661,7 +2697,7 @@ footer p {
   }
   section.skills .container-skills .container-school .school-text {
     margin-left: 50px;
-    font-size: 21px;
+    font-size: 24px;
   }
   section.skills .container-skills .container-school .img-college {
     width: 300px;
@@ -2694,9 +2730,15 @@ footer p {
     margin-top: 10px;
     gap: 25px;
   }
+  section.works .container-works .sites-works-1 .site-modal .modal-content .close-btn, section.works .container-works .sites-works-2 .site-modal .modal-content .close-btn,
+  section.works .container-works .sites-works-3 .site-modal .modal-content .close-btn, section.works .container-works .sites-works-5 .site-modal .modal-content .close-btn,
+  section.works .container-works .sites-works-6 .site-modal .modal-content .close-btn, section.works .container-works .sites-works-7 .site-modal .modal-content .close-btn,
+  section.works .container-works .sites-works-8 .site-modal .modal-content .close-btn, section.works .container-works .sites-works-9 .site-modal .modal-content .close-btn {
+    top: -4px;
+  }
   section.works .container-works .sites-works-4 .site-modal {
-    width: 50%;
-    height: 820px;
+    width: 600px;
+    height: 640px;
   }
   section.works .container-works .sites-works-4 .site-modal .modal-content .btn-container {
     margin-top: 10px;

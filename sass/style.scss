@@ -8,6 +8,8 @@
 // -webkit-background-size: cover;
 // -moz-background-size: cover;
 // -o-background-size: cover;
+
+
 section.bg-paralax{ 
   min-width: 100%;
   height: 100vh;
@@ -49,10 +51,86 @@ section.bg-paralax{
       font-weight: 300;
       color: #fff;
       margin-top: 10px;
-
     }
+    .hidden{
+      display: none;
+    }
+      
+   
+   
+    // #elementEl::after {
+    //   content: '|';
+    //   margin-left: 5px;
+    //   animation: blinkEl 0.7s infinite;
+    //   opacity: 0;
+    //   transition: opacity 0.5s;
+    // }
+    
+    #elementE2::after {
+      content: '|';
+      margin-left: 5px;
+      animation: blinkE2 0.7s infinite;
+      opacity: 0;
+      transition: opacity 0.5s;
+    }
+    
+    @keyframes blinkEl {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+    
+    @keyframes blinkE2 {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+    
+
+    // .welcome-text::after,
+    // .welcome-sub-text::after {
+    //   content: '|';
+    //   margin-left: 5px;
+    //   animation: blink 0.7s infinite;
+    //   opacity: 0; /* Oculta o elemento ::after no início */
+    //   transition: opacity 0.5s; /* Adicione uma transição de opacidade */
+    // }
+    // @keyframes blink {
+    //   0% {
+    //     opacity: 1;
+    //   }
+    //   100% {
+    //     opacity: 0;
+    //   }
+    // }
+   
+       
+    // #elementEl::after,
+    // #elementE2::after {
+    //   content: '|';
+    //   margin-left: 5px;
+    //   animation: blink 0.7s infinite;
+    // }
+    // @keyframes blink {
+    //   0% {
+    //     opacity: 1;
+    //   }
+    //   100% {
+    //     opacity: 0;
+    //   }
+    // }
+    // #elementEl.hide::after {
+    //   opacity: 0;
+    // }
   }
 }
+
 section.about-me{
   background-color: white;
   width: 100%;
@@ -151,7 +229,7 @@ section.whatIDo{
     .container-row{
       display: flex;
       justify-content: space-evenly;
-      width: 100%; 
+      width: 85%; 
       .card{
         width: 75%;
         margin: 0 auto;
@@ -1610,7 +1688,7 @@ footer{
         height: 145px;
       }
       .text-about-me{
-        width: 330px;
+        width: 250px;
         margin-top: 0px;
         font-size: 13px;
       }
@@ -1648,7 +1726,7 @@ footer{
         flex-direction: column;
         gap: 30px;
         .card{
-          width: 75%;
+          width: 240px;
           .circle{
             width: 115px;
             height: 115px;
@@ -1663,7 +1741,7 @@ footer{
             // top: 46px;
           }
           .what-IDo-text{
-            width: 220px;
+            width: 200px;
             margin: 0px auto 25px;
             font-size: 13px;
           }
@@ -1846,7 +1924,7 @@ footer{
         flex-direction: column;
         gap: 60px;
         .card{
-          width: 56%;
+          width: 60%;
           .circle{
             width: 115px;
             height: 115px;
@@ -1861,7 +1939,7 @@ footer{
             // top: 75px;
           }
           .what-IDo-text{
-            max-width: 266px;
+            max-width: 215px;
             margin: 0px auto 25px;
             font-size: 14px;
           }
@@ -2111,6 +2189,7 @@ footer{
         margin-bottom: 35px;
       }
       .container-row{
+        width: 100%;
         flex-direction: row;
         gap: 0px;
         .card{
@@ -2129,7 +2208,7 @@ footer{
             // top: 75px;
           }
           .what-IDo-text{
-            width: 215px;
+            width: 210px;
             margin: 0px auto 25px;
             font-size: 14px;
           }
@@ -2137,7 +2216,7 @@ footer{
       }
     }
   }
-    section.skills{ 
+  section.skills{ 
     .container-skills{
       height: 410px;
       .container-tools{
@@ -2146,7 +2225,7 @@ footer{
         .tools-text{
           font-size: 19px;
           width: 100%;
-          margin-left: 30px;
+          margin-left: 50px;
         }
         .tools-img{
           // width: 90%;
@@ -2242,6 +2321,7 @@ footer{
         margin-bottom: 45px;
       }
       .container-row{
+        // width: 100%;
         flex-direction: row;
         gap: 0px;
         .card{
@@ -2274,8 +2354,8 @@ footer{
         width: 480px;
         .tools-text{
           width: 100%;
-          font-size: 19px;
-          margin-left: 30px;
+          font-size: 20px;
+          margin-left: 50px;
         }
         .tools-img{
           width: 90%;
@@ -2368,6 +2448,7 @@ footer{
         margin-bottom: 45px;
       }
       .container-row{
+        width: 90%;
         flex-direction: row;
         gap: 0px;
         .card{
@@ -2386,7 +2467,7 @@ footer{
             // top: 75px;
           }
           .what-IDo-text{
-            width: 215px;
+            width: 260px;
             margin: 0px auto 25px;
             font-size: 14px;
           }
@@ -2400,7 +2481,7 @@ footer{
         width: 480px;
         .tools-text{
           width: 100%;
-          font-size: 19px;
+          font-size: 20px;
           margin-left: 30px;
         }
         .tools-img{
@@ -2455,6 +2536,9 @@ footer{
               margin-top: 10px;
               gap: 25px;
             }
+            .close-btn{
+              top: -5px;
+            }
           }
         }
       }
@@ -2503,6 +2587,7 @@ footer{
         margin-bottom: 45px;
       }
       .container-row{
+        width: 95%;
         flex-direction: row;
         gap: 0px;
         .card{
@@ -2521,7 +2606,7 @@ footer{
             // top: 75px;
           }
           .what-IDo-text{
-            width: 280px;
+            width: 265px;
             margin: 0px auto 25px;
             font-size: 14px;
           }
@@ -2536,8 +2621,8 @@ footer{
         width: 480px;
         .tools-text{
           width: 100%;
-          font-size: 19px;
-          margin-left: 30px;
+          font-size: 23px;
+          margin-left: 0px;
         }
         .tools-img{
           width: 100%;
@@ -2553,6 +2638,7 @@ footer{
       .container-school{
         max-width:400px ;
         .school-text{
+          font-size: 23px;
           margin-left: 50px;
         }
         .img-college{
@@ -2644,13 +2730,13 @@ footer{
             }
           }
           .title-do{
-            font-size: 18px;
+            font-size: 20px;
             // top: 75px;
           }
           .what-IDo-text{
             width: 280px;
             margin: 0px auto 25px;
-            font-size: 14px;
+            font-size: 15px;
           }
         }
       }
@@ -2664,8 +2750,8 @@ footer{
         width: 580px;
         .tools-text{
           width: 100%;
-          font-size: 21px;
-          margin-left: 50px;
+          font-size: 24px;
+          margin-left: 26px;
         }
         .tools-img{
           width: 100%;
@@ -2682,7 +2768,7 @@ footer{
         max-width:400px ;
         .school-text{
           margin-left: 50px;
-          font-size: 21px;
+          font-size: 24px;
         }
         .img-college{
           width: 300px;
@@ -2715,13 +2801,16 @@ footer{
               margin-top: 10px;
               gap: 25px;
             }
+            .close-btn{
+              top: -4px;
+            }
           }
         }
       }
       .sites-works-4{
         .site-modal{
-          width: 50%;
-          height: 820px;
+          width: 600px;
+          height: 640px;
           .modal-content{
             .btn-container{
               margin-top: 10px;
