@@ -613,7 +613,8 @@ section.works .container-works .sites-works-1 .site-modal .modal-content .btn-co
   display: flex;
   width: 100%;
   justify-content: center;
-  align-items: baseline;
+  align-items: first baseline;
+  gap: 40px;
   margin-top: 50px;
 }
 section.works .container-works .sites-works-1 .site-modal .modal-content .btn-container .btn-modal {
@@ -722,6 +723,7 @@ section.works .container-works .sites-works-2 .site-modal .modal-content .btn-co
   width: 100%;
   justify-content: center;
   align-items: first baseline;
+  gap: 40px;
   margin-top: 50px;
 }
 section.works .container-works .sites-works-2 .site-modal .modal-content .btn-container .btn-modal {
@@ -830,6 +832,7 @@ section.works .container-works .sites-works-3 .site-modal .modal-content .btn-co
   width: 100%;
   justify-content: center;
   align-items: first baseline;
+  gap: 40px;
   margin-top: 50px;
 }
 section.works .container-works .sites-works-3 .site-modal .modal-content .btn-container .btn-modal {
@@ -938,6 +941,7 @@ section.works .container-works .sites-works-4 .site-modal .modal-content .btn-co
   width: 100%;
   justify-content: center;
   align-items: first baseline;
+  gap: 40px;
   margin-top: 50px;
 }
 section.works .container-works .sites-works-4 .site-modal .modal-content .btn-container .btn-modal {
@@ -1046,6 +1050,7 @@ section.works .container-works .sites-works-5 .site-modal .modal-content .btn-co
   width: 100%;
   justify-content: center;
   align-items: first baseline;
+  gap: 40px;
   margin-top: 50px;
 }
 section.works .container-works .sites-works-5 .site-modal .modal-content .btn-container .btn-modal {
@@ -1154,6 +1159,7 @@ section.works .container-works .sites-works-6 .site-modal .modal-content .btn-co
   width: 100%;
   justify-content: center;
   align-items: first baseline;
+  gap: 40px;
   margin-top: 50px;
 }
 section.works .container-works .sites-works-6 .site-modal .modal-content .btn-container .btn-modal {
@@ -1262,6 +1268,7 @@ section.works .container-works .sites-works-7 .site-modal .modal-content .btn-co
   width: 100%;
   justify-content: center;
   align-items: first baseline;
+  gap: 40px;
   margin-top: 50px;
 }
 section.works .container-works .sites-works-7 .site-modal .modal-content .btn-container .btn-modal {
@@ -1370,6 +1377,7 @@ section.works .container-works .sites-works-8 .site-modal .modal-content .btn-co
   width: 100%;
   justify-content: center;
   align-items: first baseline;
+  gap: 40px;
   margin-top: 50px;
 }
 section.works .container-works .sites-works-8 .site-modal .modal-content .btn-container .btn-modal {
@@ -1851,6 +1859,7 @@ footer p {
   section.works .container-works .sites-works-1 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-2 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-3 .site-modal .modal-content .btn-container,
   section.works .container-works .sites-works-4 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-5 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-6 .site-modal .modal-content .btn-container,
   section.works .container-works .sites-works-7 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-8 .site-modal .modal-content .btn-container, section.works .container-works .sites-works-9 .site-modal .modal-content .btn-container {
+    gap: 25px;
     margin-top: 0px;
     margin-bottom: 25px;
   }
