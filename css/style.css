@@ -314,7 +314,7 @@ section.whatIDo .container-whatIDo .container-row .card {
 section.whatIDo .container-whatIDo .container-row .card .circle {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
   width: 175px;
   height: 175px;
@@ -333,7 +333,6 @@ section.whatIDo .container-whatIDo .container-row .card .circle i {
 section.whatIDo .container-whatIDo .container-row .card .circle .icon-img {
   width: 60px;
   height: 60px;
-  margin: 0 auto 54px;
 }
 section.whatIDo .container-whatIDo .container-row .card .title-do {
   width: 100%;
@@ -1740,7 +1739,6 @@ footer p {
   section.whatIDo .container-whatIDo .container-row .card .circle .icon-img {
     width: 45px;
     height: 45px;
-    margin: 0 auto 32px;
   }
   section.whatIDo .container-whatIDo .container-row .card .title-do {
     font-size: 17px;
@@ -1917,7 +1915,6 @@ footer p {
   section.whatIDo .container-whatIDo .container-row .card .circle .icon-img {
     width: 45px;
     height: 45px;
-    margin: 0 auto 32px;
   }
   section.whatIDo .container-whatIDo .container-row .card .title-do {
     font-size: 18px;
@@ -2045,7 +2042,6 @@ footer p {
   section.whatIDo .container-whatIDo .container-row .card .circle .icon-img {
     width: 45px;
     height: 45px;
-    margin: 0 auto 32px;
   }
   section.whatIDo .container-whatIDo .container-row .card .title-do {
     font-size: 18px;
@@ -2166,7 +2162,6 @@ footer p {
   section.whatIDo .container-whatIDo .container-row .card .circle .icon-img {
     width: 45px;
     height: 45px;
-    margin: 0 auto 32px;
   }
   section.whatIDo .container-whatIDo .container-row .card .title-do {
     font-size: 18px;
@@ -2290,7 +2285,6 @@ footer p {
   section.whatIDo .container-whatIDo .container-row .card .circle .icon-img {
     width: 45px;
     height: 45px;
-    margin: 0 auto 32px;
   }
   section.whatIDo .container-whatIDo .container-row .card .title-do {
     font-size: 18px;
@@ -2408,7 +2402,6 @@ footer p {
   section.whatIDo .container-whatIDo .container-row .card .circle .icon-img {
     width: 45px;
     height: 45px;
-    margin: 0 auto 32px;
   }
   section.whatIDo .container-whatIDo .container-row .card .title-do {
     font-size: 18px;
@@ -2540,7 +2533,6 @@ footer p {
   section.whatIDo .container-whatIDo .container-row .card .circle .icon-img {
     width: 45px;
     height: 45px;
-    margin: 0 auto 30px;
   }
   section.whatIDo .container-whatIDo .container-row .card .title-do {
     font-size: 18px;
@@ -2662,7 +2654,6 @@ footer p {
   section.whatIDo .container-whatIDo .container-row .card .circle .icon-img {
     width: 45px;
     height: 45px;
-    margin: 0 auto 34px;
   }
   section.whatIDo .container-whatIDo .container-row .card .title-do {
     font-size: 20px;
