@@ -1865,7 +1865,7 @@ footer{
   }
   section.whatIDo{
     .container-whatIDo{
-      height: 1825px;
+      height: 1800px;
       .whatIDo-title{
         font-size: 1.3rem;
         margin-top: 60px;
@@ -1873,9 +1873,10 @@ footer{
       }
       .container-row{
         flex-direction: column;
-        gap: 60px;
+        // gap: 60px;
         .card{
           width: 60%;
+          margin: 20px auto;
           .circle{
             width: 115px;
             height: 115px;
@@ -2002,7 +2003,7 @@ footer{
   }  
   section.whatIDo{
     .container-whatIDo{
-      height: 1640px;
+      height: 1605px;
       .whatIDo-title{
         font-size: 1.3rem;
         margin-top: 60px;
@@ -2010,9 +2011,10 @@ footer{
       }
       .container-row{
         flex-direction: column;
-        gap: 60px;
+        // gap: 60px;
         .card{
           width: 56%;
+          margin: 15px auto;
           .circle{
             width: 115px;
             height: 115px;

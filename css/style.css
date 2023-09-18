@@ -1893,7 +1893,7 @@ footer p {
     margin-top: 45px;
   }
   section.whatIDo .container-whatIDo {
-    height: 1825px;
+    height: 1800px;
   }
   section.whatIDo .container-whatIDo .whatIDo-title {
     font-size: 1.3rem;
@@ -1902,10 +1902,10 @@ footer p {
   }
   section.whatIDo .container-whatIDo .container-row {
     flex-direction: column;
-    gap: 60px;
   }
   section.whatIDo .container-whatIDo .container-row .card {
     width: 60%;
+    margin: 20px auto;
   }
   section.whatIDo .container-whatIDo .container-row .card .circle {
     width: 115px;
@@ -2020,7 +2020,7 @@ footer p {
     margin-top: 50px;
   }
   section.whatIDo .container-whatIDo {
-    height: 1640px;
+    height: 1605px;
   }
   section.whatIDo .container-whatIDo .whatIDo-title {
     font-size: 1.3rem;
@@ -2029,10 +2029,10 @@ footer p {
   }
   section.whatIDo .container-whatIDo .container-row {
     flex-direction: column;
-    gap: 60px;
   }
   section.whatIDo .container-whatIDo .container-row .card {
     width: 56%;
+    margin: 15px auto;
   }
   section.whatIDo .container-whatIDo .container-row .card .circle {
     width: 115px;
