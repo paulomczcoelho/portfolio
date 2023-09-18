@@ -1718,7 +1718,7 @@ footer p {
     margin-bottom: 10px;
   }
   section.whatIDo .container-whatIDo {
-    height: 1700px;
+    height: 1715px;
   }
   section.whatIDo .container-whatIDo .whatIDo-title {
     font-size: 1.3rem;
@@ -1727,10 +1727,10 @@ footer p {
   }
   section.whatIDo .container-whatIDo .container-row {
     flex-direction: column;
-    gap: 30px;
   }
   section.whatIDo .container-whatIDo .container-row .card {
     width: 240px;
+    margin: 15px auto;
   }
   section.whatIDo .container-whatIDo .container-row .card .circle {
     width: 115px;
