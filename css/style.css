@@ -116,7 +116,7 @@ header .menu-bg {
   margin: 30px 0 20px 20px;
   background: radial-gradient(circle, white, white);
   border-radius: 10%;
-  transition: 0.2s ease;
+  transition: 0.2s ease-in-out;
 }
 header .change {
   display: block;
@@ -522,7 +522,7 @@ section.works .container-works .sites-works-1 {
   width: 340px;
   height: 163px;
   box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.521);
-  background: url("../img/cosinebo.png");
+  background: url("../img/weather_react.JPG");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -630,7 +630,7 @@ section.works .container-works .sites-works-2 {
   width: 340px;
   height: 165px;
   box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.521);
-  background: url("../img/becomeACat.PNG");
+  background: url("../img/moviesLib.PNG");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -722,7 +722,6 @@ section.works .container-works .sites-works-2 .site-modal .modal-content .btn-co
   width: 100%;
   justify-content: center;
   align-items: first baseline;
-  gap: 40px;
   margin-top: 50px;
 }
 section.works .container-works .sites-works-2 .site-modal .modal-content .btn-container .btn-modal {
@@ -739,7 +738,7 @@ section.works .container-works .sites-works-3 {
   width: 340px;
   height: 165px;
   box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.521);
-  background: url("../img/librarySquare.png");
+  background: url("../img/toDoList.PNG");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -831,7 +830,6 @@ section.works .container-works .sites-works-3 .site-modal .modal-content .btn-co
   width: 100%;
   justify-content: center;
   align-items: first baseline;
-  gap: 40px;
   margin-top: 50px;
 }
 section.works .container-works .sites-works-3 .site-modal .modal-content .btn-container .btn-modal {
@@ -940,7 +938,6 @@ section.works .container-works .sites-works-4 .site-modal .modal-content .btn-co
   width: 100%;
   justify-content: center;
   align-items: first baseline;
-  gap: 40px;
   margin-top: 50px;
 }
 section.works .container-works .sites-works-4 .site-modal .modal-content .btn-container .btn-modal {
@@ -957,7 +954,7 @@ section.works .container-works .sites-works-5 {
   width: 340px;
   height: 164px;
   box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.521);
-  background: url("../img/moviesLib.PNG");
+  background: url("../img/NoteManager.PNG");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -967,9 +964,9 @@ section.works .container-works .sites-works-5 .site-overlay {
   background: rgba(0, 0, 0, 0.781);
   position: relative;
   width: 340px;
-  height: 164px;
+  height: 167px;
   left: -340px;
-  bottom: -2px;
+  bottom: 0px;
   transition: left 0.7s;
   display: flex;
   flex-direction: column;
@@ -1049,7 +1046,6 @@ section.works .container-works .sites-works-5 .site-modal .modal-content .btn-co
   width: 100%;
   justify-content: center;
   align-items: first baseline;
-  gap: 40px;
   margin-top: 50px;
 }
 section.works .container-works .sites-works-5 .site-modal .modal-content .btn-container .btn-modal {
@@ -1066,7 +1062,7 @@ section.works .container-works .sites-works-6 {
   width: 340px;
   height: 164px;
   box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.521);
-  background: url("../img/weather_react.JPG");
+  background: url("../img/becomeACat.PNG");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1158,7 +1154,6 @@ section.works .container-works .sites-works-6 .site-modal .modal-content .btn-co
   width: 100%;
   justify-content: center;
   align-items: first baseline;
-  gap: 40px;
   margin-top: 50px;
 }
 section.works .container-works .sites-works-6 .site-modal .modal-content .btn-container .btn-modal {
@@ -1175,7 +1170,7 @@ section.works .container-works .sites-works-7 {
   width: 340px;
   height: 164px;
   box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.521);
-  background: url("../img/toDoList.PNG");
+  background: url("../img/cosinebo.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1267,7 +1262,6 @@ section.works .container-works .sites-works-7 .site-modal .modal-content .btn-co
   width: 100%;
   justify-content: center;
   align-items: first baseline;
-  gap: 40px;
   margin-top: 50px;
 }
 section.works .container-works .sites-works-7 .site-modal .modal-content .btn-container .btn-modal {
@@ -1284,7 +1278,7 @@ section.works .container-works .sites-works-8 {
   width: 340px;
   height: 164px;
   box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.521);
-  background: url("../img/NoteManager.PNG");
+  background: url("../img/librarySquare.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1376,7 +1370,6 @@ section.works .container-works .sites-works-8 .site-modal .modal-content .btn-co
   width: 100%;
   justify-content: center;
   align-items: first baseline;
-  gap: 40px;
   margin-top: 50px;
 }
 section.works .container-works .sites-works-8 .site-modal .modal-content .btn-container .btn-modal {
@@ -1393,10 +1386,10 @@ section.works .container-works .sites-works-9 {
   width: 340px;
   height: 164px;
   box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.521);
-  background: url("../img/NoteManager.PNG");
+  background: url("../img/OrigamidFlexBox.PNG");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-color: rgba(0, 0, 0, 0.521);
 }
 section.works .container-works .sites-works-9 .site-overlay {
@@ -1485,7 +1478,6 @@ section.works .container-works .sites-works-9 .site-modal .modal-content .btn-co
   width: 100%;
   justify-content: center;
   align-items: first baseline;
-  gap: 40px;
   margin-top: 50px;
 }
 section.works .container-works .sites-works-9 .site-modal .modal-content .btn-container .btn-modal {
@@ -2063,6 +2055,7 @@ footer p {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    height: 590px;
   }
   section.skills .container-skills .container-tools .tools-img {
     margin: 0 55px;
