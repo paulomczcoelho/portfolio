@@ -55,7 +55,7 @@ function showOverlay(element) {
 
   allOverlays.forEach((overlay) => {
     if (overlay !== element) {
-      overlay.style.left = "-340px"; // Fechando o overlay
+      overlay.style.left = "-349px"; // Fechando o overlay
     }
   });
 
