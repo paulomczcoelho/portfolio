@@ -1386,7 +1386,7 @@ section.works .container-works .sites-works-9 {
   width: 340px;
   height: 164px;
   box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.521);
-  background: url("../img/portfolioweb.PNG");
+  background: url("../img/portfolioweb.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1395,9 +1395,9 @@ section.works .container-works .sites-works-9 {
 section.works .container-works .sites-works-9 .site-overlay {
   background: rgba(0, 0, 0, 0.781);
   position: relative;
-  width: 349px;
+  width: 340px;
   height: 164px;
-  left: -349px;
+  left: -340px;
   bottom: -1px;
   transition: left 0.7s;
   display: flex;
@@ -1826,6 +1826,7 @@ footer p {
   section.works .container-works .sites-works-4, section.works .container-works .sites-works-5, section.works .container-works .sites-works-6,
   section.works .container-works .sites-works-7, section.works .container-works .sites-works-8, section.works .container-works .sites-works-9 {
     width: 100%;
+    height: 125px;
     cursor: pointer;
   }
   section.works .container-works .sites-works-1 .site-modal, section.works .container-works .sites-works-2 .site-modal, section.works .container-works .sites-works-3 .site-modal,
@@ -1871,6 +1872,7 @@ footer p {
   section.works .container-works .sites-works-4 .site-overlay, section.works .container-works .sites-works-5 .site-overlay, section.works .container-works .sites-works-6 .site-overlay,
   section.works .container-works .sites-works-7 .site-overlay, section.works .container-works .sites-works-8 .site-overlay, section.works .container-works .sites-works-9 .site-overlay {
     width: 100%;
+    height: 125px;
   }
   section.works .container-works .sites-works-1 .site-overlay .overlay-content, section.works .container-works .sites-works-2 .site-overlay .overlay-content, section.works .container-works .sites-works-3 .site-overlay .overlay-content,
   section.works .container-works .sites-works-4 .site-overlay .overlay-content, section.works .container-works .sites-works-5 .site-overlay .overlay-content, section.works .container-works .sites-works-6 .site-overlay .overlay-content,
@@ -1881,6 +1883,20 @@ footer p {
   section.works .container-works .sites-works-4 .site-overlay .overlay-content .bg-h3, section.works .container-works .sites-works-5 .site-overlay .overlay-content .bg-h3, section.works .container-works .sites-works-6 .site-overlay .overlay-content .bg-h3,
   section.works .container-works .sites-works-7 .site-overlay .overlay-content .bg-h3, section.works .container-works .sites-works-8 .site-overlay .overlay-content .bg-h3, section.works .container-works .sites-works-9 .site-overlay .overlay-content .bg-h3 {
     width: 100%;
+    height: 40px;
+    bottom: -14px;
+  }
+  section.works .container-works .sites-works-1 .site-overlay .overlay-content .bg-h3 .overlay-title, section.works .container-works .sites-works-2 .site-overlay .overlay-content .bg-h3 .overlay-title, section.works .container-works .sites-works-3 .site-overlay .overlay-content .bg-h3 .overlay-title,
+  section.works .container-works .sites-works-4 .site-overlay .overlay-content .bg-h3 .overlay-title, section.works .container-works .sites-works-5 .site-overlay .overlay-content .bg-h3 .overlay-title, section.works .container-works .sites-works-6 .site-overlay .overlay-content .bg-h3 .overlay-title,
+  section.works .container-works .sites-works-7 .site-overlay .overlay-content .bg-h3 .overlay-title, section.works .container-works .sites-works-8 .site-overlay .overlay-content .bg-h3 .overlay-title, section.works .container-works .sites-works-9 .site-overlay .overlay-content .bg-h3 .overlay-title {
+    top: 10px;
+    font-size: 16px;
+  }
+  section.works .container-works .sites-works-1 .site-overlay .overlay-content i, section.works .container-works .sites-works-2 .site-overlay .overlay-content i, section.works .container-works .sites-works-3 .site-overlay .overlay-content i,
+  section.works .container-works .sites-works-4 .site-overlay .overlay-content i, section.works .container-works .sites-works-5 .site-overlay .overlay-content i, section.works .container-works .sites-works-6 .site-overlay .overlay-content i,
+  section.works .container-works .sites-works-7 .site-overlay .overlay-content i, section.works .container-works .sites-works-8 .site-overlay .overlay-content i, section.works .container-works .sites-works-9 .site-overlay .overlay-content i {
+    font-size: 25px;
+    margin-top: 30px;
   }
   section.getInTouch p.getInTouch-text {
     width: 280px;
@@ -1950,7 +1966,7 @@ footer p {
     flex-direction: column;
   }
   section.whatIDo .container-whatIDo .container-row .card {
-    width: 240px;
+    width: 275px;
     margin: 15px auto;
   }
   section.whatIDo .container-whatIDo .container-row .card .circle {
