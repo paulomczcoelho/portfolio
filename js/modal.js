@@ -14,9 +14,7 @@ typeWriter(resumeText);
 
 //////////////////////////////////////////////////////////
 
-//////////////////////////////////////////////////
-
-// // Get all overlay-content elements
+// Get all overlay-content elements
 const overlayContents = document.querySelectorAll(".overlay-content");
 // Get all modal elements
 const modals = document.querySelectorAll(".site-modal");
