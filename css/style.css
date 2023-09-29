@@ -59,6 +59,27 @@ header .container .display-menu .li-menu a.active {
   background-color: #ffffff;
   border-radius: 5px;
 }
+header .container .display-menu-pt {
+  display: flex;
+  justify-content: space-between;
+  width: 668px;
+  margin: 5px;
+}
+header .container .display-menu-pt .li-menu a {
+  color: aliceblue;
+  padding: 20px;
+}
+header .container .display-menu-pt .li-menu a:hover {
+  color: #000;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+header .container .display-menu-pt .li-menu a.active {
+  color: #ff9900; /* Cor do link ativo */
+  font-weight: bold;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
 header #menu {
   z-index: 2;
   display: none;
@@ -1688,6 +1709,9 @@ footer p {
   header .container .display-menu {
     display: none;
   }
+  header .container .display-menu-pt {
+    display: none;
+  }
   header .container #menu {
     display: block;
     left: 75%;
@@ -1932,6 +1956,9 @@ footer p {
   header .container .display-menu {
     display: none;
   }
+  header .container .display-menu-pt {
+    display: none;
+  }
   header .container #menu {
     display: block;
     left: 80%;
@@ -2132,6 +2159,9 @@ footer p {
   header .container .display-menu {
     display: none;
   }
+  header .container .display-menu-pt {
+    display: none;
+  }
   header .container #menu {
     display: block;
   }
@@ -2265,6 +2295,9 @@ footer p {
 }
 @media screen and (min-width: 667px) and (max-width: 767px) {
   header .container .display-menu {
+    display: none;
+  }
+  header .container .display-menu-pt {
     display: none;
   }
   header .container #menu {
@@ -2526,7 +2559,7 @@ footer p {
     margin-top: 50px;
   }
   section.whatIDo .container-whatIDo {
-    height: 770px;
+    height: 885px;
   }
   section.whatIDo .container-whatIDo .whatIDo-title {
     font-size: 1.8rem;
@@ -2640,7 +2673,7 @@ footer p {
     margin-top: 50px;
   }
   section.whatIDo .container-whatIDo {
-    height: 760px;
+    height: 810px;
   }
   section.whatIDo .container-whatIDo .whatIDo-title {
     font-size: 1.8rem;
@@ -2769,7 +2802,7 @@ footer p {
     margin-top: 50px;
   }
   section.whatIDo .container-whatIDo {
-    height: 710px;
+    height: 725px;
   }
   section.whatIDo .container-whatIDo .whatIDo-title {
     font-size: 1.8rem;
@@ -2889,7 +2922,7 @@ footer p {
     height: 900px;
   }
   section.whatIDo .container-whatIDo {
-    height: 710px;
+    height: 750px;
   }
   section.whatIDo .container-whatIDo .whatIDo-title {
     font-size: 1.8rem;

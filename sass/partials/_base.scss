@@ -55,7 +55,29 @@ header{
         border-radius: 5px;
       }
     }
+    .display-menu-pt{
+      display: flex;
+      justify-content: space-between;
+      width: 668px;
+      margin: 5px;
+      .li-menu a{
+        color: aliceblue;
+        padding: 20px;
+      }
+      .li-menu a:hover{
+        color: #000;
+        background-color: #ffffff;
+        border-radius: 5px;
+      }
+      .li-menu a.active {
+        color: #ff9900; /* Cor do link ativo */
+        font-weight: bold;
+        background-color: #ffffff;
+        border-radius: 5px;
+      }
+    }
   }
+  
   #menu {
     z-index: 2;
     display: none;
