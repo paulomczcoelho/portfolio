@@ -160,6 +160,32 @@ section.bg-paralax::after {
   -o-background-size: cover;
   background-size: cover;
 }
+section.bg-paralax .language {
+  display: flex;
+  align-items: center;
+  width: 130px;
+  gap: 10px;
+  color: white;
+  position: sticky;
+  top: 65px;
+  left: 87%;
+}
+section.bg-paralax .language .pt {
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition: 0.8s;
+}
+section.bg-paralax .language .en {
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition: 0.8s;
+}
+section.bg-paralax .language .pt:hover {
+  filter: grayscale(0);
+}
+section.bg-paralax .language .en:hover {
+  filter: grayscale(0);
+}
 section.bg-paralax .container {
   width: 100%;
   height: 100%;
